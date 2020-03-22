@@ -3,12 +3,5 @@
 	"EngineAssociation": "4.22",
 	"Category": "",
 	"Description": "",
-	"Enterprise": true,
-	"Modules": [
-		{
-			"Name": "MUG_Corona",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		}
-	]
+	"Enterprise": true
 }
