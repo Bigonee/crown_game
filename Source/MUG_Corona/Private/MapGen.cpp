@@ -27,7 +27,7 @@ void AMapGen::Tick(float DeltaTime)
 
 }
 
-void AMapGen::spawnObject(FVector loc, FRotator frotator) {
+bool AMapGen::spawnObject(FVector loc, FRotator frotator) {
 
 
     //If the usefulactorbp is valid
@@ -42,6 +42,9 @@ void AMapGen::spawnObject(FVector loc, FRotator frotator) {
         //AUsefulActor* ActorRef = GetWorld()->SpawnActor<AUsefulActor>(UsefulActorBP, GetTransform(), SpawnParams);
 
         GLog->Log("Spawned the UsefulActor.");
+        return true;
+    }else{
+        return false; 
     }
 }
 

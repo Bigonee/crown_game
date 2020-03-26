@@ -16,7 +16,7 @@ public:
 	// Sets default values for this actor's properties
 	AMapGen();
 
-	UPROPERTY(BlueprintReadWrite, Category = CATEGORY)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = CATEGORY)
 	TSubclassOf<AActor> tileToSpawn;
 
 protected:
@@ -26,7 +26,8 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-	UFUNCTION()
-	void spawnObject(FVector fvector, FRotator frotator);
+
+	UFUNCTION(BlueprintCallable, Category = CATEGORY)
+	bool spawnObject(FVector fvector, FRotator frotator);
 
 };
