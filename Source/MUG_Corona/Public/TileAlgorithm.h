@@ -6,20 +6,22 @@
 #include "UObject/NoExportTypes.h"
 #include "TileAlgorithm.generated.h"
 
-/**
- * 
- */
+
+
 UCLASS()
-class MUG_CORONA_API UTileAlgorithm : public UObject
-{
+class MUG_CORONA_API UTileAlgorithm : public UObject{
 	GENERATED_BODY()
 
-public:
+		FString CATEGORY = "Algorithm";
 
-	UFUNCTION(BlueprintCallable, BlueprintPure, Category = "Algorithm")
-	static int32 getTile(int currentTile);
+	public:
 
-	UFUNCTION(BlueprintCallable, BlueprintPure, Category = "Algorithm")
-	static int32 spawnThings();
+
+		UFUNCTION(BlueprintCallable, BlueprintPure, Category = CATEGORY)
+		int32 getTile(int currentTile);
+
+
+	protected:
+
 
 };
