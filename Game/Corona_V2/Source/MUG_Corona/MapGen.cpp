@@ -11,9 +11,10 @@ AMapGen::AMapGen()
 
 }
 
+
+
 // Called when the game starts or when spawned
-void AMapGen::BeginPlay()
-{
+void AMapGen::BeginPlay(){
 	Super::BeginPlay();
 	
 }
@@ -21,5 +22,35 @@ void AMapGen::BeginPlay()
 // Called every frame
 void AMapGen::Tick(float DeltaTime){
 	Super::Tick(DeltaTime);
+}
+
+
+/******** CUSTOM******/
+
+ETileTheme AMapGen::getTileTheme(int currentTile) {
+
+
+	if (currentTile % 2 == 0) {
+		return ETileTheme::TT_CITY;
+
+	}else {
+		return ETileTheme::TT_DESERT;
+	}
+
+}
+
+
+ETileType AMapGen::getTileType(int currentTile) {
+
+
+	if (currentTile % 3 == 0) {
+		return ETileType::TT_CROSSROAD;
+
+	}else {
+		return ETileType::TT_STREET;
+	}
+
+	return ETileType::TT_STREET;
+
 }
 
