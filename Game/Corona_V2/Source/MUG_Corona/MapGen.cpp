@@ -19,9 +19,7 @@ void AMapGen::BeginPlay()
 }
 
 // Called every frame
-void AMapGen::Tick(float DeltaTime)
-{
+void AMapGen::Tick(float DeltaTime){
 	Super::Tick(DeltaTime);
-
 }
 
