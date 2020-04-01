@@ -32,10 +32,10 @@ ETileTheme AMapGen::getTileTheme(int currentTile) {
 
 	if (currentTile % 2 == 0) {
 		return ETileTheme::TT_CITY;
-
 	}else {
-		return ETileTheme::TT_DESERT;
+		return ETileTheme::TT_CITY;
 	}
+
 
 }
 
@@ -50,7 +50,6 @@ ETileType AMapGen::getTileType(int currentTile) {
 		return ETileType::TT_STREET;
 	}
 
-	return ETileType::TT_STREET;
 
 }
 
