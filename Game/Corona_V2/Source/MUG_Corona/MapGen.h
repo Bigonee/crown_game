@@ -15,10 +15,10 @@ enum class ETileTheme : uint8 {
 
 UENUM(BlueprintType)
 enum class ETileType : uint8 {
-	TT_STREET 			UMETA(DisplayName = "street"),
+	TT_ROAD				UMETA(DisplayName = "road"),
 	TT_CROSSROAD 		UMETA(DisplayName = "crossroad"),
-	TT_TRANSFER_IN		UMETA(DisplayName = "transfer_in"),
-	TT_TRANSFER_OUT		UMETA(DisplayName = "transfer_out")
+	TT_FUEL_STATION		UMETA(DisplayName = "fuel_station"),
+	TT_CHURCH			UMETA(DisplayName = "church")
 };
 
 

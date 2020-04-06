@@ -44,10 +44,10 @@ ETileType AMapGen::getTileType(int currentTile) {
 
 
 	if (currentTile % 3 == 0) {
-		return ETileType::TT_STREET;
+		return ETileType::TT_CROSSROAD;
 
 	}else {
-		return ETileType::TT_STREET;
+		return ETileType::TT_ROAD;
 	}
 
 
