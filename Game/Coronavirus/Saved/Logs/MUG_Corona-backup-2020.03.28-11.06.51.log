@@ -1,0 +1,1193 @@
+﻿Log file open, 03/28/20 12:04:43
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: MUG_Corona
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.396145
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GLTFImporter
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin BlastPlugin
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin DatasmithCADImporter
+LogPluginManager: Mounting plugin DatasmithDataPrepEditor
+LogPluginManager: Mounting plugin DatasmithFBXImporter
+LogPluginManager: Mounting plugin DatasmithGLTFImporter
+LogPluginManager: Mounting plugin DatasmithImporter
+LogPluginManager: Mounting plugin MDLImporter
+LogPluginManager: Mounting plugin StaticMeshEditorExtension
+LogPluginManager: Mounting plugin VariantManager
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogHMD: Failed initializing OVRPlugin 1.32.0
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.03.28-11.04.43:910][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.03.28-11.04.43:910][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.03.28-11.04.43:910][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/GTZA/Games/20003_G_MUG_Coronavirus/Saved/Config/Windows/Engine.ini]
+[2020.03.28-11.04.43:910][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.03.28-11.04.43:910][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2020.03.28-11.04.43:910][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/GTZA/Games/20003_G_MUG_Coronavirus/Saved/Config/Windows/Engine.ini]
+[2020.03.28-11.04.43:910][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/GTZA/Games/20003_G_MUG_Coronavirus/Saved/Config/Windows/Engine.ini]
+[2020.03.28-11.04.43:910][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.03.28-11.04.43:910][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.03.28-11.04.43:910][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.03.28-11.04.43:910][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.03.28-11.04.43:910][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.03.28-11.04.43:910][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.03.28-11.04.43:910][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.03.28-11.04.43:910][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.03.28-11.04.43:910][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.03.28-11.04.43:910][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.03.28-11.04.43:910][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.03.28-11.04.43:910][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.03.28-11.04.43:910][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.03.28-11.04.43:911][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/GTZA/Games/20003_G_MUG_Coronavirus/Saved/Config/Windows/Engine.ini]
+[2020.03.28-11.04.43:911][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.03.28-11.04.43:911][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.03.28-11.04.43:911][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.03.28-11.04.43:911][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.03.28-11.04.43:911][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.03.28-11.04.43:911][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.03.28-11.04.43:911][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.03.28-11.04.43:911][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.03.28-11.04.43:911][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.03.28-11.04.43:911][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.03.28-11.04.43:911][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.03.28-11.04.43:911][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.03.28-11.04.43:911][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.03.28-11.04.43:911][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/GTZA/Games/20003_G_MUG_Coronavirus/Saved/Config/Windows/Engine.ini]
+[2020.03.28-11.04.43:911][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/GTZA/Games/20003_G_MUG_Coronavirus/Saved/Config/Windows/Engine.ini]
+[2020.03.28-11.04.43:914][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/GTZA/Games/20003_G_MUG_Coronavirus/Saved/Config/Windows/Scalability.ini]
+[2020.03.28-11.04.43:914][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.03.28-11.04.43:914][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.03.28-11.04.43:914][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/GTZA/Games/20003_G_MUG_Coronavirus/Saved/Config/Windows/Scalability.ini]
+[2020.03.28-11.04.43:914][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.03.28-11.04.43:914][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/GTZA/Games/20003_G_MUG_Coronavirus/Saved/Config/Windows/Scalability.ini]
+[2020.03.28-11.04.43:914][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.03.28-11.04.43:914][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.03.28-11.04.43:914][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.03.28-11.04.43:914][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.03.28-11.04.43:914][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.03.28-11.04.43:914][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.03.28-11.04.43:914][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.03.28-11.04.43:914][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.03.28-11.04.43:914][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/GTZA/Games/20003_G_MUG_Coronavirus/Saved/Config/Windows/Scalability.ini]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/GTZA/Games/20003_G_MUG_Coronavirus/Saved/Config/Windows/Scalability.ini]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/GTZA/Games/20003_G_MUG_Coronavirus/Saved/Config/Windows/Scalability.ini]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/GTZA/Games/20003_G_MUG_Coronavirus/Saved/Config/Windows/Scalability.ini]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.03.28-11.04.43:915][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.03.28-11.04.43:915][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.28-11.04.43:915][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.03.28-11.04.43:927][  0]LogHAL: Display: Platform has ~ 32 GB [34194370560 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2020.03.28-11.04.43:927][  0]LogInit: Going up to parent DeviceProfile []
+[2020.03.28-11.04.43:927][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/GTZA/Games/20003_G_MUG_Coronavirus/Saved/Config/Windows/Scalability.ini]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/GTZA/Games/20003_G_MUG_Coronavirus/Saved/Config/Windows/Scalability.ini]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/GTZA/Games/20003_G_MUG_Coronavirus/Saved/Config/Windows/Scalability.ini]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/GTZA/Games/20003_G_MUG_Coronavirus/Saved/Config/Windows/Scalability.ini]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.03.28-11.04.43:927][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.03.28-11.04.43:928][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/GTZA/Games/20003_G_MUG_Coronavirus/Saved/Config/Windows/Scalability.ini]
+[2020.03.28-11.04.43:928][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.03.28-11.04.43:928][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.03.28-11.04.43:928][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.03.28-11.04.43:928][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.03.28-11.04.43:928][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.03.28-11.04.43:928][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.03.28-11.04.43:928][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.03.28-11.04.43:928][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.03.28-11.04.43:928][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/GTZA/Games/20003_G_MUG_Coronavirus/Saved/Config/Windows/Scalability.ini]
+[2020.03.28-11.04.43:928][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.03.28-11.04.43:928][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.03.28-11.04.43:928][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.03.28-11.04.43:928][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.03.28-11.04.43:928][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.03.28-11.04.43:928][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.03.28-11.04.43:928][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.03.28-11.04.43:928][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.03.28-11.04.43:928][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.03.28-11.04.43:928][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.03.28-11.04.43:928][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.03.28-11.04.43:928][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.03.28-11.04.43:928][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.03.28-11.04.43:928][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/GTZA/Games/20003_G_MUG_Coronavirus/Saved/Config/Windows/Scalability.ini]
+[2020.03.28-11.04.43:928][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.03.28-11.04.43:928][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.03.28-11.04.43:928][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.03.28-11.04.43:928][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.03.28-11.04.43:928][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.03.28-11.04.43:928][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/GTZA/Games/20003_G_MUG_Coronavirus/Saved/Config/Windows/Engine.ini]
+[2020.03.28-11.04.43:928][  0]LogInit: Computer: DESKTOP-GRPJC1S
+[2020.03.28-11.04.43:928][  0]LogInit: User: gtenz
+[2020.03.28-11.04.43:928][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.03.28-11.04.43:928][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.03.28-11.04.43:928][  0]LogMemory: Memory total: Physical=31.8GB (32GB approx)
+[2020.03.28-11.04.43:928][  0]LogMemory: Platform Memory Stats for Windows
+[2020.03.28-11.04.43:928][  0]LogMemory: Process Physical Memory: 100.48 MB used, 100.49 MB peak
+[2020.03.28-11.04.43:928][  0]LogMemory: Process Virtual Memory: 92.77 MB used, 92.77 MB peak
+[2020.03.28-11.04.43:928][  0]LogMemory: Physical Memory: 16093.10 MB used,  16517.20 MB free, 32610.29 MB total
+[2020.03.28-11.04.43:928][  0]LogMemory: Virtual Memory: 4676.41 MB used,  134213048.00 MB free, 134217728.00 MB total
+[2020.03.28-11.04.43:948][  0]LogInit: Using OS detected language (en-US).
+[2020.03.28-11.04.43:948][  0]LogInit: Using OS detected locale (en-US).
+[2020.03.28-11.04.43:949][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.03.28-11.04.44:085][  0]LogInit: Setting process to per monitor DPI aware
+[2020.03.28-11.04.44:120][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.03.28-11.04.44:120][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.03.28-11.04.44:312][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2020.03.28-11.04.44:312][  0]LogD3D11RHI: D3D11 adapters:
+[2020.03.28-11.04.44:371][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2060' (Feature Level 11_0)
+[2020.03.28-11.04.44:371][  0]LogD3D11RHI:       5980/0/16305 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.03.28-11.04.44:385][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2020.03.28-11.04.44:385][  0]LogD3D11RHI:       128/0/16305 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.03.28-11.04.44:387][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.03.28-11.04.44:387][  0]LogD3D11RHI:       0/0/16305 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.03.28-11.04.44:387][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.03.28-11.04.44:420][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.03.28-11.04.44:420][  0]LogD3D11RHI:     GPU DeviceId: 0x1f11 (for the marketing name, search the web for "GPU Device Id")
+[2020.03.28-11.04.44:420][  0]LogWindows: EnumDisplayDevices:
+[2020.03.28-11.04.44:420][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2020.03.28-11.04.44:420][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.03.28-11.04.44:421][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.03.28-11.04.44:421][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060' (P:0 D:1)
+[2020.03.28-11.04.44:421][  0]LogWindows:    4. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2020.03.28-11.04.44:421][  0]LogWindows:    5. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2020.03.28-11.04.44:422][  0]LogWindows:    6. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2020.03.28-11.04.44:422][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.03.28-11.04.44:422][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2060
+[2020.03.28-11.04.44:422][  0]LogD3D11RHI:   Driver Version: 441.41 (internal:26.21.14.4141, unified:441.41)
+[2020.03.28-11.04.44:422][  0]LogD3D11RHI:      Driver Date: 11-20-2019
+[2020.03.28-11.04.44:422][  0]LogRHI: Texture pool is 4186 MB (70% of 5980 MB)
+[2020.03.28-11.04.44:463][  0]LogD3D11RHI: Async texture creation enabled
+[2020.03.28-11.04.44:478][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.03.28-11.04.44:478][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.03.28-11.04.44:478][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.03.28-11.04.44:485][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.03.28-11.04.44:742][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.03.28-11.04.44:754][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.03.28-11.04.44:767][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.03.28-11.04.44:779][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.03.28-11.04.44:791][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.03.28-11.04.44:803][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.03.28-11.04.44:815][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.03.28-11.04.44:827][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.03.28-11.04.44:835][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.03.28-11.04.44:921][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.03.28-11.04.44:922][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.03.28-11.04.44:922][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.03.28-11.04.44:922][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.03.28-11.04.44:922][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.03.28-11.04.44:922][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.03.28-11.04.44:922][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.03.28-11.04.44:922][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.03.28-11.04.44:922][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.03.28-11.04.44:922][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.03.28-11.04.44:922][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.03.28-11.04.44:922][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.03.28-11.04.44:922][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.03.28-11.04.44:922][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.03.28-11.04.44:922][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.03.28-11.04.44:922][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.03.28-11.04.44:922][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.03.28-11.04.44:922][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.03.28-11.04.44:923][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.03.28-11.04.44:972][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.03.28-11.04.44:972][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.03.28-11.04.45:002][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.03.28-11.04.45:002][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.03.28-11.04.45:020][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.03.28-11.04.45:034][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.03.28-11.04.45:049][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.03.28-11.04.45:063][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.03.28-11.04.45:109][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.03.28-11.04.45:109][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.03.28-11.04.45:109][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.03.28-11.04.45:118][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.03.28-11.04.45:172][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (../../../../../../GTZA/Games/20003_G_MUG_Coronavirus/Intermediate/Shaders/WorkingDirectory/6492/).
+[2020.03.28-11.04.45:172][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/gtenz/AppData/Local/Temp/UnrealShaderWorkingDir/ED62812C4F8A5D434AD297A06266A703/'.
+[2020.03.28-11.04.45:174][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.03.28-11.04.45:174][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.03.28-11.04.45:174][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.03.28-11.04.45:714][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.03.28-11.04.45:760][  0]LogDerivedDataCache: Loaded boot cache 0.05s 72MB C:/Users/gtenz/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.03.28-11.04.45:761][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/gtenz/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2020.03.28-11.04.45:761][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../GTZA/Games/20003_G_MUG_Coronavirus/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.03.28-11.04.45:761][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.03.28-11.04.45:761][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../GTZA/Games/20003_G_MUG_Coronavirus/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.03.28-11.04.45:761][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.03.28-11.04.45:773][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.03.28-11.04.45:776][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Enterprise/DerivedDataCache/Compressed.ddp.
+[2020.03.28-11.04.45:788][  0]LogDerivedDataCache: Using Local data cache path C:/Users/gtenz/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.03.28-11.04.45:788][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.03.28-11.04.45:788][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.03.28-11.04.45:808][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.03.28-11.04.45:809][  0]LogSlate: Using FreeType 2.6.0
+[2020.03.28-11.04.45:810][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.03.28-11.04.45:889][  0]LogAssetRegistry: FAssetRegistry took 0.0349 seconds to start up
+[2020.03.28-11.04.46:168][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.28-11.04.46:284][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.03.28-11.04.46:284][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.03.28-11.04.46:284][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.03.28-11.04.46:284][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.03.28-11.04.46:284][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.03.28-11.04.46:293][  0]LogNetVersion: MUG_Corona 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 2553062407)
+[2020.03.28-11.04.46:657][  0]LogPackageLocalizationCache: Processed 16 localized package path(s) for 1 prioritized culture(s) in 0.055961 seconds
+[2020.03.28-11.04.46:664][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2020.03.28-11.04.46:664][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2020.03.28-11.04.46:664][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.03.28-11.04.47:406][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.03.28-11.04.47:420][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.03.28-11.04.47:514][  0]SourceControl: Source control is disabled
+[2020.03.28-11.04.47:514][  0]SourceControl: Source control is disabled
+[2020.03.28-11.04.47:515][  0]SourceControl: Source control is disabled
+[2020.03.28-11.04.47:516][  0]SourceControl: Source control is disabled
+[2020.03.28-11.04.47:618][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.03.28-11.04.47:730][  0]LogOcInput: OculusInput pre-init called
+[2020.03.28-11.04.49:536][  0]LogWindows: Failed to load 'libalias_api.dll' (GetLastError=126)
+[2020.03.28-11.04.49:536][  0]LogWindows: File 'libalias_api.dll' does not exist
+[2020.03.28-11.04.49:537][  0]LogWindows: Failed to load 'libalias_api.dll' (GetLastError=126)
+[2020.03.28-11.04.49:537][  0]LogWindows: File 'libalias_api.dll' does not exist
+[2020.03.28-11.04.49:667][  0]LogEngine: Initializing Engine...
+[2020.03.28-11.04.49:692][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2020.03.28-11.04.49:693][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.03.28-11.04.49:875][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.03.28-11.04.49:887][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.03.28-11.04.49:916][  0]LogInit: XAudio2 using 'Speakers (USB PnP Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.28-11.04.49:932][  0]LogInit: FAudioDevice initialized.
+[2020.03.28-11.04.49:932][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.03.28-11.04.49:970][  0]LogDerivedDataCache: Saved boot cache 0.04s 72MB C:/Users/gtenz/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.03.28-11.04.49:978][  0]LogInit: Texture streaming: Enabled
+[2020.03.28-11.04.49:993][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.03.28-11.04.50:011][  0]LogInit: Transaction tracking system initialized
+[2020.03.28-11.04.50:031][  0]BlueprintLog: New page: Editor Load
+[2020.03.28-11.04.50:097][  0]LocalizationService: Localization service is disabled
+[2020.03.28-11.04.50:184][  0]LogLinker: Warning: Can't find file '/Game/FootstepSound/FootstepsCharacter/ThirdPersonOverview'
+[2020.03.28-11.04.50:184][  0]LogLinker: Warning: Can't find file '/Game/FootstepSound/FootstepsCharacter/ThirdPersonOverview'
+[2020.03.28-11.04.50:184][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/FootstepSound/FootstepsCharacter/ThirdPersonOverview.ThirdPersonOverview_C'
+[2020.03.28-11.04.50:352][  0]LogFileCache: Scanning file cache for directory 'C:/GTZA/Games/20003_G_MUG_Coronavirus/Content/' took 0.01s
+[2020.03.28-11.04.50:352][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.03.28-11.04.50:352][  0]LogCook: Display: Mobile HDR setting 1
+[2020.03.28-11.04.51:478][  0]SourceControl: Source control is disabled
+[2020.03.28-11.04.51:478][  0]Cmd: MAP LOAD FILE="../../../../../../GTZA/Games/20003_G_MUG_Coronavirus/Content/Level/MainMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.28-11.04.51:479][  0]LightingResults: New page: Lighting Build
+[2020.03.28-11.04.51:481][  0]MapCheck: New page: Map Check
+[2020.03.28-11.04.51:481][  0]LightingResults: New page: Lighting Build
+[2020.03.28-11.04.51:509][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2020.03.28-11.04.51:512][  0]LogAIModule: Creating AISystem for world MainMap
+[2020.03.28-11.04.51:513][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.28-11.04.51:537][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2020.03.28-11.04.51:537][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.28-11.04.51:538][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.126ms to complete.
+[2020.03.28-11.04.51:538][  0]LogFileHelpers: Loading map 'MainMap' took 0.059
+[2020.03.28-11.04.51:644][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.28-11.04.51:650][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.28-11.04.51:655][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.28-11.04.51:662][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.28-11.04.51:667][  0]LogCollectionManager: Loaded 0 collections in 0.001365 seconds
+[2020.03.28-11.04.51:682][  0]LogFileCache: Scanning file cache for directory 'C:/GTZA/Games/20003_G_MUG_Coronavirus/Saved/Collections/' took 0.01s
+[2020.03.28-11.04.51:682][  0]LogFileCache: Scanning file cache for directory 'C:/GTZA/Games/20003_G_MUG_Coronavirus/Content/Developers/gtenz/Collections/' took 0.00s
+[2020.03.28-11.04.51:682][  0]LogFileCache: Scanning file cache for directory 'C:/GTZA/Games/20003_G_MUG_Coronavirus/Content/Collections/' took 0.00s
+[2020.03.28-11.04.51:682][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2020.03.28-11.04.51:690][  0]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 2864 classes and 726 folders.
+[2020.03.28-11.04.51:698][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2020.03.28-11.04.51:699][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.28-11.04.51:700][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.28-11.04.51:700][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.28-11.04.51:700][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.28-11.04.51:701][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.28-11.04.51:701][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.28-11.04.51:701][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.28-11.04.51:702][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.28-11.04.51:702][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.28-11.04.51:702][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.28-11.04.51:703][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.28-11.04.51:703][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.28-11.04.51:703][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.28-11.04.51:704][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.28-11.04.51:704][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.28-11.04.51:704][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.28-11.04.51:705][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.28-11.04.51:705][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.28-11.04.51:706][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.28-11.04.51:706][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.28-11.04.51:706][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.28-11.04.51:707][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.28-11.04.51:707][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.28-11.04.51:707][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.28-11.04.51:708][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.28-11.04.51:708][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.28-11.04.51:708][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.28-11.04.51:709][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.28-11.04.51:735][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2020.03.28-11.04.51:740][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 0 folders.
+[2020.03.28-11.04.51:787][  0]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.03.28-11.04.51:788][  0]LogSlate: Took 0.000141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.03.28-11.04.51:793][  0]LogSlate: Took 0.000629 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.03.28-11.04.51:847][  0]LogRenderer: Reallocating scene render targets to support 1216x592 Format 10 NumSamples 1 (Frame:1).
+[2020.03.28-11.04.51:966][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2020.03.28-11.04.51:967][  0]LogLoad: (Engine Initialization) Total time: 10.32 seconds
+[2020.03.28-11.04.51:967][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.03.28-11.04.52:013][  0]LogAssetRegistry: Asset discovery search completed in 6.1462 seconds
+[2020.03.28-11.04.52:015][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2020.03.28-11.04.52:015][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000094 seconds (updated 0 objects)
+[2020.03.28-11.04.52:017][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.03.28-11.04.52:051][  0]LogSlate: Took 0.000113 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.28-11.04.53:873][110]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.28-11.04.57:353][314]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.28-11.04.57:418][314]LogSlate: Took 0.004645 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.03.28-11.05.15:814][413]Running C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/GTZA/Games/20003_G_MUG_Coronavirus/MUG_Corona.uproject" -game -rocket -progress
+[2020.03.28-11.05.16:119][413]Discovering modules, targets and source code for project...
+[2020.03.28-11.05.17:629][413]Binding IntelliSense data...
+[2020.03.28-11.05.19:145][413]Binding IntelliSense data... 100%
+[2020.03.28-11.05.19:145][413]Writing project files...
+[2020.03.28-11.05.20:958][413]Writing project files... 100%
+[2020.03.28-11.05.21:064][413]LogHotReload: Recompiling module MUG_Corona...
+[2020.03.28-11.05.21:067][413]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2020.03.28-11.05.21:074][413]Candidate modules for hot reload:
+[2020.03.28-11.05.21:074][413]  MUG_Corona
+[2020.03.28-11.05.21:074][413]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MUG_Corona,2776 Win64 Development -TargetType=Editor -Project="C:/GTZA/Games/20003_G_MUG_Coronavirus/MUG_Corona.uproject" "C:/GTZA/Games/20003_G_MUG_Coronavirus/MUG_Corona.uproject"  -IgnoreJunk]
+[2020.03.28-11.05.28:587][413]Using 'git status' to determine working set for adaptive non-unity build (C:\GTZA\Games\20003_G_MUG_Coronavirus).
+Creating makefile for MUG_CoronaEditor (no existing makefile)
+Parsing headers for MUG_CoronaEditor
+  Running UnrealHeaderTool "C:\GTZA\Games\20003_G_MUG_Coronavirus\MUG_Corona.uproject" "C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\MUG_CoronaEditor\Development\MUG_CoronaEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+Reflection code generated for MUG_CoronaEditor in 5.292412 seconds
+Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+Building 7 actions with 12 processes...
+  [1/7] TEST.cpp
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.generated.h(16): error C2007: #define syntax
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.generated.h(17): error C2007: #define syntax
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.generated.h(18): error C2007: #define syntax
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.generated.h(27): error C2007: #define syntax
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.generated.h(36): error C2007: #define syntax
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.generated.h(49): error C2007: #define syntax
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.generated.h(60): error C2007: #define syntax
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.generated.h(61): error C2007: #define syntax
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.generated.h(62): error C2007: #define syntax
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.generated.h(73): error C2007: #define syntax
+  c:\gtza\games\20003_g_mug_coronavirus\source\mug_corona\TEST.h(9): error C2059: syntax error: 'user-defined literal'
+  c:\gtza\games\20003_g_mug_coronavirus\source\mug_corona\TEST.h(10): error C2059: syntax error: 'public'
+  c:\gtza\games\20003_g_mug_coronavirus\source\mug_corona\TEST.h(11): error C2143: syntax error: missing ';' before '{'
+  c:\gtza\games\20003_g_mug_coronavirus\source\mug_corona\TEST.h(11): error C2447: '{': missing function header (old-style formal list?)
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona\TEST.cpp(7): error C2039: '{ctor}': is not a member of 'ATEST'
+  c:\gtza\games\20003_g_mug_coronavirus\source\mug_corona\TEST.h(10): note: see declaration of 'ATEST'
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona\TEST.cpp(8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona\TEST.cpp(10): error C2065: 'PrimaryActorTick': undeclared identifier
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona\TEST.cpp(12): error C4508: '{ctor}': function should return a value; 'void' return type assumed
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona\TEST.cpp(15): error C2039: 'BeginPlay': is not a member of 'ATEST'
+  c:\gtza\games\20003_g_mug_coronavirus\source\mug_corona\TEST.h(10): note: see declaration of 'ATEST'
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona\TEST.cpp(17): error C2653: 'Super': is not a class or namespace name
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona\TEST.cpp(22): error C2039: 'Tick': is not a member of 'ATEST'
+  c:\gtza\games\20003_g_mug_coronavirus\source\mug_corona\TEST.h(10): note: see declaration of 'ATEST'
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona\TEST.cpp(24): error C2653: 'Super': is not a class or namespace name
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona\TEST.cpp(29): error C2039: 'SetupPlayerInputComponent': is not a member of 'ATEST'
+  c:\gtza\games\20003_g_mug_coronavirus\source\mug_corona\TEST.h(10): note: see declaration of 'ATEST'
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona\TEST.cpp(31): error C2653: 'Super': is not a class or namespace name
+  [2/7] TEST.gen.cpp
+  c:\gtza\games\20003_g_mug_coronavirus\intermediate\build\win64\ue4editor\inc\mug_corona\TEST.generated.h(16): error C2007: #define syntax
+  c:\gtza\games\20003_g_mug_coronavirus\intermediate\build\win64\ue4editor\inc\mug_corona\TEST.generated.h(17): error C2007: #define syntax
+  c:\gtza\games\20003_g_mug_coronavirus\intermediate\build\win64\ue4editor\inc\mug_corona\TEST.generated.h(18): error C2007: #define syntax
+  c:\gtza\games\20003_g_mug_coronavirus\intermediate\build\win64\ue4editor\inc\mug_corona\TEST.generated.h(27): error C2007: #define syntax
+  c:\gtza\games\20003_g_mug_coronavirus\intermediate\build\win64\ue4editor\inc\mug_corona\TEST.generated.h(36): error C2007: #define syntax
+  c:\gtza\games\20003_g_mug_coronavirus\intermediate\build\win64\ue4editor\inc\mug_corona\TEST.generated.h(49): error C2007: #define syntax
+  c:\gtza\games\20003_g_mug_coronavirus\intermediate\build\win64\ue4editor\inc\mug_corona\TEST.generated.h(60): error C2007: #define syntax
+  c:\gtza\games\20003_g_mug_coronavirus\intermediate\build\win64\ue4editor\inc\mug_corona\TEST.generated.h(61): error C2007: #define syntax
+  c:\gtza\games\20003_g_mug_coronavirus\intermediate\build\win64\ue4editor\inc\mug_corona\TEST.generated.h(62): error C2007: #define syntax
+  c:\gtza\games\20003_g_mug_coronavirus\intermediate\build\win64\ue4editor\inc\mug_corona\TEST.generated.h(73): error C2007: #define syntax
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona/TEST.h(9): error C2059: syntax error: 'user-defined literal'
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona/TEST.h(10): error C2059: syntax error: 'public'
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona/TEST.h(11): error C2143: syntax error: missing ';' before '{'
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona/TEST.h(11): error C2447: '{': missing function header (old-style formal list?)
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(21): error C2039: 'StaticRegisterNativesATEST': is not a member of 'ATEST'
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona/TEST.h(10): note: see declaration of 'ATEST'
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(26): error C2039: 'StaticClass': is not a member of 'ATEST'
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona/TEST.h(10): note: see declaration of 'ATEST'
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(26): error C2672: 'StaticClass': no matching overloaded function found
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(26): error C2783: 'UClass *StaticClass(void)': could not deduce template argument for 'ClassType'
+  C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/ReflectedTypeAccessors.h(13): note: see declaration of 'StaticClass'
+  C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Templates/IsAbstract.h(11): error C2139: 'ATEST': an undefined class is not allowed as an argument to compiler intrinsic type trait '__is_abstract'
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona/TEST.h(10): note: see declaration of 'ATEST'
+  C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/Class.h(2071): note: see reference to class template instantiation 'TIsAbstract<CPPCLASS>' being compiled
+          with
+          [
+              CPPCLASS=ATEST
+          ]
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(49): note: see reference to class template instantiation 'TCppClassTypeTraits<ATEST>' being compiled
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(52): error C2039: 'StaticClass': is not a member of 'ATEST'
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona/TEST.h(10): note: see declaration of 'ATEST'
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(52): error C2078: too many initializers
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(65): error C2440: 'initializing': cannot convert from 'overloaded-function' to 'UClass *(__cdecl *)(void)'
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(65): note: None of the functions with this name in scope match the target type
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(75): error C2027: use of undefined type 'ATEST'
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona/TEST.h(10): note: see declaration of 'ATEST'
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(75): error C2039: 'GetPrivateStaticClass': is not a member of 'ATEST'
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona/TEST.h(10): note: see declaration of 'ATEST'
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(75): error C3861: 'StaticPackage': identifier not found
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(75): error C2065: 'StaticClassFlags': undeclared identifier
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(75): error C2039: 'StaticClassFlags': is not a member of 'ATEST'
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona/TEST.h(10): note: see declaration of 'ATEST'
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(75): error C2039: 'StaticClassCastFlags': is not a member of 'ATEST'
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona/TEST.h(10): note: see declaration of 'ATEST'
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(75): error C3861: 'StaticClassCastFlags': identifier not found
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(75): error C2039: 'StaticConfigName': is not a member of 'ATEST'
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona/TEST.h(10): note: see declaration of 'ATEST'
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(75): error C3861: 'StaticConfigName': identifier not found
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(75): error C2039: 'AddReferencedObjects': is not a member of 'ATEST'
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona/TEST.h(10): note: see declaration of 'ATEST'
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(75): error C2065: 'AddReferencedObjects': undeclared identifier
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(75): error C3083: 'Super': the symbol to the left of a '::' must be a type
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(75): error C2039: 'StaticClass': is not a member of 'ATEST'
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona/TEST.h(10): note: see declaration of 'ATEST'
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(75): error C3083: 'WithinClass': the symbol to the left of a '::' must be a type
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(78): error C2039: 'StaticClass': is not a member of 'ATEST'
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona/TEST.h(10): note: see declaration of 'ATEST'
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(78): error C2672: 'StaticClass': no matching overloaded function found
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(78): error C2783: 'UClass *StaticClass(void)': could not deduce template argument for 'ClassType'
+  C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/ReflectedTypeAccessors.h(13): note: see declaration of 'StaticClass'
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(80): error C2039: 'StaticClass': is not a member of 'ATEST'
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona/TEST.h(10): note: see declaration of 'ATEST'
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(80): error C2664: 'FCompiledInDefer::FCompiledInDefer(FCompiledInDefer &&)': cannot convert argument 2 from 'UClass *(__cdecl *)(void)' to 'UClass *(__cdecl *)(void)'
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(80): note: None of the functions with this name in scope match the target type
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(81): error C2039: '{ctor}': is not a member of 'ATEST'
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona/TEST.h(10): note: see declaration of 'ATEST'
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(81): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(81): error C2550: '{ctor}': constructor initializer lists are only allowed on constructor definitions
+  C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(81): error C4508: '{ctor}': function should return a value; 'void' return type assumed
+  [3/7] MUG_Corona.cpp
+  [4/7] MUG_Corona.init.gen.cpp
+
+[2020.03.28-11.05.28:588][413]CompilerResultsLog: New page: Compilation - Mar 28, 2020, 1:05:28 PM
+[2020.03.28-11.05.28:589][413]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\GTZA\Games\20003_G_MUG_Coronavirus).
+[2020.03.28-11.05.28:589][413]CompilerResultsLog: Creating makefile for MUG_CoronaEditor (no existing makefile)
+[2020.03.28-11.05.28:589][413]CompilerResultsLog: Parsing headers for MUG_CoronaEditor
+[2020.03.28-11.05.28:589][413]CompilerResultsLog:   Running UnrealHeaderTool "C:\GTZA\Games\20003_G_MUG_Coronavirus\MUG_Corona.uproject" "C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\MUG_CoronaEditor\Development\MUG_CoronaEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.03.28-11.05.28:589][413]CompilerResultsLog: Reflection code generated for MUG_CoronaEditor in 5.292412 seconds
+[2020.03.28-11.05.28:589][413]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.03.28-11.05.28:589][413]CompilerResultsLog: Building 7 actions with 12 processes...
+[2020.03.28-11.05.28:589][413]CompilerResultsLog:   [1/7] TEST.cpp
+[2020.03.28-11.05.28:589][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.generated.h(16) : error C2007: #define syntax
+[2020.03.28-11.05.28:589][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.generated.h(17) : error C2007: #define syntax
+[2020.03.28-11.05.28:589][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.generated.h(18) : error C2007: #define syntax
+[2020.03.28-11.05.28:589][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.generated.h(27) : error C2007: #define syntax
+[2020.03.28-11.05.28:589][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.generated.h(36) : error C2007: #define syntax
+[2020.03.28-11.05.28:589][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.generated.h(49) : error C2007: #define syntax
+[2020.03.28-11.05.28:589][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.generated.h(60) : error C2007: #define syntax
+[2020.03.28-11.05.28:589][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.generated.h(61) : error C2007: #define syntax
+[2020.03.28-11.05.28:589][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.generated.h(62) : error C2007: #define syntax
+[2020.03.28-11.05.28:589][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.generated.h(73) : error C2007: #define syntax
+[2020.03.28-11.05.28:589][413]CompilerResultsLog:    c:\gtza\games\20003_g_mug_coronavirus\source\mug_corona\TEST.h(9) : error C2059: syntax error: 'user-defined literal'
+[2020.03.28-11.05.28:589][413]CompilerResultsLog:    c:\gtza\games\20003_g_mug_coronavirus\source\mug_corona\TEST.h(10) : error C2059: syntax error: 'public'
+[2020.03.28-11.05.28:589][413]CompilerResultsLog:    c:\gtza\games\20003_g_mug_coronavirus\source\mug_corona\TEST.h(11) : error C2143: syntax error: missing ';' before '{'
+[2020.03.28-11.05.28:589][413]CompilerResultsLog:    c:\gtza\games\20003_g_mug_coronavirus\source\mug_corona\TEST.h(11) : error C2447: '{': missing function header (old-style formal list?)
+[2020.03.28-11.05.28:589][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona\TEST.cpp(7) : error C2039: '{ctor}': is not a member of 'ATEST'
+[2020.03.28-11.05.28:589][413]CompilerResultsLog:   c:\gtza\games\20003_g_mug_coronavirus\source\mug_corona\TEST.h(10): note: see declaration of 'ATEST'
+[2020.03.28-11.05.28:589][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona\TEST.cpp(8) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.03.28-11.05.28:589][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona\TEST.cpp(10) : error C2065: 'PrimaryActorTick': undeclared identifier
+[2020.03.28-11.05.28:589][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona\TEST.cpp(12) : error C4508: '{ctor}': function should return a value; 'void' return type assumed
+[2020.03.28-11.05.28:589][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona\TEST.cpp(15) : error C2039: 'BeginPlay': is not a member of 'ATEST'
+[2020.03.28-11.05.28:589][413]CompilerResultsLog:   c:\gtza\games\20003_g_mug_coronavirus\source\mug_corona\TEST.h(10): note: see declaration of 'ATEST'
+[2020.03.28-11.05.28:589][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona\TEST.cpp(17) : error C2653: 'Super': is not a class or namespace name
+[2020.03.28-11.05.28:589][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona\TEST.cpp(22) : error C2039: 'Tick': is not a member of 'ATEST'
+[2020.03.28-11.05.28:589][413]CompilerResultsLog:   c:\gtza\games\20003_g_mug_coronavirus\source\mug_corona\TEST.h(10): note: see declaration of 'ATEST'
+[2020.03.28-11.05.28:589][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona\TEST.cpp(24) : error C2653: 'Super': is not a class or namespace name
+[2020.03.28-11.05.28:589][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona\TEST.cpp(29) : error C2039: 'SetupPlayerInputComponent': is not a member of 'ATEST'
+[2020.03.28-11.05.28:589][413]CompilerResultsLog:   c:\gtza\games\20003_g_mug_coronavirus\source\mug_corona\TEST.h(10): note: see declaration of 'ATEST'
+[2020.03.28-11.05.28:589][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona\TEST.cpp(31) : error C2653: 'Super': is not a class or namespace name
+[2020.03.28-11.05.28:589][413]CompilerResultsLog:   [2/7] TEST.gen.cpp
+[2020.03.28-11.05.28:589][413]CompilerResultsLog:    c:\gtza\games\20003_g_mug_coronavirus\intermediate\build\win64\ue4editor\inc\mug_corona\TEST.generated.h(16) : error C2007: #define syntax
+[2020.03.28-11.05.28:589][413]CompilerResultsLog:    c:\gtza\games\20003_g_mug_coronavirus\intermediate\build\win64\ue4editor\inc\mug_corona\TEST.generated.h(17) : error C2007: #define syntax
+[2020.03.28-11.05.28:590][413]CompilerResultsLog:    c:\gtza\games\20003_g_mug_coronavirus\intermediate\build\win64\ue4editor\inc\mug_corona\TEST.generated.h(18) : error C2007: #define syntax
+[2020.03.28-11.05.28:590][413]CompilerResultsLog:    c:\gtza\games\20003_g_mug_coronavirus\intermediate\build\win64\ue4editor\inc\mug_corona\TEST.generated.h(27) : error C2007: #define syntax
+[2020.03.28-11.05.28:590][413]CompilerResultsLog:    c:\gtza\games\20003_g_mug_coronavirus\intermediate\build\win64\ue4editor\inc\mug_corona\TEST.generated.h(36) : error C2007: #define syntax
+[2020.03.28-11.05.28:590][413]CompilerResultsLog:    c:\gtza\games\20003_g_mug_coronavirus\intermediate\build\win64\ue4editor\inc\mug_corona\TEST.generated.h(49) : error C2007: #define syntax
+[2020.03.28-11.05.28:590][413]CompilerResultsLog:    c:\gtza\games\20003_g_mug_coronavirus\intermediate\build\win64\ue4editor\inc\mug_corona\TEST.generated.h(60) : error C2007: #define syntax
+[2020.03.28-11.05.28:590][413]CompilerResultsLog:    c:\gtza\games\20003_g_mug_coronavirus\intermediate\build\win64\ue4editor\inc\mug_corona\TEST.generated.h(61) : error C2007: #define syntax
+[2020.03.28-11.05.28:590][413]CompilerResultsLog:    c:\gtza\games\20003_g_mug_coronavirus\intermediate\build\win64\ue4editor\inc\mug_corona\TEST.generated.h(62) : error C2007: #define syntax
+[2020.03.28-11.05.28:590][413]CompilerResultsLog:    c:\gtza\games\20003_g_mug_coronavirus\intermediate\build\win64\ue4editor\inc\mug_corona\TEST.generated.h(73) : error C2007: #define syntax
+[2020.03.28-11.05.28:590][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona/TEST.h(9) : error C2059: syntax error: 'user-defined literal'
+[2020.03.28-11.05.28:590][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona/TEST.h(10) : error C2059: syntax error: 'public'
+[2020.03.28-11.05.28:590][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona/TEST.h(11) : error C2143: syntax error: missing ';' before '{'
+[2020.03.28-11.05.28:590][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona/TEST.h(11) : error C2447: '{': missing function header (old-style formal list?)
+[2020.03.28-11.05.28:590][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(21) : error C2039: 'StaticRegisterNativesATEST': is not a member of 'ATEST'
+[2020.03.28-11.05.28:590][413]CompilerResultsLog:   C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona/TEST.h(10): note: see declaration of 'ATEST'
+[2020.03.28-11.05.28:590][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(26) : error C2039: 'StaticClass': is not a member of 'ATEST'
+[2020.03.28-11.05.28:590][413]CompilerResultsLog:   C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona/TEST.h(10): note: see declaration of 'ATEST'
+[2020.03.28-11.05.28:590][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(26) : error C2672: 'StaticClass': no matching overloaded function found
+[2020.03.28-11.05.28:590][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(26) : error C2783: 'UClass *StaticClass(void)': could not deduce template argument for 'ClassType'
+[2020.03.28-11.05.28:590][413]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/ReflectedTypeAccessors.h(13): note: see declaration of 'StaticClass'
+[2020.03.28-11.05.28:590][413]CompilerResultsLog:    C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Templates/IsAbstract.h(11) : error C2139: 'ATEST': an undefined class is not allowed as an argument to compiler intrinsic type trait '__is_abstract'
+[2020.03.28-11.05.28:590][413]CompilerResultsLog:   C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona/TEST.h(10): note: see declaration of 'ATEST'
+[2020.03.28-11.05.28:590][413]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/Class.h(2071): note: see reference to class template instantiation 'TIsAbstract<CPPCLASS>' being compiled
+[2020.03.28-11.05.28:590][413]CompilerResultsLog:           with
+[2020.03.28-11.05.28:590][413]CompilerResultsLog:           [
+[2020.03.28-11.05.28:590][413]CompilerResultsLog:               CPPCLASS=ATEST
+[2020.03.28-11.05.28:590][413]CompilerResultsLog:           ]
+[2020.03.28-11.05.28:590][413]CompilerResultsLog:   C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(49): note: see reference to class template instantiation 'TCppClassTypeTraits<ATEST>' being compiled
+[2020.03.28-11.05.28:590][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(52) : error C2039: 'StaticClass': is not a member of 'ATEST'
+[2020.03.28-11.05.28:590][413]CompilerResultsLog:   C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona/TEST.h(10): note: see declaration of 'ATEST'
+[2020.03.28-11.05.28:590][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(52) : error C2078: too many initializers
+[2020.03.28-11.05.28:590][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(65) : error C2440: 'initializing': cannot convert from 'overloaded-function' to 'UClass *(__cdecl *)(void)'
+[2020.03.28-11.05.28:590][413]CompilerResultsLog:   C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(65): note: None of the functions with this name in scope match the target type
+[2020.03.28-11.05.28:590][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(75) : error C2027: use of undefined type 'ATEST'
+[2020.03.28-11.05.28:590][413]CompilerResultsLog:   C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona/TEST.h(10): note: see declaration of 'ATEST'
+[2020.03.28-11.05.28:590][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(75) : error C2039: 'GetPrivateStaticClass': is not a member of 'ATEST'
+[2020.03.28-11.05.28:590][413]CompilerResultsLog:   C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona/TEST.h(10): note: see declaration of 'ATEST'
+[2020.03.28-11.05.28:590][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(75) : error C3861: 'StaticPackage': identifier not found
+[2020.03.28-11.05.28:590][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(75) : error C2065: 'StaticClassFlags': undeclared identifier
+[2020.03.28-11.05.28:590][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(75) : error C2039: 'StaticClassFlags': is not a member of 'ATEST'
+[2020.03.28-11.05.28:590][413]CompilerResultsLog:   C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona/TEST.h(10): note: see declaration of 'ATEST'
+[2020.03.28-11.05.28:590][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(75) : error C2039: 'StaticClassCastFlags': is not a member of 'ATEST'
+[2020.03.28-11.05.28:590][413]CompilerResultsLog:   C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona/TEST.h(10): note: see declaration of 'ATEST'
+[2020.03.28-11.05.28:591][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(75) : error C3861: 'StaticClassCastFlags': identifier not found
+[2020.03.28-11.05.28:591][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(75) : error C2039: 'StaticConfigName': is not a member of 'ATEST'
+[2020.03.28-11.05.28:591][413]CompilerResultsLog:   C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona/TEST.h(10): note: see declaration of 'ATEST'
+[2020.03.28-11.05.28:591][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(75) : error C3861: 'StaticConfigName': identifier not found
+[2020.03.28-11.05.28:591][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(75) : error C2039: 'AddReferencedObjects': is not a member of 'ATEST'
+[2020.03.28-11.05.28:591][413]CompilerResultsLog:   C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona/TEST.h(10): note: see declaration of 'ATEST'
+[2020.03.28-11.05.28:591][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(75) : error C2065: 'AddReferencedObjects': undeclared identifier
+[2020.03.28-11.05.28:591][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(75) : error C3083: 'Super': the symbol to the left of a '::' must be a type
+[2020.03.28-11.05.28:591][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(75) : error C2039: 'StaticClass': is not a member of 'ATEST'
+[2020.03.28-11.05.28:591][413]CompilerResultsLog:   C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona/TEST.h(10): note: see declaration of 'ATEST'
+[2020.03.28-11.05.28:591][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(75) : error C3083: 'WithinClass': the symbol to the left of a '::' must be a type
+[2020.03.28-11.05.28:591][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(78) : error C2039: 'StaticClass': is not a member of 'ATEST'
+[2020.03.28-11.05.28:591][413]CompilerResultsLog:   C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona/TEST.h(10): note: see declaration of 'ATEST'
+[2020.03.28-11.05.28:591][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(78) : error C2672: 'StaticClass': no matching overloaded function found
+[2020.03.28-11.05.28:591][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(78) : error C2783: 'UClass *StaticClass(void)': could not deduce template argument for 'ClassType'
+[2020.03.28-11.05.28:591][413]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/ReflectedTypeAccessors.h(13): note: see declaration of 'StaticClass'
+[2020.03.28-11.05.28:591][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(80) : error C2039: 'StaticClass': is not a member of 'ATEST'
+[2020.03.28-11.05.28:591][413]CompilerResultsLog:   C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona/TEST.h(10): note: see declaration of 'ATEST'
+[2020.03.28-11.05.28:591][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(80) : error C2664: 'FCompiledInDefer::FCompiledInDefer(FCompiledInDefer &&)': cannot convert argument 2 from 'UClass *(__cdecl *)(void)' to 'UClass *(__cdecl *)(void)'
+[2020.03.28-11.05.28:591][413]CompilerResultsLog:   C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(80): note: None of the functions with this name in scope match the target type
+[2020.03.28-11.05.28:591][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(81) : error C2039: '{ctor}': is not a member of 'ATEST'
+[2020.03.28-11.05.28:591][413]CompilerResultsLog:   C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona/TEST.h(10): note: see declaration of 'ATEST'
+[2020.03.28-11.05.28:591][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(81) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.03.28-11.05.28:591][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(81) : error C2550: '{ctor}': constructor initializer lists are only allowed on constructor definitions
+[2020.03.28-11.05.28:591][413]CompilerResultsLog:    C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Inc\MUG_Corona\TEST.gen.cpp(81) : error C4508: '{ctor}': function should return a value; 'void' return type assumed
+[2020.03.28-11.05.28:591][413]CompilerResultsLog:   [3/7] MUG_Corona.cpp
+[2020.03.28-11.05.28:591][413]CompilerResultsLog:   [4/7] MUG_Corona.init.gen.cpp
+[2020.03.28-11.05.28:591][413]LogMainFrame: MainFrame: Module compiling took 7.523 seconds
+[2020.03.28-11.05.35:695][413]LogSlate: Window 'Message' being destroyed
+[2020.03.28-11.05.35:701][413]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.03.28-11.05.35:716][413]LogSlate: Took 0.005664 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.03.28-11.06.05:470][956]LogVSAccessor: Warning: Couldn't goto line number '16' in 'c:\gtza\games\20003_g_mug_coronavirus\intermediate\build\win64\ue4editor\inc\mug_corona\TEST.generated.h'
+[2020.03.28-11.06.48:960][572]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2020.03.28-11.06.49:007][572]LogSlate: Window 'MUG_Corona - Unreal Editor' being destroyed
+[2020.03.28-11.06.49:007][572]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.03.28-11.06.49:177][573]Cmd: QUIT_EDITOR
+[2020.03.28-11.06.49:201][573]LogExit: Preparing to exit.
+[2020.03.28-11.06.49:503][573]LogExit: Editor shut down
+[2020.03.28-11.06.49:503][573]LogExit: Transaction tracking system shut down
+[2020.03.28-11.06.49:635][573]LogExit: Object subsystem successfully closed.
+[2020.03.28-11.06.49:657][573]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.03.28-11.06.49:662][573]LogD3D11RHI: Shutdown
+[2020.03.28-11.06.49:662][573]LogD3D11RHI: CleanupD3DDevice
+[2020.03.28-11.06.49:663][573]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2020.03.28-11.06.49:663][573]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.03.28-11.06.49:663][573]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2020.03.28-11.06.49:663][573]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.03.28-11.06.49:663][573]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2020.03.28-11.06.49:663][573]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.03.28-11.06.49:710][573]LogD3D11RHI: ~FD3D11DynamicRHI
+[2020.03.28-11.06.49:732][573]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (684)
+[2020.03.28-11.06.49:732][573]LogModuleManager: Shutting down and abandoning module SceneOutliner (682)
+[2020.03.28-11.06.49:732][573]LogModuleManager: Shutting down and abandoning module AddContentDialog (680)
+[2020.03.28-11.06.49:732][573]LogModuleManager: Shutting down and abandoning module WidgetCarousel (679)
+[2020.03.28-11.06.49:732][573]LogModuleManager: Shutting down and abandoning module EditorWidgets (676)
+[2020.03.28-11.06.49:732][573]LogModuleManager: Shutting down and abandoning module CollectionManager (674)
+[2020.03.28-11.06.49:732][573]LogModuleManager: Shutting down and abandoning module StatsViewer (672)
+[2020.03.28-11.06.49:732][573]LogModuleManager: Shutting down and abandoning module FoliageEdit (670)
+[2020.03.28-11.06.49:732][573]LogModuleManager: Shutting down and abandoning module LandscapeEditor (668)
+[2020.03.28-11.06.49:732][573]LogModuleManager: Shutting down and abandoning module MeshPaintMode (666)
+[2020.03.28-11.06.49:732][573]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (664)
+[2020.03.28-11.06.49:732][573]LogModuleManager: Shutting down and abandoning module ActorPickerMode (662)
+[2020.03.28-11.06.49:732][573]LogModuleManager: Shutting down and abandoning module GeometryMode (660)
+[2020.03.28-11.06.49:732][573]LogModuleManager: Shutting down and abandoning module TextureAlignMode (658)
+[2020.03.28-11.06.49:732][573]LogModuleManager: Shutting down and abandoning module BspMode (656)
+[2020.03.28-11.06.49:732][573]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (654)
+[2020.03.28-11.06.49:732][573]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (652)
+[2020.03.28-11.06.49:733][573]LogModuleManager: Shutting down and abandoning module AutomationWorker (650)
+[2020.03.28-11.06.49:733][573]LogModuleManager: Shutting down and abandoning module DatasmithFBXImporter (648)
+[2020.03.28-11.06.49:733][573]LogModuleManager: Shutting down and abandoning module DatasmithDeltaGenImporter (646)
+[2020.03.28-11.06.49:733][573]LogModuleManager: Shutting down and abandoning module DatasmithVREDImporter (644)
+[2020.03.28-11.06.49:733][573]LogModuleManager: Shutting down and abandoning module OculusMR (642)
+[2020.03.28-11.06.49:733][573]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (640)
+[2020.03.28-11.06.49:733][573]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (638)
+[2020.03.28-11.06.49:733][573]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (636)
+[2020.03.28-11.06.49:733][573]LogModuleManager: Shutting down and abandoning module PlacementMode (635)
+[2020.03.28-11.06.49:733][573]LogModuleManager: Shutting down and abandoning module MaterialEditor (634)
+[2020.03.28-11.06.49:733][573]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (630)
+[2020.03.28-11.06.49:733][573]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (628)
+[2020.03.28-11.06.49:733][573]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (626)
+[2020.03.28-11.06.49:733][573]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (624)
+[2020.03.28-11.06.49:733][573]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (622)
+[2020.03.28-11.06.49:733][573]LogModuleManager: Shutting down and abandoning module WebMMedia (620)
+[2020.03.28-11.06.49:733][573]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (618)
+[2020.03.28-11.06.49:733][573]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (616)
+[2020.03.28-11.06.49:733][573]LogModuleManager: Shutting down and abandoning module SequenceRecorder (615)
+[2020.03.28-11.06.49:733][573]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (612)
+[2020.03.28-11.06.49:733][573]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (610)
+[2020.03.28-11.06.49:733][573]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (608)
+[2020.03.28-11.06.49:733][573]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (606)
+[2020.03.28-11.06.49:733][573]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (604)
+[2020.03.28-11.06.49:733][573]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (602)
+[2020.03.28-11.06.49:733][573]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (600)
+[2020.03.28-11.06.49:733][573]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (598)
+[2020.03.28-11.06.49:733][573]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (596)
+[2020.03.28-11.06.49:733][573]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (594)
+[2020.03.28-11.06.49:733][573]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (592)
+[2020.03.28-11.06.49:733][573]LogModuleManager: Shutting down and abandoning module CharacterAI (590)
+[2020.03.28-11.06.49:733][573]LogModuleManager: Shutting down and abandoning module SmartSnapping (588)
+[2020.03.28-11.06.49:733][573]LogModuleManager: Shutting down and abandoning module SessionServices (586)
+[2020.03.28-11.06.49:733][573]LogModuleManager: Shutting down and abandoning module MeshPaint (584)
+[2020.03.28-11.06.49:733][573]LogModuleManager: Shutting down and abandoning module ViewportSnapping (582)
+[2020.03.28-11.06.49:733][573]LogModuleManager: Shutting down and abandoning module ViewportInteraction (580)
+[2020.03.28-11.06.49:733][573]LogModuleManager: Shutting down and abandoning module ClothPainter (578)
+[2020.03.28-11.06.49:733][573]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (577)
+[2020.03.28-11.06.49:733][573]LogModuleManager: Shutting down and abandoning module LogVisualizer (574)
+[2020.03.28-11.06.49:733][573]LogModuleManager: Shutting down and abandoning module IntroTutorials (572)
+[2020.03.28-11.06.49:733][573]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (571)
+[2020.03.28-11.06.49:733][573]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (568)
+[2020.03.28-11.06.49:733][573]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (566)
+[2020.03.28-11.06.49:733][573]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (564)
+[2020.03.28-11.06.49:733][573]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (562)
+[2020.03.28-11.06.49:733][573]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (561)
+[2020.03.28-11.06.51:232][573]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (558)
+[2020.03.28-11.06.51:232][573]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (556)
+[2020.03.28-11.06.51:232][573]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (554)
+[2020.03.28-11.06.51:232][573]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (552)
+[2020.03.28-11.06.51:232][573]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (550)
+[2020.03.28-11.06.51:232][573]LogModuleManager: Shutting down and abandoning module InputBindingEditor (548)
+[2020.03.28-11.06.51:232][573]LogModuleManager: Shutting down and abandoning module MergeActors (546)
+[2020.03.28-11.06.51:232][573]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (544)
+[2020.03.28-11.06.51:232][573]LogModuleManager: Shutting down and abandoning module LocalizationService (543)
+[2020.03.28-11.06.51:232][573]LogModuleManager: Shutting down and abandoning module HardwareTargeting (540)
+[2020.03.28-11.06.51:232][573]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (538)
+[2020.03.28-11.06.51:232][573]LogModuleManager: Shutting down and abandoning module UndoHistory (536)
+[2020.03.28-11.06.51:232][573]LogModuleManager: Shutting down and abandoning module XmlParser (534)
+[2020.03.28-11.06.51:232][573]LogModuleManager: Shutting down and abandoning module Blutility (532)
+[2020.03.28-11.06.51:232][573]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (530)
+[2020.03.28-11.06.51:233][573]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (529)
+[2020.03.28-11.06.51:233][573]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (526)
+[2020.03.28-11.06.51:233][573]LogModuleManager: Shutting down and abandoning module SettingsEditor (524)
+[2020.03.28-11.06.51:233][573]LogModuleManager: Shutting down and abandoning module ProjectLauncher (522)
+[2020.03.28-11.06.51:233][573]LogModuleManager: Shutting down and abandoning module SessionFrontend (520)
+[2020.03.28-11.06.51:233][573]LogModuleManager: Shutting down and abandoning module ProfilerClient (518)
+[2020.03.28-11.06.51:233][573]LogModuleManager: Shutting down and abandoning module DeviceManager (516)
+[2020.03.28-11.06.51:233][573]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (515)
+[2020.03.28-11.06.51:276][573]LogModuleManager: Shutting down and abandoning module AutomationController (512)
+[2020.03.28-11.06.51:276][573]LogModuleManager: Shutting down and abandoning module AutomationWindow (510)
+[2020.03.28-11.06.51:276][573]LogModuleManager: Shutting down and abandoning module Layers (508)
+[2020.03.28-11.06.51:276][573]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (506)
+[2020.03.28-11.06.51:276][573]LogModuleManager: Shutting down and abandoning module DetailCustomizations (504)
+[2020.03.28-11.06.51:276][573]LogModuleManager: Shutting down and abandoning module PackagesDialog (502)
+[2020.03.28-11.06.51:276][573]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (500)
+[2020.03.28-11.06.51:276][573]LogModuleManager: Shutting down and abandoning module Persona (498)
+[2020.03.28-11.06.51:276][573]LogModuleManager: Shutting down and abandoning module AnimGraph (497)
+[2020.03.28-11.06.51:276][573]LogModuleManager: Shutting down and abandoning module Kismet (494)
+[2020.03.28-11.06.51:276][573]LogModuleManager: Shutting down and abandoning module GraphEditor (492)
+[2020.03.28-11.06.51:276][573]LogModuleManager: Shutting down and abandoning module ClassViewer (490)
+[2020.03.28-11.06.51:277][573]LogModuleManager: Shutting down and abandoning module Toolbox (488)
+[2020.03.28-11.06.51:277][573]LogModuleManager: Shutting down and abandoning module ModuleUI (486)
+[2020.03.28-11.06.51:277][573]LogModuleManager: Shutting down and abandoning module MovieSceneTools (484)
+[2020.03.28-11.06.51:277][573]LogModuleManager: Shutting down and abandoning module OutputLog (482)
+[2020.03.28-11.06.51:277][573]LogModuleManager: Shutting down and abandoning module GammaUI (480)
+[2020.03.28-11.06.51:277][573]LogModuleManager: Shutting down and abandoning module Documentation (478)
+[2020.03.28-11.06.51:277][573]LogModuleManager: Shutting down and abandoning module LiveCoding (476)
+[2020.03.28-11.06.51:277][573]LogModuleManager: Shutting down and abandoning module LevelSequence (474)
+[2020.03.28-11.06.51:277][573]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (472)
+[2020.03.28-11.06.51:277][573]LogModuleManager: Shutting down and abandoning module MovieScene (470)
+[2020.03.28-11.06.51:277][573]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (468)
+[2020.03.28-11.06.51:277][573]LogModuleManager: Shutting down and abandoning module LauncherPlatform (466)
+[2020.03.28-11.06.51:277][573]LogModuleManager: Shutting down and abandoning module AnalyticsET (464)
+[2020.03.28-11.06.51:277][573]LogModuleManager: Shutting down and abandoning module PortalServices (462)
+[2020.03.28-11.06.51:277][573]LogModuleManager: Shutting down and abandoning module PortalRpc (460)
+[2020.03.28-11.06.51:277][573]LogModuleManager: Shutting down and abandoning module MessagingRpc (458)
+[2020.03.28-11.06.51:277][573]LogModuleManager: Shutting down and abandoning module AIModule (456)
+[2020.03.28-11.06.51:277][573]LogModuleManager: Shutting down and abandoning module GameplayDebugger (455)
+[2020.03.28-11.06.51:277][573]LogModuleManager: Shutting down and abandoning module AITestSuite (453)
+[2020.03.28-11.06.51:277][573]LogModuleManager: Shutting down and abandoning module NavigationSystem (451)
+[2020.03.28-11.06.51:277][573]LogModuleManager: Shutting down and abandoning module DesktopPlatform (448)
+[2020.03.28-11.06.51:277][573]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (446)
+[2020.03.28-11.06.51:281][573]LogModuleManager: Shutting down and abandoning module ProfilerService (444)
+[2020.03.28-11.06.51:501][573]LogModuleManager: Shutting down and abandoning module TaskGraph (442)
+[2020.03.28-11.06.51:501][573]LogModuleManager: Shutting down and abandoning module DatasmithCADImporter (440)
+[2020.03.28-11.06.51:502][573]LogModuleManager: Shutting down and abandoning module VariantManager (438)
+[2020.03.28-11.06.51:502][573]LogModuleManager: Shutting down and abandoning module StaticMeshEditorExtension (436)
+[2020.03.28-11.06.51:502][573]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (435)
+[2020.03.28-11.06.51:502][573]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (434)
+[2020.03.28-11.06.51:502][573]LogModuleManager: Shutting down and abandoning module MeshProcessingLibrary (431)
+[2020.03.28-11.06.51:502][573]LogModuleManager: Shutting down and abandoning module MDLImporter (428)
+[2020.03.28-11.06.51:502][573]LogModuleManager: Shutting down and abandoning module DatasmithGLTFImporter (426)
+[2020.03.28-11.06.51:502][573]LogModuleManager: Shutting down and abandoning module DatasmithImporter (425)
+[2020.03.28-11.06.51:502][573]LogModuleManager: Shutting down and abandoning module DatasmithDataPrepLibraries (422)
+[2020.03.28-11.06.51:502][573]LogModuleManager: Shutting down and abandoning module DatasmithDataPrepEditor (420)
+[2020.03.28-11.06.51:502][573]LogModuleManager: Shutting down and abandoning module SteamVRController (418)
+[2020.03.28-11.06.51:502][573]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (416)
+[2020.03.28-11.06.51:502][573]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (414)
+[2020.03.28-11.06.51:502][573]LogModuleManager: Shutting down and abandoning module OculusEditor (412)
+[2020.03.28-11.06.51:502][573]LogModuleManager: Shutting down and abandoning module OculusInput (410)
+[2020.03.28-11.06.51:502][573]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (408)
+[2020.03.28-11.06.51:502][573]LogModuleManager: Shutting down and abandoning module EditableMesh (406)
+[2020.03.28-11.06.51:502][573]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (404)
+[2020.03.28-11.06.51:502][573]LogModuleManager: Shutting down and abandoning module CableComponent (402)
+[2020.03.28-11.06.51:502][573]LogModuleManager: Shutting down and abandoning module AudioCapture (400)
+[2020.03.28-11.06.51:502][573]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (398)
+[2020.03.28-11.06.51:502][573]LogModuleManager: Shutting down and abandoning module AndroidPermission (396)
+[2020.03.28-11.06.51:502][573]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (394)
+[2020.03.28-11.06.51:502][573]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (392)
+[2020.03.28-11.06.51:502][573]LogModuleManager: Shutting down and abandoning module MediaCompositing (390)
+[2020.03.28-11.06.51:502][573]LogModuleManager: Shutting down and abandoning module LinearTimecode (388)
+[2020.03.28-11.06.51:502][573]LogModuleManager: Shutting down and abandoning module ImgMedia (386)
+[2020.03.28-11.06.51:502][573]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (384)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (382)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (380)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module HTML5Networking (378)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (376)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module GeometryCollectionExampleCore (374)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (372)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (370)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (368)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module BlastAuthoring (366)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module BackChannel (364)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module AppleVision (362)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (360)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module AppleImageUtils (358)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module AlembicImporter (356)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module AlembicLibrary (355)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module GeometryCache (354)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (353)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module VariantManagerContent (348)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (346)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (344)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module PluginBrowser (342)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (340)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module PolygonModeling (338)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module MeshEditor (336)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (334)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module GLTFImporter (332)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (330)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (308)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (306)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (304)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (302)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (300)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (298)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module Paper2DEditor (296)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module SignificanceManager (294)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (292)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (290)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module PhysXVehicles (288)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (286)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2020.03.28-11.06.51:503][573]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2020.03.28-11.06.51:605][573]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2020.03.28-11.06.51:706][573]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (278)
+[2020.03.28-11.06.51:706][573]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (276)
+[2020.03.28-11.06.51:706][573]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (274)
+[2020.03.28-11.06.51:706][573]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (272)
+[2020.03.28-11.06.51:706][573]LogModuleManager: Shutting down and abandoning module MagicLeapController (270)
+[2020.03.28-11.06.51:706][573]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.03.28-11.06.51:706][573]LogModuleManager: Shutting down and abandoning module MagicLeapAR (268)
+[2020.03.28-11.06.51:706][573]LogModuleManager: Shutting down and abandoning module AugmentedReality (267)
+[2020.03.28-11.06.51:706][573]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (264)
+[2020.03.28-11.06.51:706][573]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (262)
+[2020.03.28-11.06.51:706][573]LogModuleManager: Shutting down and abandoning module FacialAnimation (260)
+[2020.03.28-11.06.51:706][573]LogModuleManager: Shutting down and abandoning module DataValidation (258)
+[2020.03.28-11.06.51:706][573]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (256)
+[2020.03.28-11.06.51:706][573]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2020.03.28-11.06.51:707][573]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2020.03.28-11.06.51:707][573]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (252)
+[2020.03.28-11.06.51:707][573]LogModuleManager: Shutting down and abandoning module MainFrame (250)
+[2020.03.28-11.06.51:707][573]LogModuleManager: Shutting down and abandoning module HotReload (249)
+[2020.03.28-11.06.51:707][573]LogModuleManager: Shutting down and abandoning module ContentBrowser (245)
+[2020.03.28-11.06.51:708][573]LogModuleManager: Shutting down and abandoning module TreeMap (243)
+[2020.03.28-11.06.51:708][573]LogModuleManager: Shutting down and abandoning module AnimationSharing (240)
+[2020.03.28-11.06.51:708][573]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2020.03.28-11.06.51:708][573]LogModuleManager: Shutting down and abandoning module AISupportModule (236)
+[2020.03.28-11.06.51:708][573]LogModuleManager: Shutting down and abandoning module Paper2D (234)
+[2020.03.28-11.06.51:708][573]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (232)
+[2020.03.28-11.06.51:708][573]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (230)
+[2020.03.28-11.06.51:708][573]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2020.03.28-11.06.51:708][573]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2020.03.28-11.06.51:708][573]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2020.03.28-11.06.51:708][573]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2020.03.28-11.06.51:708][573]LogModuleManager: Shutting down and abandoning module Overlay (220)
+[2020.03.28-11.06.51:708][573]LogModuleManager: Shutting down and abandoning module OverlayEditor (219)
+[2020.03.28-11.06.51:708][573]LogModuleManager: Shutting down and abandoning module VREditor (216)
+[2020.03.28-11.06.51:708][573]LogModuleManager: Shutting down and abandoning module StringTableEditor (214)
+[2020.03.28-11.06.51:708][573]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (212)
+[2020.03.28-11.06.51:708][573]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (210)
+[2020.03.28-11.06.51:708][573]LogModuleManager: Shutting down and abandoning module FunctionalTesting (208)
+[2020.03.28-11.06.51:708][573]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (206)
+[2020.03.28-11.06.51:708][573]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (205)
+[2020.03.28-11.06.51:708][573]LogModuleManager: Shutting down and abandoning module UMG (202)
+[2020.03.28-11.06.51:708][573]LogModuleManager: Shutting down and abandoning module UMGEditor (201)
+[2020.03.28-11.06.51:708][573]LogModuleManager: Shutting down and abandoning module Sequencer (200)
+[2020.03.28-11.06.51:708][573]LogModuleManager: Shutting down and abandoning module MessageLog (197)
+[2020.03.28-11.06.51:708][573]LogModuleManager: Shutting down and abandoning module SlateReflector (192)
+[2020.03.28-11.06.51:708][573]LogModuleManager: Shutting down and abandoning module Slate (190)
+[2020.03.28-11.06.51:708][573]LogModuleManager: Shutting down and abandoning module EditorStyle (188)
+[2020.03.28-11.06.51:709][573]LogModuleManager: Shutting down and abandoning module UnrealEd (186)
+[2020.03.28-11.06.51:709][573]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2020.03.28-11.06.51:709][573]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2020.03.28-11.06.51:709][573]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2020.03.28-11.06.51:709][573]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2020.03.28-11.06.51:709][573]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2020.03.28-11.06.51:709][573]LogModuleManager: Shutting down and abandoning module Core (174)
+[2020.03.28-11.06.51:709][573]LogModuleManager: Shutting down and abandoning module KismetCompiler (172)
+[2020.03.28-11.06.51:709][573]LogModuleManager: Shutting down and abandoning module MeshUtilities (170)
+[2020.03.28-11.06.51:709][573]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (169)
+[2020.03.28-11.06.51:709][573]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (168)
+[2020.03.28-11.06.51:709][573]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (167)
+[2020.03.28-11.06.51:709][573]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (165)
+[2020.03.28-11.06.51:709][573]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (163)
+[2020.03.28-11.06.51:709][573]LogModuleManager: Shutting down and abandoning module MaterialBaking (159)
+[2020.03.28-11.06.51:709][573]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2020.03.28-11.06.51:734][573]LogDerivedDataCache: Shutdown
+[2020.03.28-11.06.51:734][573]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2020.03.28-11.06.51:734][573]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2020.03.28-11.06.51:734][573]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2020.03.28-11.06.51:734][573]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2020.03.28-11.06.51:734][573]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2020.03.28-11.06.51:734][573]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2020.03.28-11.06.51:734][573]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2020.03.28-11.06.51:734][573]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2020.03.28-11.06.51:734][573]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2020.03.28-11.06.51:734][573]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2020.03.28-11.06.51:734][573]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2020.03.28-11.06.51:735][573]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2020.03.28-11.06.51:735][573]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2020.03.28-11.06.51:735][573]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2020.03.28-11.06.51:735][573]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2020.03.28-11.06.51:735][573]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2020.03.28-11.06.51:735][573]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2020.03.28-11.06.51:735][573]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (119)
+[2020.03.28-11.06.51:735][573]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (117)
+[2020.03.28-11.06.51:735][573]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (115)
+[2020.03.28-11.06.51:735][573]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (113)
+[2020.03.28-11.06.51:735][573]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (111)
+[2020.03.28-11.06.51:735][573]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (109)
+[2020.03.28-11.06.51:736][573]LogModuleManager: Shutting down and abandoning module Messaging (107)
+[2020.03.28-11.06.51:736][573]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (105)
+[2020.03.28-11.06.51:736][573]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (103)
+[2020.03.28-11.06.51:736][573]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (101)
+[2020.03.28-11.06.51:740][573]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (99)
+[2020.03.28-11.06.51:740][573]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (97)
+[2020.03.28-11.06.51:740][573]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (95)
+[2020.03.28-11.06.51:741][573]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (93)
+[2020.03.28-11.06.51:741][573]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (91)
+[2020.03.28-11.06.51:741][573]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (89)
+[2020.03.28-11.06.51:741][573]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (87)
+[2020.03.28-11.06.51:741][573]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (85)
+[2020.03.28-11.06.51:741][573]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (83)
+[2020.03.28-11.06.51:741][573]LogModuleManager: Shutting down and abandoning module InputCore (80)
+[2020.03.28-11.06.51:741][573]LogModuleManager: Shutting down and abandoning module Settings (78)
+[2020.03.28-11.06.51:741][573]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (76)
+[2020.03.28-11.06.51:741][573]LogModuleManager: Shutting down and abandoning module PhysXCooking (74)
+[2020.03.28-11.06.51:741][573]LogModuleManager: Shutting down and abandoning module SteamVR (72)
+[2020.03.28-11.06.51:741][573]LogHMD: Freeing OpenVRDLLHandle.
+[2020.03.28-11.06.51:741][573]LogModuleManager: Shutting down and abandoning module OculusHMD (70)
+[2020.03.28-11.06.51:741][573]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (68)
+[2020.03.28-11.06.51:741][573]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (66)
+[2020.03.28-11.06.51:741][573]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2020.03.28-11.06.51:741][573]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (60)
+[2020.03.28-11.06.51:742][573]LogModuleManager: Shutting down and abandoning module XMPP (55)
+[2020.03.28-11.06.51:742][573]LogModuleManager: Shutting down and abandoning module WebSockets (54)
+[2020.03.28-11.06.51:746][573]LogModuleManager: Shutting down and abandoning module HTTP (51)
+[2020.03.28-11.06.51:746][573]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.03.28-11.06.51:746][573]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBD0CE6EC-4277-0577-FA25-21879470BA75%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=8e85411a4fd87ef00c498a8f56885cbe%7C70f4f2d576c548d0b379d749906cb5e0%7C25dead43-4049-4cb1-9342-67cd0fa73628&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2020.03.28-11.06.51:779][573]LogModuleManager: Shutting down and abandoning module SSL (50)
+[2020.03.28-11.06.51:780][573]LogModuleManager: Shutting down and abandoning module WmfMedia (46)
+[2020.03.28-11.06.51:781][573]LogModuleManager: Shutting down and abandoning module Media (45)
+[2020.03.28-11.06.51:787][573]LogModuleManager: Shutting down and abandoning module MagicLeap (42)
+[2020.03.28-11.06.51:787][573]LogModuleManager: Shutting down and abandoning module DatasmithContent (40)
+[2020.03.28-11.06.51:787][573]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.03.28-11.06.51:787][573]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.03.28-11.06.51:787][573]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.03.28-11.06.51:788][573]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.03.28-11.06.51:788][573]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.03.28-11.06.51:788][573]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.03.28-11.06.51:788][573]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.03.28-11.06.51:788][573]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.03.28-11.06.51:788][573]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.03.28-11.06.51:788][573]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.03.28-11.06.51:788][573]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.03.28-11.06.51:788][573]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.03.28-11.06.51:788][573]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.03.28-11.06.51:788][573]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.03.28-11.06.51:788][573]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.03.28-11.06.51:788][573]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.03.28-11.06.51:788][573]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.03.28-11.06.51:788][573]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.03.28-11.06.51:788][573]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.03.28-11.06.51:799][573]LogExit: Exiting.
+[2020.03.28-11.06.51:809][573]Log file closed, 03/28/20 12:06:51

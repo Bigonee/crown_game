@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-MUG_Corona.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\MUG_CoronaEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Development\MUG_Corona\MUG_Corona.cpp.obj"
+"C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Development\MUG_Corona\TEST.cpp.obj"
+"C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Development\MUG_Corona\MUG_Corona.init.gen.cpp.obj"
+"C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Development\MUG_Corona\TEST.gen.cpp.obj"
+"C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Development\MUG_Corona\Default.rc2.res"
+/OUT:"C:\GTZA\Games\20003_G_MUG_Coronavirus\Intermediate\Build\Win64\UE4Editor\Development\MUG_Corona\UE4Editor-MUG_Corona.lib"
+/INCLUDE:IMPLEMENT_MODULE_MUG_Corona
