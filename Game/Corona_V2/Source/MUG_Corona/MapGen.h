@@ -31,6 +31,7 @@ class MUG_CORONA_API AMapGen : public AActor{
 public:	
 	// Sets default values for this actor's properties
 	AMapGen();
+	bool lastshown = false;
 
 	UFUNCTION(BlueprintCallable, Exec, Category = CATEGORY)
 	ETileTheme getTileTheme(int currentTile);
