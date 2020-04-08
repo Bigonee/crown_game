@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿Log file open, 04/08/20 09:48:17
+=======
+﻿Log file open, 04/08/20 10:08:27
+>>>>>>> feature/Extend_Clean_Trash
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,8 +13,13 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: ExportProject
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
+<<<<<<< HEAD
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
 LogStats: Stats thread started at 0.270806
+=======
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.837783
+>>>>>>> feature/Extend_Clean_Trash
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -116,11 +125,16 @@ LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connecti
 LogInit:  - LocalHostAddr = Default
 LogInit:  - BufferSize = 65536
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogHMD: Failed initializing OVRPlugin 1.32.0
 LogInit: Build: ++UE4+Release-4.22-CL-7053642
 LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
 LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
 LogInit: Net CL: 5660361
+<<<<<<< HEAD
 LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz, GPU: NVIDIA GeForce GTX 970
+=======
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz, GPU: Intel(R) UHD Graphics 630
+>>>>>>> feature/Extend_Clean_Trash
 LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
 LogInit: Compiled with Visual C++: 19.16.27025.01
 LogInit: Build Configuration: Development
@@ -156,6 +170,7 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
+<<<<<<< HEAD
 [2020.04.08-07.48.18:037][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2020.04.08-07.48.18:037][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
 [2020.04.08-07.48.18:037][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/WORK/Crow_Game/Game/ExportProject/Saved/Config/Windows/Engine.ini]
@@ -954,3 +969,1156 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.04.08-07.50.39:950][507]LogModuleManager: Shutting down and abandoning module RSA (3)
 [2020.04.08-07.50.39:978][507]LogExit: Exiting.
 [2020.04.08-07.50.39:990][507]Log file closed, 04/08/20 09:50:39
+=======
+[2020.04.08-08.08.29:383][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.04.08-08.08.29:383][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.04.08-08.08.29:383][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/GTZA/Games/20003_G_MUG_Coronavirus/Game/ExportProject/Saved/Config/Windows/Engine.ini]
+[2020.04.08-08.08.29:383][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.04.08-08.08.29:383][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2020.04.08-08.08.29:383][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/GTZA/Games/20003_G_MUG_Coronavirus/Game/ExportProject/Saved/Config/Windows/Engine.ini]
+[2020.04.08-08.08.29:383][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/GTZA/Games/20003_G_MUG_Coronavirus/Game/ExportProject/Saved/Config/Windows/Engine.ini]
+[2020.04.08-08.08.29:383][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.04.08-08.08.29:383][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.04.08-08.08.29:383][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.04.08-08.08.29:383][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.04.08-08.08.29:383][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.04.08-08.08.29:383][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.04.08-08.08.29:383][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.04.08-08.08.29:383][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.04.08-08.08.29:383][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.04.08-08.08.29:383][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.04.08-08.08.29:383][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.04.08-08.08.29:383][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.04.08-08.08.29:383][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.04.08-08.08.29:383][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/GTZA/Games/20003_G_MUG_Coronavirus/Game/ExportProject/Saved/Config/Windows/Engine.ini]
+[2020.04.08-08.08.29:383][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.04.08-08.08.29:383][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.04.08-08.08.29:383][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.04.08-08.08.29:383][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.04.08-08.08.29:383][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.04.08-08.08.29:383][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.04.08-08.08.29:383][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.04.08-08.08.29:383][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.04.08-08.08.29:383][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.04.08-08.08.29:383][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.04.08-08.08.29:383][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.04.08-08.08.29:383][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.04.08-08.08.29:383][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.04.08-08.08.29:383][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/GTZA/Games/20003_G_MUG_Coronavirus/Game/ExportProject/Saved/Config/Windows/Engine.ini]
+[2020.04.08-08.08.29:383][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/GTZA/Games/20003_G_MUG_Coronavirus/Game/ExportProject/Saved/Config/Windows/Engine.ini]
+[2020.04.08-08.08.29:390][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/GTZA/Games/20003_G_MUG_Coronavirus/Game/ExportProject/Saved/Config/Windows/Scalability.ini]
+[2020.04.08-08.08.29:390][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.08-08.08.29:390][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.08-08.08.29:390][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/GTZA/Games/20003_G_MUG_Coronavirus/Game/ExportProject/Saved/Config/Windows/Scalability.ini]
+[2020.04.08-08.08.29:390][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.08-08.08.29:390][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/GTZA/Games/20003_G_MUG_Coronavirus/Game/ExportProject/Saved/Config/Windows/Scalability.ini]
+[2020.04.08-08.08.29:390][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.08-08.08.29:390][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.08-08.08.29:390][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.08-08.08.29:390][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.08-08.08.29:390][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.08-08.08.29:390][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.08-08.08.29:390][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.08-08.08.29:390][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.08-08.08.29:390][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.08-08.08.29:390][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.08-08.08.29:390][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.08-08.08.29:390][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.08-08.08.29:390][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.08-08.08.29:390][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.08-08.08.29:390][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.08-08.08.29:390][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.08-08.08.29:390][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.08-08.08.29:390][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.08-08.08.29:390][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/GTZA/Games/20003_G_MUG_Coronavirus/Game/ExportProject/Saved/Config/Windows/Scalability.ini]
+[2020.04.08-08.08.29:390][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.08-08.08.29:390][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.08-08.08.29:390][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.08-08.08.29:390][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.08-08.08.29:390][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.08-08.08.29:390][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.08-08.08.29:390][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.08-08.08.29:390][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.08-08.08.29:390][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.08-08.08.29:390][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.08-08.08.29:390][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.08-08.08.29:390][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.08-08.08.29:390][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.08-08.08.29:390][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.08-08.08.29:390][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.08-08.08.29:391][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.08-08.08.29:391][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.08-08.08.29:391][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.08-08.08.29:391][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.08-08.08.29:391][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.08-08.08.29:391][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.08-08.08.29:391][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.08-08.08.29:391][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.08-08.08.29:391][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.08-08.08.29:391][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.08-08.08.29:391][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.08-08.08.29:391][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.08-08.08.29:391][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.08-08.08.29:391][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.08-08.08.29:391][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.08-08.08.29:391][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/GTZA/Games/20003_G_MUG_Coronavirus/Game/ExportProject/Saved/Config/Windows/Scalability.ini]
+[2020.04.08-08.08.29:391][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.08-08.08.29:391][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.08-08.08.29:391][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.08-08.08.29:391][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.08-08.08.29:391][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.08-08.08.29:391][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.08-08.08.29:391][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.08-08.08.29:391][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.08-08.08.29:391][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/GTZA/Games/20003_G_MUG_Coronavirus/Game/ExportProject/Saved/Config/Windows/Scalability.ini]
+[2020.04.08-08.08.29:391][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.08-08.08.29:391][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.08-08.08.29:391][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.08-08.08.29:391][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.08-08.08.29:391][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.08-08.08.29:391][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.08-08.08.29:391][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.08-08.08.29:391][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.08-08.08.29:391][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.08-08.08.29:391][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.08-08.08.29:391][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.08-08.08.29:391][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.08-08.08.29:391][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.08-08.08.29:391][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/GTZA/Games/20003_G_MUG_Coronavirus/Game/ExportProject/Saved/Config/Windows/Scalability.ini]
+[2020.04.08-08.08.29:391][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.08-08.08.29:391][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.08-08.08.29:392][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.08-08.08.29:392][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.04.08-08.08.29:424][  0]LogHAL: Display: Platform has ~ 32 GB [34194370560 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.04.08-08.08.29:424][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2020.04.08-08.08.29:424][  0]LogInit: Going up to parent DeviceProfile []
+[2020.04.08-08.08.29:425][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/GTZA/Games/20003_G_MUG_Coronavirus/Game/ExportProject/Saved/Config/Windows/Scalability.ini]
+[2020.04.08-08.08.29:425][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.08-08.08.29:425][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.08-08.08.29:425][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/GTZA/Games/20003_G_MUG_Coronavirus/Game/ExportProject/Saved/Config/Windows/Scalability.ini]
+[2020.04.08-08.08.29:425][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.08-08.08.29:425][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/GTZA/Games/20003_G_MUG_Coronavirus/Game/ExportProject/Saved/Config/Windows/Scalability.ini]
+[2020.04.08-08.08.29:425][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.08-08.08.29:425][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.08-08.08.29:425][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.08-08.08.29:425][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.08-08.08.29:425][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.08-08.08.29:425][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.08-08.08.29:425][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.08-08.08.29:425][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.08-08.08.29:425][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.08-08.08.29:425][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.08-08.08.29:425][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.08-08.08.29:425][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.08-08.08.29:425][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.08-08.08.29:425][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.08-08.08.29:425][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.08-08.08.29:425][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.08-08.08.29:425][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.08-08.08.29:425][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.08-08.08.29:425][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/GTZA/Games/20003_G_MUG_Coronavirus/Game/ExportProject/Saved/Config/Windows/Scalability.ini]
+[2020.04.08-08.08.29:425][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.08-08.08.29:425][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.08-08.08.29:425][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.08-08.08.29:425][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.08-08.08.29:425][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.08-08.08.29:425][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.08-08.08.29:425][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.08-08.08.29:426][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.08-08.08.29:426][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.08-08.08.29:426][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.08-08.08.29:426][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.08-08.08.29:426][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.08-08.08.29:426][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.08-08.08.29:426][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.08-08.08.29:426][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.08-08.08.29:426][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.08-08.08.29:426][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.08-08.08.29:426][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.08-08.08.29:426][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.08-08.08.29:426][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.08-08.08.29:426][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.08-08.08.29:426][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.08-08.08.29:426][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.08-08.08.29:426][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.08-08.08.29:426][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.08-08.08.29:426][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.08-08.08.29:426][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.08-08.08.29:426][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.08-08.08.29:426][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.08-08.08.29:426][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.08-08.08.29:426][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/GTZA/Games/20003_G_MUG_Coronavirus/Game/ExportProject/Saved/Config/Windows/Scalability.ini]
+[2020.04.08-08.08.29:426][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.08-08.08.29:426][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.08-08.08.29:426][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.08-08.08.29:426][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.08-08.08.29:426][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.08-08.08.29:426][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.08-08.08.29:426][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.08-08.08.29:426][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.08-08.08.29:426][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/GTZA/Games/20003_G_MUG_Coronavirus/Game/ExportProject/Saved/Config/Windows/Scalability.ini]
+[2020.04.08-08.08.29:426][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.08-08.08.29:426][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.08-08.08.29:426][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.08-08.08.29:426][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.08-08.08.29:426][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.08-08.08.29:426][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.08-08.08.29:426][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.08-08.08.29:426][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.08-08.08.29:426][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.08-08.08.29:426][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.08-08.08.29:426][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.08-08.08.29:426][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.08-08.08.29:426][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.08-08.08.29:426][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/GTZA/Games/20003_G_MUG_Coronavirus/Game/ExportProject/Saved/Config/Windows/Scalability.ini]
+[2020.04.08-08.08.29:427][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.08-08.08.29:427][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.08-08.08.29:427][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.04.08-08.08.29:433][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.04.08-08.08.29:433][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.04.08-08.08.29:433][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/GTZA/Games/20003_G_MUG_Coronavirus/Game/ExportProject/Saved/Config/Windows/Engine.ini]
+[2020.04.08-08.08.29:434][  0]LogInit: Computer: DESKTOP-GRPJC1S
+[2020.04.08-08.08.29:434][  0]LogInit: User: gtenz
+[2020.04.08-08.08.29:434][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.04.08-08.08.29:434][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.04.08-08.08.29:435][  0]LogMemory: Memory total: Physical=31.8GB (32GB approx)
+[2020.04.08-08.08.29:435][  0]LogMemory: Platform Memory Stats for Windows
+[2020.04.08-08.08.29:435][  0]LogMemory: Process Physical Memory: 99.26 MB used, 99.27 MB peak
+[2020.04.08-08.08.29:435][  0]LogMemory: Process Virtual Memory: 92.82 MB used, 92.82 MB peak
+[2020.04.08-08.08.29:435][  0]LogMemory: Physical Memory: 7403.77 MB used,  25206.53 MB free, 32610.29 MB total
+[2020.04.08-08.08.29:435][  0]LogMemory: Virtual Memory: 4676.41 MB used,  134213048.00 MB free, 134217728.00 MB total
+[2020.04.08-08.08.29:681][  0]LogInit: Using OS detected language (en-US).
+[2020.04.08-08.08.29:681][  0]LogInit: Using OS detected locale (en-US).
+[2020.04.08-08.08.29:682][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.04.08-08.08.30:044][  0]LogInit: Setting process to per monitor DPI aware
+[2020.04.08-08.08.30:132][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.04.08-08.08.30:132][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.04.08-08.08.33:529][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2020.04.08-08.08.33:529][  0]LogD3D11RHI: D3D11 adapters:
+[2020.04.08-08.08.33:631][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2060' (Feature Level 11_0)
+[2020.04.08-08.08.33:631][  0]LogD3D11RHI:       5980/0/16305 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.04.08-08.08.33:658][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2020.04.08-08.08.33:658][  0]LogD3D11RHI:       128/0/16305 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.04.08-08.08.33:661][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.04.08-08.08.33:661][  0]LogD3D11RHI:       0/0/16305 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.04.08-08.08.33:661][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.04.08-08.08.33:706][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.04.08-08.08.33:706][  0]LogD3D11RHI:     GPU DeviceId: 0x1f11 (for the marketing name, search the web for "GPU Device Id")
+[2020.04.08-08.08.33:706][  0]LogWindows: EnumDisplayDevices:
+[2020.04.08-08.08.33:706][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2020.04.08-08.08.33:707][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.04.08-08.08.33:707][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.04.08-08.08.33:708][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060' (P:0 D:1)
+[2020.04.08-08.08.33:708][  0]LogWindows:    4. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2020.04.08-08.08.33:708][  0]LogWindows:    5. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2020.04.08-08.08.33:709][  0]LogWindows:    6. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2020.04.08-08.08.33:709][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.04.08-08.08.33:709][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2060
+[2020.04.08-08.08.33:709][  0]LogD3D11RHI:   Driver Version: 441.41 (internal:26.21.14.4141, unified:441.41)
+[2020.04.08-08.08.33:709][  0]LogD3D11RHI:      Driver Date: 11-20-2019
+[2020.04.08-08.08.33:709][  0]LogRHI: Texture pool is 4186 MB (70% of 5980 MB)
+[2020.04.08-08.08.33:775][  0]LogD3D11RHI: Async texture creation enabled
+[2020.04.08-08.08.33:803][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.04.08-08.08.33:804][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.04.08-08.08.33:804][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.04.08-08.08.33:813][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.04.08-08.08.34:263][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.04.08-08.08.34:280][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.04.08-08.08.34:299][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.04.08-08.08.34:320][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.04.08-08.08.34:346][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.04.08-08.08.34:366][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.04.08-08.08.34:387][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.04.08-08.08.34:407][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.04.08-08.08.34:418][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.04.08-08.08.34:557][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.04.08-08.08.34:557][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.04.08-08.08.34:557][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.04.08-08.08.34:557][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.04.08-08.08.34:557][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.04.08-08.08.34:557][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.04.08-08.08.34:557][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.04.08-08.08.34:557][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.04.08-08.08.34:557][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.04.08-08.08.34:557][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.04.08-08.08.34:557][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.04.08-08.08.34:557][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.04.08-08.08.34:557][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.04.08-08.08.34:557][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.04.08-08.08.34:557][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.04.08-08.08.34:557][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.04.08-08.08.34:557][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.04.08-08.08.34:557][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.04.08-08.08.34:561][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.04.08-08.08.34:643][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.04.08-08.08.34:643][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.04.08-08.08.34:679][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.04.08-08.08.34:679][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.04.08-08.08.34:699][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.04.08-08.08.34:726][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.04.08-08.08.34:745][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.04.08-08.08.34:776][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.04.08-08.08.34:847][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.04.08-08.08.34:847][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.04.08-08.08.34:847][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.04.08-08.08.34:863][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.04.08-08.08.35:005][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../../GTZA/Games/20003_G_MUG_Coronavirus/Game/ExportProject/Intermediate/Shaders/WorkingDirectory/6328/).
+[2020.04.08-08.08.35:005][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/gtenz/AppData/Local/Temp/UnrealShaderWorkingDir/6E7B018C4A5F2401DA90ED9B1596AB65/'.
+[2020.04.08-08.08.35:009][  0]LogXGEController: Cleaning working directory: C:/Users/gtenz/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.04.08-08.08.35:009][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.04.08-08.08.35:010][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.04.08-08.08.35:010][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.04.08-08.08.38:401][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.04.08-08.08.38:486][  0]LogDerivedDataCache: Loaded boot cache 0.08s 72MB C:/Users/gtenz/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.04.08-08.08.38:486][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/gtenz/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2020.04.08-08.08.38:486][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../GTZA/Games/20003_G_MUG_Coronavirus/Game/ExportProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.04.08-08.08.38:486][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.04.08-08.08.38:486][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../GTZA/Games/20003_G_MUG_Coronavirus/Game/ExportProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.08-08.08.38:486][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.04.08-08.08.38:513][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.04.08-08.08.38:527][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Enterprise/DerivedDataCache/Compressed.ddp.
+[2020.04.08-08.08.38:540][  0]LogDerivedDataCache: Using Local data cache path C:/Users/gtenz/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.04.08-08.08.38:540][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.04.08-08.08.38:540][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.04.08-08.08.38:577][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.04.08-08.08.38:583][  0]LogSlate: Using FreeType 2.6.0
+[2020.04.08-08.08.38:608][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.04.08-08.08.38:937][  0]LogAssetRegistry: FAssetRegistry took 0.0367 seconds to start up
+[2020.04.08-08.08.39:445][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.08-08.08.39:789][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.04.08-08.08.39:789][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.04.08-08.08.39:789][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.04.08-08.08.39:789][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.04.08-08.08.39:790][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.04.08-08.08.39:841][  0]LogNetVersion: ExportProject 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 1679621333)
+[2020.04.08-08.08.41:138][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.064990 seconds
+[2020.04.08-08.08.41:148][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2020.04.08-08.08.41:148][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2020.04.08-08.08.41:148][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.04.08-08.08.44:603][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.04.08-08.08.44:619][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.04.08-08.08.44:776][  0]SourceControl: Source control is disabled
+[2020.04.08-08.08.44:776][  0]SourceControl: Source control is disabled
+[2020.04.08-08.08.44:784][  0]SourceControl: Source control is disabled
+[2020.04.08-08.08.44:789][  0]SourceControl: Source control is disabled
+[2020.04.08-08.08.45:013][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.04.08-08.08.45:200][  0]LogOcInput: OculusInput pre-init called
+[2020.04.08-08.08.46:074][  0]LogEngine: Initializing Engine...
+[2020.04.08-08.08.46:113][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2020.04.08-08.08.46:116][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2020.04.08-08.08.46:373][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.04.08-08.08.46:409][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.04.08-08.08.46:450][  0]LogInit: XAudio2 using 'Speakers (USB PnP Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.04.08-08.08.46:472][  0]LogInit: FAudioDevice initialized.
+[2020.04.08-08.08.46:472][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.04.08-08.08.46:522][  0]LogDerivedDataCache: Saved boot cache 0.05s 72MB C:/Users/gtenz/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.04.08-08.08.46:531][  0]LogInit: Texture streaming: Enabled
+[2020.04.08-08.08.46:564][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.04.08-08.08.46:605][  0]LogInit: Transaction tracking system initialized
+[2020.04.08-08.08.46:656][  0]BlueprintLog: New page: Editor Load
+[2020.04.08-08.08.46:849][  0]LocalizationService: Localization service is disabled
+[2020.04.08-08.08.47:018][  0]LogLinker: Warning: Can't find file '/Game/FootstepSound/FootstepsCharacter/ThirdPersonOverview'
+[2020.04.08-08.08.47:018][  0]LogLinker: Warning: Can't find file '/Game/FootstepSound/FootstepsCharacter/ThirdPersonOverview'
+[2020.04.08-08.08.47:018][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/FootstepSound/FootstepsCharacter/ThirdPersonOverview.ThirdPersonOverview_C'
+[2020.04.08-08.08.47:306][  0]LogFileCache: Scanning file cache for directory 'C:/GTZA/Games/20003_G_MUG_Coronavirus/Game/ExportProject/Content/' took 0.02s
+[2020.04.08-08.08.47:306][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.04.08-08.08.47:306][  0]LogCook: Display: Mobile HDR setting 1
+[2020.04.08-08.08.47:786][  0]SourceControl: Source control is disabled
+[2020.04.08-08.08.47:786][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.04.08-08.08.47:787][  0]LightingResults: New page: Lighting Build
+[2020.04.08-08.08.47:794][  0]MapCheck: New page: Map Check
+[2020.04.08-08.08.47:794][  0]LightingResults: New page: Lighting Build
+[2020.04.08-08.08.47:825][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2020.04.08-08.08.47:948][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2020.04.08-08.08.47:965][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.04.08-08.08.47:998][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2020.04.08-08.08.47:998][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.04.08-08.08.47:998][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.147ms to complete.
+[2020.04.08-08.08.47:998][  0]LogFileHelpers: Loading map 'Template_Default' took 0.212
+[2020.04.08-08.08.48:180][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.08-08.08.48:194][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.08-08.08.48:204][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.08-08.08.48:214][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.08-08.08.48:233][  0]LogCollectionManager: Loaded 0 collections in 0.001946 seconds
+[2020.04.08-08.08.48:285][  0]LogFileCache: Scanning file cache for directory 'C:/GTZA/Games/20003_G_MUG_Coronavirus/Game/ExportProject/Saved/Collections/' took 0.01s
+[2020.04.08-08.08.48:285][  0]LogFileCache: Scanning file cache for directory 'C:/GTZA/Games/20003_G_MUG_Coronavirus/Game/ExportProject/Content/Developers/gtenz/Collections/' took 0.01s
+[2020.04.08-08.08.48:285][  0]LogFileCache: Scanning file cache for directory 'C:/GTZA/Games/20003_G_MUG_Coronavirus/Game/ExportProject/Content/Collections/' took 0.01s
+[2020.04.08-08.08.48:285][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2020.04.08-08.08.48:298][  0]LogContentBrowser: Native class hierarchy populated in 0.0118 seconds. Added 2732 classes and 659 folders.
+[2020.04.08-08.08.48:314][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2020.04.08-08.08.48:324][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.08-08.08.48:334][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.08-08.08.48:358][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.08-08.08.48:366][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.08-08.08.48:375][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.08-08.08.48:381][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.08-08.08.48:389][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.08-08.08.48:396][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.08-08.08.48:405][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.08-08.08.48:415][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.08-08.08.48:424][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.08-08.08.48:432][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.08-08.08.48:439][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.08-08.08.48:447][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.08-08.08.48:454][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.08-08.08.48:461][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.08-08.08.48:503][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.08-08.08.48:510][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.08-08.08.48:518][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.08-08.08.48:525][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.08-08.08.48:533][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.08-08.08.48:541][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.08-08.08.48:548][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.08-08.08.48:555][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.08-08.08.48:562][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.08-08.08.48:570][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.08-08.08.48:576][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.08-08.08.48:583][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.08-08.08.48:776][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2020.04.08-08.08.48:793][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2020.04.08-08.08.48:956][  0]LogSlate: Took 0.008445 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.04.08-08.08.48:965][  0]LogSlate: Took 0.007119 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.04.08-08.08.48:978][  0]LogSlate: Took 0.006598 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.04.08-08.08.49:112][  0]LogRenderer: Reallocating scene render targets to support 1216x660 Format 10 NumSamples 1 (Frame:1).
+[2020.04.08-08.08.49:258][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2020.04.08-08.08.49:258][  0]LogLoad: (Engine Initialization) Total time: 26.51 seconds
+[2020.04.08-08.08.49:258][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.04.08-08.08.49:304][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.04.08-08.08.53:373][239]LogSlate: Took 0.006408 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.08-08.08.53:944][274]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2020.04.08-08.08.55:804][384]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.08-08.08.56:172][406]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.08-08.08.58:411][406]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 256X256)
+[2020.04.08-08.08.58:411][406]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 256X256)
+[2020.04.08-08.08.58:412][406]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 256X128)
+[2020.04.08-08.08.58:412][406]LogStaticMesh: Building static mesh SM_Item_Alcohol_01...
+[2020.04.08-08.08.58:417][406]LogStaticMesh: Built static mesh [0.01s] /Game/PolygonTown/Meshes/Items/SM_Item_Alcohol_01.SM_Item_Alcohol_01
+[2020.04.08-08.08.58:496][406]LogStaticMesh: Building static mesh SM_Item_Alcohol_03...
+[2020.04.08-08.08.58:498][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_Alcohol_03.SM_Item_Alcohol_03
+[2020.04.08-08.08.58:502][406]LogStaticMesh: Building static mesh SM_Item_Boxcutter_01...
+[2020.04.08-08.08.58:503][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_Boxcutter_01.SM_Item_Boxcutter_01
+[2020.04.08-08.08.58:507][406]LogStaticMesh: Building static mesh SM_Item_Blade_01...
+[2020.04.08-08.08.58:508][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_Blade_01.SM_Item_Blade_01
+[2020.04.08-08.08.58:513][406]LogStaticMesh: Building static mesh SM_Item_BeerCup_01...
+[2020.04.08-08.08.58:514][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_BeerCup_01.SM_Item_BeerCup_01
+[2020.04.08-08.08.58:518][406]LogStaticMesh: Building static mesh SM_Item_Brush_02...
+[2020.04.08-08.08.58:519][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_Brush_02.SM_Item_Brush_02
+[2020.04.08-08.08.58:522][406]LogStaticMesh: Building static mesh SM_Item_Brush_01...
+[2020.04.08-08.08.58:523][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_Brush_01.SM_Item_Brush_01
+[2020.04.08-08.08.58:527][406]LogStaticMesh: Building static mesh SM_Item_Bread_01...
+[2020.04.08-08.08.58:529][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_Bread_01.SM_Item_Bread_01
+[2020.04.08-08.08.58:533][406]LogStaticMesh: Building static mesh SM_Item_Chisel_01...
+[2020.04.08-08.08.58:533][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_Chisel_01.SM_Item_Chisel_01
+[2020.04.08-08.08.58:539][406]LogStaticMesh: Building static mesh SM_Item_Can_02...
+[2020.04.08-08.08.58:542][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_Can_02.SM_Item_Can_02
+[2020.04.08-08.08.58:548][406]LogStaticMesh: Building static mesh SM_Item_Can_01...
+[2020.04.08-08.08.58:550][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_Can_01.SM_Item_Can_01
+[2020.04.08-08.08.58:555][406]LogStaticMesh: Building static mesh SM_Item_Cutlery_Fork_01...
+[2020.04.08-08.08.58:557][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_Cutlery_Fork_01.SM_Item_Cutlery_Fork_01
+[2020.04.08-08.08.58:560][406]LogStaticMesh: Building static mesh SM_Item_Cup_01...
+[2020.04.08-08.08.58:561][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_Cup_01.SM_Item_Cup_01
+[2020.04.08-08.08.58:565][406]LogStaticMesh: Building static mesh SM_Item_Corn_01...
+[2020.04.08-08.08.58:567][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_Corn_01.SM_Item_Corn_01
+[2020.04.08-08.08.58:573][406]LogStaticMesh: Building static mesh SM_Item_Drill_01...
+[2020.04.08-08.08.58:575][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_Drill_01.SM_Item_Drill_01
+[2020.04.08-08.08.58:579][406]LogStaticMesh: Building static mesh SM_Item_Cutlery_Spoon_01...
+[2020.04.08-08.08.58:580][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_Cutlery_Spoon_01.SM_Item_Cutlery_Spoon_01
+[2020.04.08-08.08.58:606][406]LogStaticMesh: Building static mesh SM_Item_Drink_03...
+[2020.04.08-08.08.58:607][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_Drink_03.SM_Item_Drink_03
+[2020.04.08-08.08.58:611][406]LogStaticMesh: Building static mesh SM_Item_Drink_02...
+[2020.04.08-08.08.58:611][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_Drink_02.SM_Item_Drink_02
+[2020.04.08-08.08.58:617][406]LogStaticMesh: Building static mesh SM_Item_Drink_01...
+[2020.04.08-08.08.58:618][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_Drink_01.SM_Item_Drink_01
+[2020.04.08-08.08.58:663][406]LogStaticMesh: Building static mesh SM_Item_Drink_04...
+[2020.04.08-08.08.58:664][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_Drink_04.SM_Item_Drink_04
+[2020.04.08-08.08.58:669][406]LogStaticMesh: Building static mesh SM_Item_Garden_Fork_01...
+[2020.04.08-08.08.58:670][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_Garden_Fork_01.SM_Item_Garden_Fork_01
+[2020.04.08-08.08.58:696][406]LogStaticMesh: Building static mesh SM_Item_GlassCup_01...
+[2020.04.08-08.08.58:697][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_GlassCup_01.SM_Item_GlassCup_01
+[2020.04.08-08.08.58:700][406]LogStaticMesh: Building static mesh SM_Item_Garden_Trowel_02...
+[2020.04.08-08.08.58:701][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_Garden_Trowel_02.SM_Item_Garden_Trowel_02
+[2020.04.08-08.08.58:706][406]LogStaticMesh: Building static mesh SM_Item_Garden_Trowel_01...
+[2020.04.08-08.08.58:707][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_Garden_Trowel_01.SM_Item_Garden_Trowel_01
+[2020.04.08-08.08.58:712][406]LogStaticMesh: Building static mesh SM_Item_Hacksaw_02...
+[2020.04.08-08.08.58:714][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_Hacksaw_02.SM_Item_Hacksaw_02
+[2020.04.08-08.08.58:720][406]LogStaticMesh: Building static mesh SM_Item_Hacksaw_01...
+[2020.04.08-08.08.58:722][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_Hacksaw_01.SM_Item_Hacksaw_01
+[2020.04.08-08.08.58:726][406]LogStaticMesh: Building static mesh SM_Item_GlassCup_02...
+[2020.04.08-08.08.58:728][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_GlassCup_02.SM_Item_GlassCup_02
+[2020.04.08-08.08.58:733][406]LogStaticMesh: Building static mesh SM_Item_Hammer_03...
+[2020.04.08-08.08.58:735][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_Hammer_03.SM_Item_Hammer_03
+[2020.04.08-08.08.58:739][406]LogStaticMesh: Building static mesh SM_Item_Hammer_02...
+[2020.04.08-08.08.58:740][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_Hammer_02.SM_Item_Hammer_02
+[2020.04.08-08.08.58:764][406]LogStaticMesh: Building static mesh SM_Item_Mallet_02...
+[2020.04.08-08.08.58:765][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_Mallet_02.SM_Item_Mallet_02
+[2020.04.08-08.08.58:770][406]LogStaticMesh: Building static mesh SM_Item_Mallet_01...
+[2020.04.08-08.08.58:773][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_Mallet_01.SM_Item_Mallet_01
+[2020.04.08-08.08.58:779][406]LogStaticMesh: Building static mesh SM_Item_JuiceJug_01...
+[2020.04.08-08.08.58:780][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_JuiceJug_01.SM_Item_JuiceJug_01
+[2020.04.08-08.08.58:784][406]LogStaticMesh: Building static mesh SM_Item_Nails_01...
+[2020.04.08-08.08.58:785][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_Nails_01.SM_Item_Nails_01
+[2020.04.08-08.08.58:788][406]LogStaticMesh: Building static mesh SM_Item_Mug_01...
+[2020.04.08-08.08.58:789][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_Mug_01.SM_Item_Mug_01
+[2020.04.08-08.08.58:858][406]LogStaticMesh: Building static mesh SM_Item_Onion_01...
+[2020.04.08-08.08.58:860][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_Onion_01.SM_Item_Onion_01
+[2020.04.08-08.08.58:869][406]LogStaticMesh: Building static mesh SM_Item_Pumpkin_01...
+[2020.04.08-08.08.58:872][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_Pumpkin_01.SM_Item_Pumpkin_01
+[2020.04.08-08.08.58:987][406]LogStaticMesh: Building static mesh SM_Item_Screwdriver_01...
+[2020.04.08-08.08.58:988][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_Screwdriver_01.SM_Item_Screwdriver_01
+[2020.04.08-08.08.58:992][406]LogStaticMesh: Building static mesh SM_Item_Scrapper_01...
+[2020.04.08-08.08.58:992][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_Scrapper_01.SM_Item_Scrapper_01
+[2020.04.08-08.08.58:999][406]LogStaticMesh: Building static mesh SM_Item_Saw_01...
+[2020.04.08-08.08.59:002][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_Saw_01.SM_Item_Saw_01
+[2020.04.08-08.08.59:029][406]LogStaticMesh: Building static mesh SM_Item_Soap_01...
+[2020.04.08-08.08.59:030][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_Soap_01.SM_Item_Soap_01
+[2020.04.08-08.08.59:035][406]LogStaticMesh: Building static mesh SM_Item_Screwdriver_02...
+[2020.04.08-08.08.59:036][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_Screwdriver_02.SM_Item_Screwdriver_02
+[2020.04.08-08.08.59:043][406]LogStaticMesh: Building static mesh SM_Item_ToiletRoll_01...
+[2020.04.08-08.08.59:047][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_ToiletRoll_01.SM_Item_ToiletRoll_01
+[2020.04.08-08.08.59:051][406]LogStaticMesh: Building static mesh SM_Item_Spanner_02...
+[2020.04.08-08.08.59:052][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_Spanner_02.SM_Item_Spanner_02
+[2020.04.08-08.08.59:056][406]LogStaticMesh: Building static mesh SM_Item_Spanner_01...
+[2020.04.08-08.08.59:058][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_Spanner_01.SM_Item_Spanner_01
+[2020.04.08-08.08.59:063][406]LogStaticMesh: Building static mesh SM_Item_ToiletRoll_04...
+[2020.04.08-08.08.59:066][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_ToiletRoll_04.SM_Item_ToiletRoll_04
+[2020.04.08-08.08.59:091][406]LogStaticMesh: Building static mesh SM_Item_ToiletRoll_02...
+[2020.04.08-08.08.59:092][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_ToiletRoll_02.SM_Item_ToiletRoll_02
+[2020.04.08-08.08.59:146][406]LogStaticMesh: Building static mesh SM_Item_Tomato_01...
+[2020.04.08-08.08.59:146][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_Tomato_01.SM_Item_Tomato_01
+[2020.04.08-08.08.59:189][406]LogStaticMesh: Building static mesh SM_Item_Toothbrush_02...
+[2020.04.08-08.08.59:190][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_Toothbrush_02.SM_Item_Toothbrush_02
+[2020.04.08-08.08.59:193][406]LogStaticMesh: Building static mesh SM_Item_Toothbrush_01...
+[2020.04.08-08.08.59:194][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_Toothbrush_01.SM_Item_Toothbrush_01
+[2020.04.08-08.08.59:203][406]LogStaticMesh: Building static mesh SM_Item_Wirecutter_01...
+[2020.04.08-08.08.59:206][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_Wirecutter_01.SM_Item_Wirecutter_01
+[2020.04.08-08.08.59:212][406]LogStaticMesh: Building static mesh SM_Item_WateringCan_01...
+[2020.04.08-08.08.59:214][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_WateringCan_01.SM_Item_WateringCan_01
+[2020.04.08-08.08.59:219][406]LogStaticMesh: Building static mesh SM_Item_Toothpaste_01...
+[2020.04.08-08.08.59:220][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_Toothpaste_01.SM_Item_Toothpaste_01
+[2020.04.08-08.08.59:244][406]LogStaticMesh: Building static mesh SM_Item_Wirecutter_02_Handle...
+[2020.04.08-08.08.59:245][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_Wirecutter_02_Handle.SM_Item_Wirecutter_02_Handle
+[2020.04.08-08.08.59:249][406]LogStaticMesh: Building static mesh SM_Item_Wirecutter_02...
+[2020.04.08-08.08.59:249][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Items/SM_Item_Wirecutter_02.SM_Item_Wirecutter_02
+[2020.04.08-08.08.59:258][406]LogStaticMesh: Building static mesh SM_Prop_AirVent_03...
+[2020.04.08-08.08.59:263][406]LogStaticMesh: Built static mesh [0.01s] /Game/PolygonTown/Meshes/Props/SM_Prop_AirVent_03.SM_Prop_AirVent_03
+[2020.04.08-08.08.59:308][406]LogStaticMesh: Building static mesh SM_Prop_Art_01...
+[2020.04.08-08.08.59:309][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Art_01.SM_Prop_Art_01
+[2020.04.08-08.08.59:414][406]LogStaticMesh: Building static mesh SM_Prop_Art_07...
+[2020.04.08-08.08.59:415][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Art_07.SM_Prop_Art_07
+[2020.04.08-08.08.59:420][406]LogStaticMesh: Building static mesh SM_Prop_Art_06...
+[2020.04.08-08.08.59:422][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Art_06.SM_Prop_Art_06
+[2020.04.08-08.08.59:622][406]LogStaticMesh: Building static mesh SM_Prop_Art_09...
+[2020.04.08-08.08.59:623][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Art_09.SM_Prop_Art_09
+[2020.04.08-08.08.59:688][406]LogStaticMesh: Building static mesh SM_Prop_Art_Standing_02...
+[2020.04.08-08.08.59:689][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Art_Standing_02.SM_Prop_Art_Standing_02
+[2020.04.08-08.08.59:850][406]LogStaticMesh: Building static mesh SM_Prop_Barrel_01...
+[2020.04.08-08.08.59:852][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Barrel_01.SM_Prop_Barrel_01
+[2020.04.08-08.08.59:876][406]LogStaticMesh: Building static mesh SM_Prop_Bath_02_Water...
+[2020.04.08-08.08.59:876][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Bath_02_Water.SM_Prop_Bath_02_Water
+[2020.04.08-08.08.59:890][406]LogStaticMesh: Building static mesh SM_Prop_Bath_02...
+[2020.04.08-08.08.59:899][406]LogStaticMesh: Built static mesh [0.01s] /Game/PolygonTown/Meshes/Props/SM_Prop_Bath_02.SM_Prop_Bath_02
+[2020.04.08-08.08.59:943][406]LogStaticMesh: Building static mesh SM_Prop_BathroomRug_02...
+[2020.04.08-08.08.59:944][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_BathroomRug_02.SM_Prop_BathroomRug_02
+[2020.04.08-08.08.59:948][406]LogStaticMesh: Building static mesh SM_Prop_BathroomRug_01...
+[2020.04.08-08.08.59:949][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_BathroomRug_01.SM_Prop_BathroomRug_01
+[2020.04.08-08.09.00:020][406]LogStaticMesh: Building static mesh SM_Prop_Bed_Single_01...
+[2020.04.08-08.09.00:025][406]LogStaticMesh: Built static mesh [0.01s] /Game/PolygonTown/Meshes/Props/SM_Prop_Bed_Single_01.SM_Prop_Bed_Single_01
+[2020.04.08-08.09.00:038][406]LogStaticMesh: Building static mesh SM_Prop_Bed_Double_03...
+[2020.04.08-08.09.00:046][406]LogStaticMesh: Built static mesh [0.01s] /Game/PolygonTown/Meshes/Props/SM_Prop_Bed_Double_03.SM_Prop_Bed_Double_03
+[2020.04.08-08.09.00:059][406]LogStaticMesh: Building static mesh SM_Prop_Bed_Double_02...
+[2020.04.08-08.09.00:067][406]LogStaticMesh: Built static mesh [0.01s] /Game/PolygonTown/Meshes/Props/SM_Prop_Bed_Double_02.SM_Prop_Bed_Double_02
+[2020.04.08-08.09.00:075][406]LogStaticMesh: Building static mesh SM_Prop_BedsideTable_01...
+[2020.04.08-08.09.00:076][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_BedsideTable_01.SM_Prop_BedsideTable_01
+[2020.04.08-08.09.00:104][406]LogStaticMesh: Building static mesh SM_Prop_Bed_Single_02...
+[2020.04.08-08.09.00:110][406]LogStaticMesh: Built static mesh [0.01s] /Game/PolygonTown/Meshes/Props/SM_Prop_Bed_Single_02.SM_Prop_Bed_Single_02
+[2020.04.08-08.09.00:118][406]LogStaticMesh: Building static mesh SM_Prop_BirdBath_01...
+[2020.04.08-08.09.00:121][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_BirdBath_01.SM_Prop_BirdBath_01
+[2020.04.08-08.09.00:145][406]LogStaticMesh: Building static mesh SM_Prop_BedsideTable_Drawer_01...
+[2020.04.08-08.09.00:146][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_BedsideTable_Drawer_01.SM_Prop_BedsideTable_Drawer_01
+[2020.04.08-08.09.00:148][406]LogStaticMesh: Building static mesh SM_Prop_Book_03...
+[2020.04.08-08.09.00:149][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Book_03.SM_Prop_Book_03
+[2020.04.08-08.09.00:151][406]LogStaticMesh: Building static mesh SM_Prop_Book_02...
+[2020.04.08-08.09.00:152][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Book_02.SM_Prop_Book_02
+[2020.04.08-08.09.00:154][406]LogStaticMesh: Building static mesh SM_Prop_Book_01...
+[2020.04.08-08.09.00:155][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Book_01.SM_Prop_Book_01
+[2020.04.08-08.09.00:314][406]LogStaticMesh: Building static mesh SM_Prop_Book_Group_09...
+[2020.04.08-08.09.00:315][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Book_Group_09.SM_Prop_Book_Group_09
+[2020.04.08-08.09.00:360][406]LogStaticMesh: Building static mesh SM_Prop_Bookshelf_02...
+[2020.04.08-08.09.00:361][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Bookshelf_02.SM_Prop_Bookshelf_02
+[2020.04.08-08.09.00:450][406]LogStaticMesh: Building static mesh SM_Prop_Brazier_01...
+[2020.04.08-08.09.00:455][406]LogStaticMesh: Built static mesh [0.01s] /Game/PolygonTown/Meshes/Props/SM_Prop_Brazier_01.SM_Prop_Brazier_01
+[2020.04.08-08.09.00:520][406]LogStaticMesh: Building static mesh SM_Prop_Cake_Slice_01...
+[2020.04.08-08.09.00:524][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Cake_Slice_01.SM_Prop_Cake_Slice_01
+[2020.04.08-08.09.00:531][406]LogStaticMesh: Building static mesh SM_Prop_Cake_02...
+[2020.04.08-08.09.00:534][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Cake_02.SM_Prop_Cake_02
+[2020.04.08-08.09.00:541][406]LogStaticMesh: Building static mesh SM_Prop_Cake_01...
+[2020.04.08-08.09.00:545][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Cake_01.SM_Prop_Cake_01
+[2020.04.08-08.09.00:548][406]LogStaticMesh: Building static mesh SM_Prop_Candles_01...
+[2020.04.08-08.09.00:549][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Candles_01.SM_Prop_Candles_01
+[2020.04.08-08.09.00:555][406]LogStaticMesh: Building static mesh SM_Prop_Cake_Slice_02...
+[2020.04.08-08.09.00:559][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Cake_Slice_02.SM_Prop_Cake_Slice_02
+[2020.04.08-08.09.00:582][406]LogStaticMesh: Building static mesh SM_Prop_Candles_03...
+[2020.04.08-08.09.00:582][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Candles_03.SM_Prop_Candles_03
+[2020.04.08-08.09.00:585][406]LogStaticMesh: Building static mesh SM_Prop_Candles_02...
+[2020.04.08-08.09.00:586][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Candles_02.SM_Prop_Candles_02
+[2020.04.08-08.09.00:633][406]LogStaticMesh: Building static mesh SM_Prop_CardboardBox_02...
+[2020.04.08-08.09.00:633][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_CardboardBox_02.SM_Prop_CardboardBox_02
+[2020.04.08-08.09.00:702][406]LogStaticMesh: Building static mesh SM_Prop_CeilingLight_03...
+[2020.04.08-08.09.00:702][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_CeilingLight_03.SM_Prop_CeilingLight_03
+[2020.04.08-08.09.00:705][406]LogStaticMesh: Building static mesh SM_Prop_CeilingLight_02...
+[2020.04.08-08.09.00:706][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_CeilingLight_02.SM_Prop_CeilingLight_02
+[2020.04.08-08.09.00:713][406]LogStaticMesh: Building static mesh SM_Prop_CeilingLight_01...
+[2020.04.08-08.09.00:715][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_CeilingLight_01.SM_Prop_CeilingLight_01
+[2020.04.08-08.09.00:804][406]LogStaticMesh: Building static mesh SM_Prop_Chair_03...
+[2020.04.08-08.09.00:806][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Chair_03.SM_Prop_Chair_03
+[2020.04.08-08.09.00:971][406]LogStaticMesh: Building static mesh SM_Prop_Clock_02...
+[2020.04.08-08.09.00:972][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Clock_02.SM_Prop_Clock_02
+[2020.04.08-08.09.01:076][406]LogStaticMesh: Building static mesh SM_Prop_CookingPot_Lid_01...
+[2020.04.08-08.09.01:078][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_CookingPot_Lid_01.SM_Prop_CookingPot_Lid_01
+[2020.04.08-08.09.01:084][406]LogStaticMesh: Building static mesh SM_Prop_CookingPot_01...
+[2020.04.08-08.09.01:086][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_CookingPot_01.SM_Prop_CookingPot_01
+[2020.04.08-08.09.01:127][406]LogStaticMesh: Building static mesh SM_Bld_House_Interior_Stairs_02...
+[2020.04.08-08.09.01:129][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_Interior_Stairs_02.SM_Bld_House_Interior_Stairs_02
+[2020.04.08-08.09.01:222][406]LogStaticMesh: Building static mesh SM_Bld_House_Interior_Stairs_03...
+[2020.04.08-08.09.01:224][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_Interior_Stairs_03.SM_Bld_House_Interior_Stairs_03
+[2020.04.08-08.09.01:234][406]LogStaticMesh: Building static mesh SM_Bld_House_Interior_StairsRail_03...
+[2020.04.08-08.09.01:240][406]LogStaticMesh: Built static mesh [0.01s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_Interior_StairsRail_03.SM_Bld_House_Interior_StairsRail_03
+[2020.04.08-08.09.01:247][406]LogStaticMesh: Building static mesh SM_Bld_House_Interior_StairsRail_02...
+[2020.04.08-08.09.01:250][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_Interior_StairsRail_02.SM_Bld_House_Interior_StairsRail_02
+[2020.04.08-08.09.01:274][406]LogStaticMesh: Building static mesh SM_Bld_House_Interior_StairsRail_Right_01...
+[2020.04.08-08.09.01:278][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_Interior_StairsRail_Right_01.SM_Bld_House_Interior_StairsRail_Right_01
+[2020.04.08-08.09.01:323][406]LogStaticMesh: Building static mesh SM_Bld_House_Interior_StairsSide_Left_01...
+[2020.04.08-08.09.01:323][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_Interior_StairsSide_Left_01.SM_Bld_House_Interior_StairsSide_Left_01
+[2020.04.08-08.09.01:326][406]LogStaticMesh: Building static mesh SM_Bld_House_Interior_StairsSide_02...
+[2020.04.08-08.09.01:327][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_Interior_StairsSide_02.SM_Bld_House_Interior_StairsSide_02
+[2020.04.08-08.09.01:330][406]LogStaticMesh: Building static mesh SM_Bld_House_Interior_StairsWall_Left_01...
+[2020.04.08-08.09.01:331][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_Interior_StairsWall_Left_01.SM_Bld_House_Interior_StairsWall_Left_01
+[2020.04.08-08.09.01:333][406]LogStaticMesh: Building static mesh SM_Bld_House_Interior_StairsWall_02...
+[2020.04.08-08.09.01:334][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_Interior_StairsWall_02.SM_Bld_House_Interior_StairsWall_02
+[2020.04.08-08.09.01:340][406]LogStaticMesh: Building static mesh SM_Bld_House_Interior_StairsSide_Right_01...
+[2020.04.08-08.09.01:341][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_Interior_StairsSide_Right_01.SM_Bld_House_Interior_StairsSide_Right_01
+[2020.04.08-08.09.01:342][406]LogStaticMesh: Building static mesh SM_Bld_House_InteriorWall_02...
+[2020.04.08-08.09.01:343][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_InteriorWall_02.SM_Bld_House_InteriorWall_02
+[2020.04.08-08.09.01:389][406]LogStaticMesh: Building static mesh SM_Bld_House_Interior_StairsWall_Right_01...
+[2020.04.08-08.09.01:390][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_Interior_StairsWall_Right_01.SM_Bld_House_Interior_StairsWall_Right_01
+[2020.04.08-08.09.01:433][406]LogStaticMesh: Building static mesh SM_Bld_House_InteriorWall_03...
+[2020.04.08-08.09.01:433][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_InteriorWall_03.SM_Bld_House_InteriorWall_03
+[2020.04.08-08.09.01:526][406]LogStaticMesh: Building static mesh SM_Bld_House_InternalWall_SingleGap_01...
+[2020.04.08-08.09.01:527][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_InternalWall_SingleGap_01.SM_Bld_House_InternalWall_SingleGap_01
+[2020.04.08-08.09.01:600][406]LogStaticMesh: Building static mesh SM_Bld_House_Preset_05...
+[2020.04.08-08.09.01:633][406]LogStaticMesh: Built static mesh [0.03s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_Preset_05.SM_Bld_House_Preset_05
+[2020.04.08-08.09.01:715][406]LogStaticMesh: Building static mesh SM_Bld_House_RanchSlider_Door_01...
+[2020.04.08-08.09.01:715][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_RanchSlider_Door_01.SM_Bld_House_RanchSlider_Door_01
+[2020.04.08-08.09.01:718][406]LogStaticMesh: Building static mesh SM_Bld_House_RanchSlider_01...
+[2020.04.08-08.09.01:720][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_RanchSlider_01.SM_Bld_House_RanchSlider_01
+[2020.04.08-08.09.01:793][406]LogStaticMesh: Building static mesh SM_Bld_House_Roof_Angled_Cap_Corner_01...
+[2020.04.08-08.09.01:794][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_Roof_Angled_Cap_Corner_01.SM_Bld_House_Roof_Angled_Cap_Corner_01
+[2020.04.08-08.09.01:796][406]LogStaticMesh: Building static mesh SM_Bld_House_Roof_Angled_Cap_02...
+[2020.04.08-08.09.01:797][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_Roof_Angled_Cap_02.SM_Bld_House_Roof_Angled_Cap_02
+[2020.04.08-08.09.01:857][406]LogStaticMesh: Building static mesh SM_Bld_House_Roof_Angled_Cap_Corner_Short_01...
+[2020.04.08-08.09.01:858][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_Roof_Angled_Cap_Corner_Short_01.SM_Bld_House_Roof_Angled_Cap_Corner_Short_01
+[2020.04.08-08.09.01:900][406]LogStaticMesh: Building static mesh SM_Bld_House_DeckRail_01...
+[2020.04.08-08.09.01:902][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_DeckRail_01.SM_Bld_House_DeckRail_01
+[2020.04.08-08.09.01:909][406]LogStaticMesh: Building static mesh SM_Bld_House_Deck_Roof_InnerCorner_03...
+[2020.04.08-08.09.01:914][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_Deck_Roof_InnerCorner_03.SM_Bld_House_Deck_Roof_InnerCorner_03
+[2020.04.08-08.09.01:960][406]LogStaticMesh: Building static mesh SM_Bld_House_Door_01...
+[2020.04.08-08.09.01:963][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_Door_01.SM_Bld_House_Door_01
+[2020.04.08-08.09.01:988][406]LogStaticMesh: Building static mesh SM_Bld_House_DrainPipe_02...
+[2020.04.08-08.09.01:989][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_DrainPipe_02.SM_Bld_House_DrainPipe_02
+[2020.04.08-08.09.02:010][406]LogStaticMesh: Building static mesh SM_Bld_House_ExteriorWall_GroundFloor_02...
+[2020.04.08-08.09.02:011][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_ExteriorWall_GroundFloor_02.SM_Bld_House_ExteriorWall_GroundFloor_02
+[2020.04.08-08.09.02:091][406]LogStaticMesh: Building static mesh SM_Bld_House_ExteriorWall_GroundFloor_03...
+[2020.04.08-08.09.02:092][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_ExteriorWall_GroundFloor_03.SM_Bld_House_ExteriorWall_GroundFloor_03
+[2020.04.08-08.09.02:113][406]LogStaticMesh: Building static mesh SM_Bld_House_ExteriorWall_GroundFloor_Door_03...
+[2020.04.08-08.09.02:114][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_ExteriorWall_GroundFloor_Door_03.SM_Bld_House_ExteriorWall_GroundFloor_Door_03
+[2020.04.08-08.09.02:117][406]LogStaticMesh: Building static mesh SM_Bld_House_ExteriorWall_GroundFloor_Door_02...
+[2020.04.08-08.09.02:118][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_ExteriorWall_GroundFloor_Door_02.SM_Bld_House_ExteriorWall_GroundFloor_Door_02
+[2020.04.08-08.09.02:121][406]LogStaticMesh: Building static mesh SM_Bld_House_ExteriorWall_GroundFloor_Window_02...
+[2020.04.08-08.09.02:122][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_ExteriorWall_GroundFloor_Window_02.SM_Bld_House_ExteriorWall_GroundFloor_Window_02
+[2020.04.08-08.09.02:166][406]LogStaticMesh: Building static mesh SM_Bld_House_ExteriorWall_UpperFloor_02...
+[2020.04.08-08.09.02:166][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_ExteriorWall_UpperFloor_02.SM_Bld_House_ExteriorWall_UpperFloor_02
+[2020.04.08-08.09.02:187][406]LogStaticMesh: Building static mesh SM_Bld_House_ExteriorWall_GroundFloor_Window_03...
+[2020.04.08-08.09.02:188][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_ExteriorWall_GroundFloor_Window_03.SM_Bld_House_ExteriorWall_GroundFloor_Window_03
+[2020.04.08-08.09.02:209][406]LogStaticMesh: Building static mesh SM_Bld_House_ExteriorWall_UpperFloor_03...
+[2020.04.08-08.09.02:209][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_ExteriorWall_UpperFloor_03.SM_Bld_House_ExteriorWall_UpperFloor_03
+[2020.04.08-08.09.02:236][406]LogStaticMesh: Building static mesh SM_Bld_House_ExteriorWall_UpperFloor_Corner_02...
+[2020.04.08-08.09.02:237][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_ExteriorWall_UpperFloor_Corner_02.SM_Bld_House_ExteriorWall_UpperFloor_Corner_02
+[2020.04.08-08.09.02:281][406]LogStaticMesh: Building static mesh SM_Bld_House_ExteriorWall_UpperFloor_Window_02...
+[2020.04.08-08.09.02:281][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_ExteriorWall_UpperFloor_Window_02.SM_Bld_House_ExteriorWall_UpperFloor_Window_02
+[2020.04.08-08.09.02:303][406]LogStaticMesh: Building static mesh SM_Bld_House_ExteriorWall_UpperFloor_Corner_04...
+[2020.04.08-08.09.02:303][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_ExteriorWall_UpperFloor_Corner_04.SM_Bld_House_ExteriorWall_UpperFloor_Corner_04
+[2020.04.08-08.09.02:342][406]LogStaticMesh: Building static mesh SM_Bld_House_ExteriorWall_UpperFloor_Window_03...
+[2020.04.08-08.09.02:342][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_ExteriorWall_UpperFloor_Window_03.SM_Bld_House_ExteriorWall_UpperFloor_Window_03
+[2020.04.08-08.09.02:403][406]LogStaticMesh: Building static mesh SM_Bld_House_Interior_Rail_03...
+[2020.04.08-08.09.02:404][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_Interior_Rail_03.SM_Bld_House_Interior_Rail_03
+[2020.04.08-08.09.02:461][406]LogStaticMesh: Building static mesh SM_Bld_House_InternalWall_Garage_Door_01...
+[2020.04.08-08.09.02:462][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_InternalWall_Garage_Door_01.SM_Bld_House_InternalWall_Garage_Door_01
+[2020.04.08-08.09.02:551][406]LogStaticMesh: Building static mesh SM_Prop_Shelf_01_Combined...
+[2020.04.08-08.09.02:554][406]LogStaticMesh: Built static mesh [0.01s] /Game/PolygonTown/Meshes/Props/SM_Prop_Shelf_01_Combined.SM_Prop_Shelf_01_Combined
+[2020.04.08-08.09.02:599][406]LogStaticMesh: Building static mesh SM_Prop_Scales_01...
+[2020.04.08-08.09.02:600][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Scales_01.SM_Prop_Scales_01
+[2020.04.08-08.09.02:763][406]LogStaticMesh: Building static mesh SM_Prop_Rug_01...
+[2020.04.08-08.09.02:765][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Rug_01.SM_Prop_Rug_01
+[2020.04.08-08.09.02:931][406]LogStaticMesh: Building static mesh SM_Prop_Propanel_02...
+[2020.04.08-08.09.02:935][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Propanel_02.SM_Prop_Propanel_02
+[2020.04.08-08.09.03:046][406]LogStaticMesh: Building static mesh SM_Prop_PotPlant_05...
+[2020.04.08-08.09.03:048][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_PotPlant_05.SM_Prop_PotPlant_05
+[2020.04.08-08.09.03:055][406]LogStaticMesh: Building static mesh SM_Prop_PotPlant_04...
+[2020.04.08-08.09.03:057][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_PotPlant_04.SM_Prop_PotPlant_04
+[2020.04.08-08.09.03:063][406]LogStaticMesh: Building static mesh SM_Prop_PotPlant_03...
+[2020.04.08-08.09.03:066][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_PotPlant_03.SM_Prop_PotPlant_03
+[2020.04.08-08.09.03:073][406]LogStaticMesh: Building static mesh SM_Prop_PotPlant_02...
+[2020.04.08-08.09.03:077][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_PotPlant_02.SM_Prop_PotPlant_02
+[2020.04.08-08.09.03:101][406]LogStaticMesh: Building static mesh SM_Prop_Pot_07...
+[2020.04.08-08.09.03:102][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Pot_07.SM_Prop_Pot_07
+[2020.04.08-08.09.03:105][406]LogStaticMesh: Building static mesh SM_Prop_Pot_06...
+[2020.04.08-08.09.03:107][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Pot_06.SM_Prop_Pot_06
+[2020.04.08-08.09.03:111][406]LogStaticMesh: Building static mesh SM_Prop_Pot_05...
+[2020.04.08-08.09.03:113][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Pot_05.SM_Prop_Pot_05
+[2020.04.08-08.09.03:117][406]LogStaticMesh: Building static mesh SM_Prop_Pot_04...
+[2020.04.08-08.09.03:119][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Pot_04.SM_Prop_Pot_04
+[2020.04.08-08.09.03:123][406]LogStaticMesh: Building static mesh SM_Prop_Pot_03...
+[2020.04.08-08.09.03:124][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Pot_03.SM_Prop_Pot_03
+[2020.04.08-08.09.03:129][406]LogStaticMesh: Building static mesh SM_Prop_Pot_02...
+[2020.04.08-08.09.03:130][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Pot_02.SM_Prop_Pot_02
+[2020.04.08-08.09.03:135][406]LogStaticMesh: Building static mesh SM_Prop_Pot_01...
+[2020.04.08-08.09.03:136][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Pot_01.SM_Prop_Pot_01
+[2020.04.08-08.09.03:295][406]LogStaticMesh: Building static mesh SM_Prop_Pool_Float_Ring_02...
+[2020.04.08-08.09.03:296][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Pool_Float_Ring_02.SM_Prop_Pool_Float_Ring_02
+[2020.04.08-08.09.03:301][406]LogStaticMesh: Building static mesh SM_Prop_Pool_Float_Ring_01...
+[2020.04.08-08.09.03:302][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Pool_Float_Ring_01.SM_Prop_Pool_Float_Ring_01
+[2020.04.08-08.09.03:328][406]LogStaticMesh: Building static mesh SM_Prop_Pool_Float_Noodle_02...
+[2020.04.08-08.09.03:329][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Pool_Float_Noodle_02.SM_Prop_Pool_Float_Noodle_02
+[2020.04.08-08.09.03:333][406]LogStaticMesh: Building static mesh SM_Prop_Pool_Float_Noodle_01...
+[2020.04.08-08.09.03:334][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Pool_Float_Noodle_01.SM_Prop_Pool_Float_Noodle_01
+[2020.04.08-08.09.03:357][406]LogStaticMesh: Building static mesh SM_Prop_Pool_DivingBoard_01...
+[2020.04.08-08.09.03:358][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Pool_DivingBoard_01.SM_Prop_Pool_DivingBoard_01
+[2020.04.08-08.09.03:361][406]LogStaticMesh: Building static mesh SM_Prop_Pool_Child_Water_01...
+[2020.04.08-08.09.03:361][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Pool_Child_Water_01.SM_Prop_Pool_Child_Water_01
+[2020.04.08-08.09.03:366][406]LogStaticMesh: Building static mesh SM_Prop_Pool_Child_01...
+[2020.04.08-08.09.03:368][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Pool_Child_01.SM_Prop_Pool_Child_01
+[2020.04.08-08.09.03:430][406]LogStaticMesh: Building static mesh SM_Prop_Playground_Swing_Dirt_01...
+[2020.04.08-08.09.03:431][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Playground_Swing_Dirt_01.SM_Prop_Playground_Swing_Dirt_01
+[2020.04.08-08.09.03:557][406]LogStaticMesh: Building static mesh SM_Prop_Plant_01...
+[2020.04.08-08.09.03:560][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Plant_01.SM_Prop_Plant_01
+[2020.04.08-08.09.03:566][406]LogStaticMesh: Building static mesh SM_Prop_Pillow_01...
+[2020.04.08-08.09.03:567][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Pillow_01.SM_Prop_Pillow_01
+[2020.04.08-08.09.03:573][406]LogStaticMesh: Building static mesh SM_Prop_Piano_01...
+[2020.04.08-08.09.03:576][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Piano_01.SM_Prop_Piano_01
+[2020.04.08-08.09.03:603][406]LogStaticMesh: Building static mesh SM_Prop_PetBowl_02_Water...
+[2020.04.08-08.09.03:603][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_PetBowl_02_Water.SM_Prop_PetBowl_02_Water
+[2020.04.08-08.09.03:605][406]LogStaticMesh: Building static mesh SM_Prop_PetBowl_02_Food...
+[2020.04.08-08.09.03:605][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_PetBowl_02_Food.SM_Prop_PetBowl_02_Food
+[2020.04.08-08.09.03:626][406]LogStaticMesh: Building static mesh SM_Prop_PetBowl_01_Food...
+[2020.04.08-08.09.03:626][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_PetBowl_01_Food.SM_Prop_PetBowl_01_Food
+[2020.04.08-08.09.03:628][406]LogStaticMesh: Building static mesh SM_Prop_PetBowl_01...
+[2020.04.08-08.09.03:629][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_PetBowl_01.SM_Prop_PetBowl_01
+[2020.04.08-08.09.03:656][406]LogStaticMesh: Building static mesh SM_Prop_Pan_01...
+[2020.04.08-08.09.03:658][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Pan_01.SM_Prop_Pan_01
+[2020.04.08-08.09.03:708][406]LogStaticMesh: Building static mesh SM_Prop_OutdoorOven_01...
+[2020.04.08-08.09.03:713][406]LogStaticMesh: Built static mesh [0.01s] /Game/PolygonTown/Meshes/Props/SM_Prop_OutdoorOven_01.SM_Prop_OutdoorOven_01
+[2020.04.08-08.09.03:756][406]LogStaticMesh: Building static mesh SM_Prop_Outdoor_Light_02...
+[2020.04.08-08.09.03:757][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Outdoor_Light_02.SM_Prop_Outdoor_Light_02
+[2020.04.08-08.09.03:760][406]LogStaticMesh: Building static mesh SM_Prop_Outdoor_Light_01...
+[2020.04.08-08.09.03:761][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Outdoor_Light_01.SM_Prop_Outdoor_Light_01
+[2020.04.08-08.09.03:902][406]LogStaticMesh: Building static mesh SM_Prop_Lightswitch_02...
+[2020.04.08-08.09.03:902][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Lightswitch_02.SM_Prop_Lightswitch_02
+[2020.04.08-08.09.03:939][406]LogStaticMesh: Building static mesh SM_Prop_LetterBox_03...
+[2020.04.08-08.09.03:939][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_LetterBox_03.SM_Prop_LetterBox_03
+[2020.04.08-08.09.04:101][406]LogStaticMesh: Building static mesh SM_Prop_LaundryBin_02_Clothes...
+[2020.04.08-08.09.04:104][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_LaundryBin_02_Clothes.SM_Prop_LaundryBin_02_Clothes
+[2020.04.08-08.09.04:109][406]LogStaticMesh: Building static mesh SM_Prop_LaundryBin_02...
+[2020.04.08-08.09.04:110][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_LaundryBin_02.SM_Prop_LaundryBin_02
+[2020.04.08-08.09.04:172][406]LogStaticMesh: Building static mesh SM_Prop_Laundry_WasherTop_Clothes_01...
+[2020.04.08-08.09.04:174][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Laundry_WasherTop_Clothes_01.SM_Prop_Laundry_WasherTop_Clothes_01
+[2020.04.08-08.09.04:254][406]LogStaticMesh: Building static mesh SM_Prop_Laundry_Sink_CabinetDoor_02...
+[2020.04.08-08.09.04:255][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Laundry_Sink_CabinetDoor_02.SM_Prop_Laundry_Sink_CabinetDoor_02
+[2020.04.08-08.09.04:257][406]LogStaticMesh: Building static mesh SM_Prop_Laundry_Sink_CabinetDoor_01...
+[2020.04.08-08.09.04:257][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Laundry_Sink_CabinetDoor_01.SM_Prop_Laundry_Sink_CabinetDoor_01
+[2020.04.08-08.09.04:265][406]LogStaticMesh: Building static mesh SM_Prop_Laundry_Sink_01...
+[2020.04.08-08.09.04:269][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Laundry_Sink_01.SM_Prop_Laundry_Sink_01
+[2020.04.08-08.09.04:296][406]LogStaticMesh: Building static mesh SM_Prop_LampStanding_02...
+[2020.04.08-08.09.04:298][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_LampStanding_02.SM_Prop_LampStanding_02
+[2020.04.08-08.09.04:345][406]LogStaticMesh: Building static mesh SM_Prop_Lamp_02...
+[2020.04.08-08.09.04:347][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Lamp_02.SM_Prop_Lamp_02
+[2020.04.08-08.09.04:352][406]LogStaticMesh: Building static mesh SM_Prop_Lamp_01...
+[2020.04.08-08.09.04:354][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Lamp_01.SM_Prop_Lamp_01
+[2020.04.08-08.09.04:359][406]LogStaticMesh: Building static mesh SM_Prop_Ladder_01...
+[2020.04.08-08.09.04:360][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Ladder_01.SM_Prop_Ladder_01
+[2020.04.08-08.09.04:496][406]LogStaticMesh: Building static mesh SM_Prop_Kitchen_Fridge_01_Door_02...
+[2020.04.08-08.09.04:497][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Kitchen_Fridge_01_Door_02.SM_Prop_Kitchen_Fridge_01_Door_02
+[2020.04.08-08.09.04:500][406]LogStaticMesh: Building static mesh SM_Prop_Kitchen_Fridge_01_Door_01...
+[2020.04.08-08.09.04:501][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Kitchen_Fridge_01_Door_01.SM_Prop_Kitchen_Fridge_01_Door_01
+[2020.04.08-08.09.04:509][406]LogStaticMesh: Building static mesh SM_Prop_Kitchen_Fridge_01...
+[2020.04.08-08.09.04:514][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Kitchen_Fridge_01.SM_Prop_Kitchen_Fridge_01
+[2020.04.08-08.09.04:846][406]LogStaticMesh: Building static mesh SM_Prop_Jar_02...
+[2020.04.08-08.09.04:847][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Jar_02.SM_Prop_Jar_02
+[2020.04.08-08.09.05:189][406]LogStaticMesh: Building static mesh SM_Prop_Game_Console_03...
+[2020.04.08-08.09.05:190][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Game_Console_03.SM_Prop_Game_Console_03
+[2020.04.08-08.09.05:194][406]LogStaticMesh: Building static mesh SM_Prop_Game_Console_02...
+[2020.04.08-08.09.05:195][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Game_Console_02.SM_Prop_Game_Console_02
+[2020.04.08-08.09.05:284][406]LogStaticMesh: Building static mesh SM_Prop_Fountain_Base_01...
+[2020.04.08-08.09.05:287][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Fountain_Base_01.SM_Prop_Fountain_Base_01
+[2020.04.08-08.09.05:301][406]LogStaticMesh: Building static mesh SM_Prop_Fountain_01...
+[2020.04.08-08.09.05:311][406]LogStaticMesh: Built static mesh [0.01s] /Game/PolygonTown/Meshes/Props/SM_Prop_Fountain_01.SM_Prop_Fountain_01
+[2020.04.08-08.09.05:411][406]LogStaticMesh: Building static mesh SM_Prop_FloorMat_01...
+[2020.04.08-08.09.05:412][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_FloorMat_01.SM_Prop_FloorMat_01
+[2020.04.08-08.09.05:460][406]LogStaticMesh: Building static mesh SM_Prop_Fireplace_02...
+[2020.04.08-08.09.05:462][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Fireplace_02.SM_Prop_Fireplace_02
+[2020.04.08-08.09.05:485][406]LogStaticMesh: Building static mesh SM_Prop_ElectricalCover_01...
+[2020.04.08-08.09.05:486][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_ElectricalCover_01.SM_Prop_ElectricalCover_01
+[2020.04.08-08.09.05:548][406]LogStaticMesh: Building static mesh SM_Prop_Dresser_03_Combined...
+[2020.04.08-08.09.05:550][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Dresser_03_Combined.SM_Prop_Dresser_03_Combined
+[2020.04.08-08.09.05:575][406]LogStaticMesh: Building static mesh SM_Prop_Dresser_02_Drawer_01...
+[2020.04.08-08.09.05:575][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Dresser_02_Drawer_01.SM_Prop_Dresser_02_Drawer_01
+[2020.04.08-08.09.05:579][406]LogStaticMesh: Building static mesh SM_Prop_Dresser_02_Combined...
+[2020.04.08-08.09.05:581][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Dresser_02_Combined.SM_Prop_Dresser_02_Combined
+[2020.04.08-08.09.05:584][406]LogStaticMesh: Building static mesh SM_Prop_Dresser_02...
+[2020.04.08-08.09.05:586][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Dresser_02.SM_Prop_Dresser_02
+[2020.04.08-08.09.05:608][406]LogStaticMesh: Building static mesh SM_Prop_Dresser_01_Combined...
+[2020.04.08-08.09.05:609][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Dresser_01_Combined.SM_Prop_Dresser_01_Combined
+[2020.04.08-08.09.05:631][406]LogStaticMesh: Building static mesh SM_Prop_Drawers_01...
+[2020.04.08-08.09.05:633][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Drawers_01.SM_Prop_Drawers_01
+[2020.04.08-08.09.05:924][406]LogStaticMesh: Building static mesh SM_Prop_DiningTable_01...
+[2020.04.08-08.09.05:925][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_DiningTable_01.SM_Prop_DiningTable_01
+[2020.04.08-08.09.05:971][406]LogStaticMesh: Building static mesh SM_Prop_DiningChair_01...
+[2020.04.08-08.09.05:973][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_DiningChair_01.SM_Prop_DiningChair_01
+[2020.04.08-08.09.05:996][406]LogStaticMesh: Building static mesh SM_Prop_Desk_02...
+[2020.04.08-08.09.05:998][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Desk_02.SM_Prop_Desk_02
+[2020.04.08-08.09.06:023][406]LogStaticMesh: Building static mesh SM_Prop_Deckchair_04...
+[2020.04.08-08.09.06:027][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Deckchair_04.SM_Prop_Deckchair_04
+[2020.04.08-08.09.06:109][406]LogStaticMesh: Building static mesh SM_Prop_Cushion_03...
+[2020.04.08-08.09.06:110][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Cushion_03.SM_Prop_Cushion_03
+[2020.04.08-08.09.06:112][406]LogStaticMesh: Building static mesh SM_Prop_Cushion_02...
+[2020.04.08-08.09.06:114][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Cushion_02.SM_Prop_Cushion_02
+[2020.04.08-08.09.06:153][406]LogStaticMesh: Building static mesh SM_Prop_Couch_07...
+[2020.04.08-08.09.06:155][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Couch_07.SM_Prop_Couch_07
+[2020.04.08-08.09.06:180][406]LogStaticMesh: Building static mesh SM_Prop_Couch_05...
+[2020.04.08-08.09.06:183][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Couch_05.SM_Prop_Couch_05
+[2020.04.08-08.09.06:210][406]LogStaticMesh: Building static mesh SM_Prop_Couch_03...
+[2020.04.08-08.09.06:212][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Couch_03.SM_Prop_Couch_03
+[2020.04.08-08.09.06:217][406]LogStaticMesh: Building static mesh SM_Prop_Couch_02...
+[2020.04.08-08.09.06:220][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Couch_02.SM_Prop_Couch_02
+[2020.04.08-08.09.06:353][406]LogSkeletalMesh: Building Skeletal Mesh SK_Veh_Truck_01...
+[2020.04.08-08.09.06:371][406]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/PolygonTown/Meshes/Vehicles/SK_Veh_Truck_01.SK_Veh_Truck_01
+[2020.04.08-08.09.06:444][406]LogStaticMesh: Building static mesh SM_Prop_WorkShelf_01...
+[2020.04.08-08.09.06:446][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_WorkShelf_01.SM_Prop_WorkShelf_01
+[2020.04.08-08.09.06:560][406]LogStaticMesh: Building static mesh SM_Prop_WashingLine_04...
+[2020.04.08-08.09.06:564][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_WashingLine_04.SM_Prop_WashingLine_04
+[2020.04.08-08.09.06:569][406]LogStaticMesh: Building static mesh SM_Prop_WashingLine_03...
+[2020.04.08-08.09.06:571][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_WashingLine_03.SM_Prop_WashingLine_03
+[2020.04.08-08.09.06:583][406]LogStaticMesh: Building static mesh SM_Prop_WashingLine_02...
+[2020.04.08-08.09.06:592][406]LogStaticMesh: Built static mesh [0.01s] /Game/PolygonTown/Meshes/Props/SM_Prop_WashingLine_02.SM_Prop_WashingLine_02
+[2020.04.08-08.09.06:609][406]LogStaticMesh: Building static mesh SM_Prop_WashingLine_01...
+[2020.04.08-08.09.06:623][406]LogStaticMesh: Built static mesh [0.01s] /Game/PolygonTown/Meshes/Props/SM_Prop_WashingLine_01.SM_Prop_WashingLine_01
+[2020.04.08-08.09.06:691][406]LogStaticMesh: Building static mesh SM_Prop_Wardrobe_02_Combined...
+[2020.04.08-08.09.06:692][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Wardrobe_02_Combined.SM_Prop_Wardrobe_02_Combined
+[2020.04.08-08.09.06:779][406]LogStaticMesh: Building static mesh SM_Prop_Wardrobe_01_Combined...
+[2020.04.08-08.09.06:781][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Wardrobe_01_Combined.SM_Prop_Wardrobe_01_Combined
+[2020.04.08-08.09.06:804][406]LogStaticMesh: Building static mesh SM_Prop_WallLight_01...
+[2020.04.08-08.09.06:805][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_WallLight_01.SM_Prop_WallLight_01
+[2020.04.08-08.09.06:826][406]LogStaticMesh: Building static mesh SM_Prop_TVCabinet_02_Door_02...
+[2020.04.08-08.09.06:827][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_TVCabinet_02_Door_02.SM_Prop_TVCabinet_02_Door_02
+[2020.04.08-08.09.06:829][406]LogStaticMesh: Building static mesh SM_Prop_TVCabinet_02_Door_01...
+[2020.04.08-08.09.06:830][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_TVCabinet_02_Door_01.SM_Prop_TVCabinet_02_Door_01
+[2020.04.08-08.09.06:834][406]LogStaticMesh: Building static mesh SM_Prop_TVCabinet_02_Combined...
+[2020.04.08-08.09.06:836][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_TVCabinet_02_Combined.SM_Prop_TVCabinet_02_Combined
+[2020.04.08-08.09.06:840][406]LogStaticMesh: Building static mesh SM_Prop_TVCabinet_02...
+[2020.04.08-08.09.06:841][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_TVCabinet_02.SM_Prop_TVCabinet_02
+[2020.04.08-08.09.06:843][406]LogStaticMesh: Building static mesh SM_Prop_TVCabinet_01_Door_04...
+[2020.04.08-08.09.06:844][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_TVCabinet_01_Door_04.SM_Prop_TVCabinet_01_Door_04
+[2020.04.08-08.09.06:872][406]LogStaticMesh: Building static mesh SM_Prop_TVCabinet_01_Door_02...
+[2020.04.08-08.09.06:872][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_TVCabinet_01_Door_02.SM_Prop_TVCabinet_01_Door_02
+[2020.04.08-08.09.06:894][406]LogStaticMesh: Building static mesh SM_Prop_TVCabinet_01_Combined...
+[2020.04.08-08.09.06:896][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_TVCabinet_01_Combined.SM_Prop_TVCabinet_01_Combined
+[2020.04.08-08.09.06:982][406]LogStaticMesh: Building static mesh SM_Prop_ToyTrain_01...
+[2020.04.08-08.09.06:986][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_ToyTrain_01.SM_Prop_ToyTrain_01
+[2020.04.08-08.09.06:989][406]LogStaticMesh: Building static mesh SM_Prop_ToyBlock_03...
+[2020.04.08-08.09.06:989][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_ToyBlock_03.SM_Prop_ToyBlock_03
+[2020.04.08-08.09.06:990][406]LogStaticMesh: Building static mesh SM_Prop_ToyBlock_02...
+[2020.04.08-08.09.06:991][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_ToyBlock_02.SM_Prop_ToyBlock_02
+[2020.04.08-08.09.06:992][406]LogStaticMesh: Building static mesh SM_Prop_ToyBlock_01...
+[2020.04.08-08.09.06:992][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_ToyBlock_01.SM_Prop_ToyBlock_01
+[2020.04.08-08.09.07:015][406]LogStaticMesh: Building static mesh SM_Prop_TowelRack_01...
+[2020.04.08-08.09.07:016][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_TowelRack_01.SM_Prop_TowelRack_01
+[2020.04.08-08.09.07:059][406]LogStaticMesh: Building static mesh SM_Prop_ToolBoard_01...
+[2020.04.08-08.09.07:061][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_ToolBoard_01.SM_Prop_ToolBoard_01
+[2020.04.08-08.09.07:064][406]LogStaticMesh: Building static mesh SM_Prop_ToiletBrush_Stick_01...
+[2020.04.08-08.09.07:065][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_ToiletBrush_Stick_01.SM_Prop_ToiletBrush_Stick_01
+[2020.04.08-08.09.07:068][406]LogStaticMesh: Building static mesh SM_Prop_ToiletBrush_01...
+[2020.04.08-08.09.07:069][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_ToiletBrush_01.SM_Prop_ToiletBrush_01
+[2020.04.08-08.09.07:071][406]LogStaticMesh: Building static mesh SM_Prop_Toilet_02_Seat...
+[2020.04.08-08.09.07:072][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Toilet_02_Seat.SM_Prop_Toilet_02_Seat
+[2020.04.08-08.09.07:074][406]LogStaticMesh: Building static mesh SM_Prop_Toilet_02_Lid...
+[2020.04.08-08.09.07:074][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Toilet_02_Lid.SM_Prop_Toilet_02_Lid
+[2020.04.08-08.09.07:079][406]LogStaticMesh: Building static mesh SM_Prop_Toilet_02...
+[2020.04.08-08.09.07:080][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Toilet_02.SM_Prop_Toilet_02
+[2020.04.08-08.09.07:169][406]LogStaticMesh: Building static mesh SM_Prop_Television_Remote_02...
+[2020.04.08-08.09.07:169][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Television_Remote_02.SM_Prop_Television_Remote_02
+[2020.04.08-08.09.07:193][406]LogStaticMesh: Building static mesh SM_Prop_Television_Old_01...
+[2020.04.08-08.09.07:195][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Television_Old_01.SM_Prop_Television_Old_01
+[2020.04.08-08.09.07:199][406]LogStaticMesh: Building static mesh SM_Prop_Television_Flat_Wall_01...
+[2020.04.08-08.09.07:200][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Television_Flat_Wall_01.SM_Prop_Television_Flat_Wall_01
+[2020.04.08-08.09.07:244][406]LogStaticMesh: Building static mesh SM_Prop_StreetSign_05...
+[2020.04.08-08.09.07:244][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_StreetSign_05.SM_Prop_StreetSign_05
+[2020.04.08-08.09.07:247][406]LogStaticMesh: Building static mesh SM_Prop_StreetSign_04...
+[2020.04.08-08.09.07:247][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_StreetSign_04.SM_Prop_StreetSign_04
+[2020.04.08-08.09.07:249][406]LogStaticMesh: Building static mesh SM_Prop_StreetSign_03...
+[2020.04.08-08.09.07:250][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_StreetSign_03.SM_Prop_StreetSign_03
+[2020.04.08-08.09.07:273][406]LogStaticMesh: Building static mesh SM_Prop_StreetSign_Arrow_01...
+[2020.04.08-08.09.07:273][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_StreetSign_Arrow_01.SM_Prop_StreetSign_Arrow_01
+[2020.04.08-08.09.07:276][406]LogStaticMesh: Building static mesh SM_Prop_StreetSign_06...
+[2020.04.08-08.09.07:277][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_StreetSign_06.SM_Prop_StreetSign_06
+[2020.04.08-08.09.07:279][406]LogStaticMesh: Building static mesh SM_Prop_StreetSign_02...
+[2020.04.08-08.09.07:280][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_StreetSign_02.SM_Prop_StreetSign_02
+[2020.04.08-08.09.07:282][406]LogStaticMesh: Building static mesh SM_Prop_StreetSign_01...
+[2020.04.08-08.09.07:283][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_StreetSign_01.SM_Prop_StreetSign_01
+[2020.04.08-08.09.07:343][406]LogStaticMesh: Building static mesh SM_Prop_Stereo_Speaker_Tall_01...
+[2020.04.08-08.09.07:345][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Stereo_Speaker_Tall_01.SM_Prop_Stereo_Speaker_Tall_01
+[2020.04.08-08.09.07:348][406]LogStaticMesh: Building static mesh SM_Prop_Stereo_Speaker_Large_01...
+[2020.04.08-08.09.07:349][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Stereo_Speaker_Large_01.SM_Prop_Stereo_Speaker_Large_01
+[2020.04.08-08.09.07:352][406]LogStaticMesh: Building static mesh SM_Prop_Stereo_Speaker_01...
+[2020.04.08-08.09.07:353][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Stereo_Speaker_01.SM_Prop_Stereo_Speaker_01
+[2020.04.08-08.09.07:357][406]LogStaticMesh: Building static mesh SM_Prop_Stereo_01...
+[2020.04.08-08.09.07:359][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Stereo_01.SM_Prop_Stereo_01
+[2020.04.08-08.09.07:365][406]LogStaticMesh: Building static mesh SM_Prop_Sprinkler_01...
+[2020.04.08-08.09.07:368][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Sprinkler_01.SM_Prop_Sprinkler_01
+[2020.04.08-08.09.07:465][406]LogStaticMesh: Building static mesh SM_Prop_Sign_01...
+[2020.04.08-08.09.07:466][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Sign_01.SM_Prop_Sign_01
+[2020.04.08-08.09.07:837][406]LogStaticMesh: Building static mesh SM_Bld_Chimney_02...
+[2020.04.08-08.09.07:839][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_Chimney_02.SM_Bld_Chimney_02
+[2020.04.08-08.09.08:090][406]LogStaticMesh: Building static mesh SM_Bld_House_Deck_Roof_02...
+[2020.04.08-08.09.08:091][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_Deck_Roof_02.SM_Bld_House_Deck_Roof_02
+[2020.04.08-08.09.08:094][406]LogStaticMesh: Building static mesh SM_Bld_House_Deck_Roof_03...
+[2020.04.08-08.09.08:095][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_Deck_Roof_03.SM_Bld_House_Deck_Roof_03
+[2020.04.08-08.09.08:119][406]LogStaticMesh: Building static mesh SM_Bld_House_Deck_Roof_InnerCorner_01...
+[2020.04.08-08.09.08:121][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_Deck_Roof_InnerCorner_01.SM_Bld_House_Deck_Roof_InnerCorner_01
+[2020.04.08-08.09.08:161][406]LogStaticMesh: Building static mesh SM_Bld_House_Roof_Angled_Corner_Middle_02...
+[2020.04.08-08.09.08:161][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_Roof_Angled_Corner_Middle_02.SM_Bld_House_Roof_Angled_Corner_Middle_02
+[2020.04.08-08.09.08:198][406]LogStaticMesh: Building static mesh SM_Bld_House_Roof_Angled_Gutter_03...
+[2020.04.08-08.09.08:198][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_Roof_Angled_Gutter_03.SM_Bld_House_Roof_Angled_Gutter_03
+[2020.04.08-08.09.08:243][406]LogStaticMesh: Building static mesh SM_Bld_House_Roof_End_01...
+[2020.04.08-08.09.08:246][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_Roof_End_01.SM_Bld_House_Roof_End_01
+[2020.04.08-08.09.08:271][406]LogStaticMesh: Building static mesh SM_Bld_House_Roof_End_04...
+[2020.04.08-08.09.08:274][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_Roof_End_04.SM_Bld_House_Roof_End_04
+[2020.04.08-08.09.08:361][406]LogStaticMesh: Building static mesh SM_Bld_House_Roof_Flat_01...
+[2020.04.08-08.09.08:361][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_Roof_Flat_01.SM_Bld_House_Roof_Flat_01
+[2020.04.08-08.09.08:363][406]LogStaticMesh: Building static mesh SM_Bld_House_Roof_Flat_Corner_01...
+[2020.04.08-08.09.08:364][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_Roof_Flat_Corner_01.SM_Bld_House_Roof_Flat_Corner_01
+[2020.04.08-08.09.08:366][406]LogStaticMesh: Building static mesh SM_Bld_House_Roof_FlatLip_01...
+[2020.04.08-08.09.08:366][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_Roof_FlatLip_01.SM_Bld_House_Roof_FlatLip_01
+[2020.04.08-08.09.08:441][406]LogStaticMesh: Building static mesh SM_Bld_House_Window_01...
+[2020.04.08-08.09.08:443][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_Window_01.SM_Bld_House_Window_01
+[2020.04.08-08.09.08:467][406]LogStaticMesh: Building static mesh SM_Bld_House_Window_03...
+[2020.04.08-08.09.08:468][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_Window_03.SM_Bld_House_Window_03
+[2020.04.08-08.09.08:472][406]LogStaticMesh: Building static mesh SM_Bld_House_Window_04...
+[2020.04.08-08.09.08:474][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_Window_04.SM_Bld_House_Window_04
+[2020.04.08-08.09.08:479][406]LogStaticMesh: Building static mesh SM_Bld_House_Window_05...
+[2020.04.08-08.09.08:481][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_Window_05.SM_Bld_House_Window_05
+[2020.04.08-08.09.08:543][406]LogStaticMesh: Building static mesh SM_Bld_House_Window_Curtains_Closed_01...
+[2020.04.08-08.09.08:545][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_Window_Curtains_Closed_01.SM_Bld_House_Window_Curtains_Closed_01
+[2020.04.08-08.09.08:550][406]LogStaticMesh: Building static mesh SM_Bld_House_Window_Shutters_Closed_01...
+[2020.04.08-08.09.08:552][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_House_Window_Shutters_Closed_01.SM_Bld_House_Window_Shutters_Closed_01
+[2020.04.08-08.09.08:689][406]LogStaticMesh: Building static mesh SM_Bld_Shop_Concrete_01...
+[2020.04.08-08.09.08:690][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Buildings/SM_Bld_Shop_Concrete_01.SM_Bld_Shop_Concrete_01
+[2020.04.08-08.09.08:858][406]LogStaticMesh: Building static mesh SM_Env_DirtPatch_01...
+[2020.04.08-08.09.08:859][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Environment/SM_Env_DirtPatch_01.SM_Env_DirtPatch_01
+[2020.04.08-08.09.08:861][406]LogStaticMesh: Building static mesh SM_Env_Driveway_01...
+[2020.04.08-08.09.08:862][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Environment/SM_Env_Driveway_01.SM_Env_Driveway_01
+[2020.04.08-08.09.08:864][406]LogStaticMesh: Building static mesh SM_Env_Driveway_PathBoth_01...
+[2020.04.08-08.09.08:865][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Environment/SM_Env_Driveway_PathBoth_01.SM_Env_Driveway_PathBoth_01
+[2020.04.08-08.09.08:867][406]LogStaticMesh: Building static mesh SM_Env_Driveway_PathLeft_01...
+[2020.04.08-08.09.08:868][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Environment/SM_Env_Driveway_PathLeft_01.SM_Env_Driveway_PathLeft_01
+[2020.04.08-08.09.08:871][406]LogStaticMesh: Building static mesh SM_Env_Driveway_PathRight_01...
+[2020.04.08-08.09.08:872][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Environment/SM_Env_Driveway_PathRight_01.SM_Env_Driveway_PathRight_01
+[2020.04.08-08.09.08:894][406]LogStaticMesh: Building static mesh SM_Env_Driveway_Wide_PathBoth_01...
+[2020.04.08-08.09.08:894][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Environment/SM_Env_Driveway_Wide_PathBoth_01.SM_Env_Driveway_Wide_PathBoth_01
+[2020.04.08-08.09.08:898][406]LogStaticMesh: Building static mesh SM_Env_Driveway_Wide_PathLeft_01...
+[2020.04.08-08.09.08:898][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Environment/SM_Env_Driveway_Wide_PathLeft_01.SM_Env_Driveway_Wide_PathLeft_01
+[2020.04.08-08.09.08:901][406]LogStaticMesh: Building static mesh SM_Env_Driveway_Wide_PathRight_01...
+[2020.04.08-08.09.08:902][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Environment/SM_Env_Driveway_Wide_PathRight_01.SM_Env_Driveway_Wide_PathRight_01
+[2020.04.08-08.09.08:925][406]LogStaticMesh: Building static mesh SM_Env_Fence_White_Gate_01_Door...
+[2020.04.08-08.09.08:926][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Environment/SM_Env_Fence_White_Gate_01_Door.SM_Env_Fence_White_Gate_01_Door
+[2020.04.08-08.09.09:102][406]LogStaticMesh: Building static mesh SM_Env_Garden_Corner_01...
+[2020.04.08-08.09.09:103][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Environment/SM_Env_Garden_Corner_01.SM_Env_Garden_Corner_01
+[2020.04.08-08.09.09:319][406]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{195fcdd2-d52a-498d-a1f0-dd93bcdbc818} was removed. Shutting down audio device.
+[2020.04.08-08.09.09:319][406]LogStaticMesh: Building static mesh SM_Env_Garden_Straight_02...
+[2020.04.08-08.09.09:320][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Environment/SM_Env_Garden_Straight_02.SM_Env_Garden_Straight_02
+[2020.04.08-08.09.09:327][406]LogStaticMesh: Building static mesh SM_Env_Garden_TSection_01...
+[2020.04.08-08.09.09:327][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Environment/SM_Env_Garden_TSection_01.SM_Env_Garden_TSection_01
+[2020.04.08-08.09.09:405][406]LogStaticMesh: Building static mesh SM_Env_Grass_02...
+[2020.04.08-08.09.09:406][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Environment/SM_Env_Grass_02.SM_Env_Grass_02
+[2020.04.08-08.09.09:615][406]LogStaticMesh: Building static mesh SM_Env_Hedge_03...
+[2020.04.08-08.09.09:617][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Environment/SM_Env_Hedge_03.SM_Env_Hedge_03
+[2020.04.08-08.09.09:640][406]LogStaticMesh: Building static mesh SM_Env_Path_02...
+[2020.04.08-08.09.09:641][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Environment/SM_Env_Path_02.SM_Env_Path_02
+[2020.04.08-08.09.09:643][406]LogStaticMesh: Building static mesh SM_Env_Path_Door_01...
+[2020.04.08-08.09.09:644][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Environment/SM_Env_Path_Door_01.SM_Env_Path_Door_01
+[2020.04.08-08.09.09:646][406]LogStaticMesh: Building static mesh SM_Env_Path_DoorLeft_01...
+[2020.04.08-08.09.09:647][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Environment/SM_Env_Path_DoorLeft_01.SM_Env_Path_DoorLeft_01
+[2020.04.08-08.09.09:649][406]LogStaticMesh: Building static mesh SM_Env_Path_DoorLeft_02...
+[2020.04.08-08.09.09:650][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Environment/SM_Env_Path_DoorLeft_02.SM_Env_Path_DoorLeft_02
+[2020.04.08-08.09.09:673][406]LogStaticMesh: Building static mesh SM_Env_PathRight_01...
+[2020.04.08-08.09.09:673][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Environment/SM_Env_PathRight_01.SM_Env_PathRight_01
+[2020.04.08-08.09.09:736][406]LogStaticMesh: Building static mesh SM_Env_Plant_Lettuce_01...
+[2020.04.08-08.09.09:739][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Environment/SM_Env_Plant_Lettuce_01.SM_Env_Plant_Lettuce_01
+[2020.04.08-08.09.09:818][406]LogStaticMesh: Building static mesh SM_Env_Plant_Vege_01...
+[2020.04.08-08.09.09:821][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Environment/SM_Env_Plant_Vege_01.SM_Env_Plant_Vege_01
+[2020.04.08-08.09.10:197][406]LogStaticMesh: Building static mesh SM_Env_Sidewalk_Driveway_01...
+[2020.04.08-08.09.10:198][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Environment/SM_Env_Sidewalk_Driveway_01.SM_Env_Sidewalk_Driveway_01
+[2020.04.08-08.09.10:244][406]LogStaticMesh: Building static mesh SM_Env_Sidewalk_Straight_02...
+[2020.04.08-08.09.10:247][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Environment/SM_Env_Sidewalk_Straight_02.SM_Env_Sidewalk_Straight_02
+[2020.04.08-08.09.10:268][406]LogStaticMesh: Building static mesh SM_Env_Sidewalk_Straight_04...
+[2020.04.08-08.09.10:270][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Environment/SM_Env_Sidewalk_Straight_04.SM_Env_Sidewalk_Straight_04
+[2020.04.08-08.09.10:428][406]LogStaticMesh: Building static mesh SM_Env_Tree_DirtPile_01...
+[2020.04.08-08.09.10:428][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Environment/SM_Env_Tree_DirtPile_01.SM_Env_Tree_DirtPile_01
+[2020.04.08-08.09.10:688][406]LogStaticMesh: Building static mesh SM_Generic_Cloud_04...
+[2020.04.08-08.09.10:689][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Generic/SM_Generic_Cloud_04.SM_Generic_Cloud_04
+[2020.04.08-08.09.10:695][406]LogStaticMesh: Building static mesh SM_Generic_Cloud_05...
+[2020.04.08-08.09.10:698][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Generic/SM_Generic_Cloud_05.SM_Generic_Cloud_05
+[2020.04.08-08.09.10:702][406]LogStaticMesh: Building static mesh SM_Generic_Ground_01...
+[2020.04.08-08.09.10:704][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Generic/SM_Generic_Ground_01.SM_Generic_Ground_01
+[2020.04.08-08.09.10:710][406]LogStaticMesh: Building static mesh SM_Generic_Ground_02...
+[2020.04.08-08.09.10:715][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Generic/SM_Generic_Ground_02.SM_Generic_Ground_02
+[2020.04.08-08.09.10:761][406]LogStaticMesh: Building static mesh SM_Generic_Ground_04...
+[2020.04.08-08.09.10:768][406]LogStaticMesh: Built static mesh [0.01s] /Game/PolygonTown/Meshes/Generic/SM_Generic_Ground_04.SM_Generic_Ground_04
+[2020.04.08-08.09.10:777][406]LogStaticMesh: Building static mesh SM_Generic_Ground_Flat_01...
+[2020.04.08-08.09.10:782][406]LogStaticMesh: Built static mesh [0.01s] /Game/PolygonTown/Meshes/Generic/SM_Generic_Ground_Flat_01.SM_Generic_Ground_Flat_01
+[2020.04.08-08.09.10:785][406]LogStaticMesh: Building static mesh SM_Generic_Ground_Tile_01...
+[2020.04.08-08.09.10:785][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Generic/SM_Generic_Ground_Tile_01.SM_Generic_Ground_Tile_01
+[2020.04.08-08.09.10:853][406]LogStaticMesh: Building static mesh SM_Generic_Mountains_Soft_01...
+[2020.04.08-08.09.10:855][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Generic/SM_Generic_Mountains_Soft_01.SM_Generic_Mountains_Soft_01
+[2020.04.08-08.09.10:868][406]LogStaticMesh: Building static mesh SM_Generic_Ocean_Tile_Bumps_01...
+[2020.04.08-08.09.10:874][406]LogStaticMesh: Built static mesh [0.01s] /Game/PolygonTown/Meshes/Generic/SM_Generic_Ocean_Tile_Bumps_01.SM_Generic_Ocean_Tile_Bumps_01
+[2020.04.08-08.09.10:887][406]LogStaticMesh: Building static mesh SM_Generic_Ocean_Tile_Flat_01...
+[2020.04.08-08.09.10:893][406]LogStaticMesh: Built static mesh [0.01s] /Game/PolygonTown/Meshes/Generic/SM_Generic_Ocean_Tile_Flat_01.SM_Generic_Ocean_Tile_Flat_01
+[2020.04.08-08.09.10:899][406]LogStaticMesh: Building static mesh SM_Generic_Small_Rocks_01...
+[2020.04.08-08.09.10:901][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Generic/SM_Generic_Small_Rocks_01.SM_Generic_Small_Rocks_01
+[2020.04.08-08.09.10:905][406]LogStaticMesh: Building static mesh SM_Generic_Small_Rocks_02...
+[2020.04.08-08.09.10:907][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Generic/SM_Generic_Small_Rocks_02.SM_Generic_Small_Rocks_02
+[2020.04.08-08.09.10:908][406]LogStaticMesh: Building static mesh SM_Generic_Small_Rocks_03...
+[2020.04.08-08.09.10:909][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Generic/SM_Generic_Small_Rocks_03.SM_Generic_Small_Rocks_03
+[2020.04.08-08.09.10:911][406]LogStaticMesh: Building static mesh SM_Generic_Small_Rocks_04...
+[2020.04.08-08.09.10:911][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Generic/SM_Generic_Small_Rocks_04.SM_Generic_Small_Rocks_04
+[2020.04.08-08.09.10:913][406]LogStaticMesh: Building static mesh SM_Generic_Small_Rocks_05...
+[2020.04.08-08.09.10:914][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Generic/SM_Generic_Small_Rocks_05.SM_Generic_Small_Rocks_05
+[2020.04.08-08.09.11:063][406]LogStaticMesh: Building static mesh SM_Generic_TreeStump_01...
+[2020.04.08-08.09.11:065][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Generic/SM_Generic_TreeStump_01.SM_Generic_TreeStump_01
+[2020.04.08-08.09.11:073][406]LogStaticMesh: Building static mesh SM_Gerneric_Grass_Patch_01...
+[2020.04.08-08.09.11:078][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Generic/SM_Gerneric_Grass_Patch_01.SM_Gerneric_Grass_Patch_01
+[2020.04.08-08.09.11:148][406]LogStaticMesh: Building static mesh SM_Prop_Propane_Tall_01...
+[2020.04.08-08.09.11:151][406]LogStaticMesh: Built static mesh [0.00s] /Game/PolygonTown/Meshes/Props/SM_Prop_Propane_Tall_01.SM_Prop_Propane_Tall_01
+[2020.04.08-08.09.11:159][406]LogMaterial: Display: Missing cached shader map for material Mat_Blank_Overview, compiling. 
+[2020.04.08-08.09.11:408][406]LogAIModule: Creating AISystem for world Overview
+[2020.04.08-08.09.11:466][406]LogAssetEditorManager: Opening Asset editor for World /Game/PolygonTown/Maps/Overview.Overview
+[2020.04.08-08.09.11:511][406]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2020.04.08-08.09.11:513][406]Cmd: MAP LOAD FILE="../../../../../../GTZA/Games/20003_G_MUG_Coronavirus/Game/ExportProject/Content/PolygonTown/Maps/Overview.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.04.08-08.09.11:513][406]LightingResults: New page: Lighting Build
+[2020.04.08-08.09.11:514][406]LoadErrors: New page: Loading map: Overview.umap
+[2020.04.08-08.09.11:514][406]MapCheck: New page: Map Check
+[2020.04.08-08.09.11:514][406]LightingResults: New page: Lighting Build
+[2020.04.08-08.09.11:549][406]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2020.04.08-08.09.11:809][406]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.04.08-08.09.11:860][406]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2020.04.08-08.09.11:890][406]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.04.08-08.09.11:890][406]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.296ms to complete.
+[2020.04.08-08.09.11:890][406]LogFileHelpers: Loading map 'Overview' took 0.378
+[2020.04.08-08.09.11:941][406]LogAssetRegistry: Asset discovery search completed in 33.0264 seconds
+[2020.04.08-08.09.11:944][406]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000001 seconds (updated 0 objects)
+[2020.04.08-08.09.11:977][406]LogInit: XAudio2 using 'Speakers (3- Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.04.08-08.09.17:636][630]LogAIModule: Creating AISystem for world Demonstration
+[2020.04.08-08.09.17:805][630]LogAssetEditorManager: Opening Asset editor for World /Game/PolygonTown/Maps/Demonstration.Demonstration
+[2020.04.08-08.09.17:857][630]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2020.04.08-08.09.17:858][630]Cmd: MAP LOAD FILE="../../../../../../GTZA/Games/20003_G_MUG_Coronavirus/Game/ExportProject/Content/PolygonTown/Maps/Demonstration.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.04.08-08.09.17:858][630]LightingResults: New page: Lighting Build
+[2020.04.08-08.09.17:859][630]LoadErrors: New page: Loading map: Demonstration.umap
+[2020.04.08-08.09.17:985][630]MapCheck: New page: Map Check
+[2020.04.08-08.09.17:985][630]LightingResults: New page: Lighting Build
+[2020.04.08-08.09.18:021][630]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2020.04.08-08.09.18:640][630]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2020.04.08-08.09.18:697][630]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2020.04.08-08.09.18:723][630]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.04.08-08.09.18:723][630]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.729ms to complete.
+[2020.04.08-08.09.18:723][630]LogFileHelpers: Loading map 'Demonstration' took 0.867
+[2020.04.08-08.11.12:635][299]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Env_Road_Parking_01)
+[2020.04.08-08.11.12:741][299]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.08-08.11.29:242][282]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Road_94)
+[2020.04.08-08.11.30:429][343]Cmd: SELECT NONE
+[2020.04.08-08.11.30:651][356]Cmd: SELECT NONE
+[2020.04.08-08.11.35:518][642]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Bld_House_Roof_End_4)
+[2020.04.08-08.11.38:439][807]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Bld_House_Preset_06)
+[2020.04.08-08.11.41:766][993]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Bld_House_Preset_09)
+[2020.04.08-08.11.47:883][337]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Bld_GardenShed_3)
+[2020.04.08-08.11.59:225][  9]LogEditorViewport: Clicking Background
+[2020.04.08-08.11.59:815][ 44]LogEditorViewport: Clicking Background
+[2020.04.08-08.12.02:708][217]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.08-08.12.05:663][392]LogSlate: Took 0.006777 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.04.08-08.12.17:906][113]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.08-08.12.22:834][389]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.08-08.12.35:910][ 86]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2020.04.08-08.12.39:412][265]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source2)
+[2020.04.08-08.12.42:024][404]LogEditorViewport: Clicking on Actor (CTRL LMB): DirectionalLight (Light Source)
+[2020.04.08-08.12.44:740][540]LogEditorViewport: Clicking on Actor (CTRL LMB): DirectionalLight (Light Source2)
+[2020.04.08-08.12.47:423][688]Cmd: EDIT COPY
+[2020.04.08-08.12.51:113][887]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.08-08.12.55:125][106]Cmd: EDIT COPY
+[2020.04.08-08.13.07:288][820]Cmd: EDIT COPY
+[2020.04.08-08.13.08:131][869]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.08-08.13.10:753][ 26]LogEditorViewport: Clicking Background
+[2020.04.08-08.13.11:031][ 40]Cmd: ACTOR UNHIDE ALL
+[2020.04.08-08.16.03:418][533]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.08-08.16.09:672][738]Cmd: EDIT COPY
+[2020.04.08-08.16.16:191][862]LogEditorViewport: Clicking Background
+[2020.04.08-08.16.16:928][906]LogEditorViewport: Clicking Background
+[2020.04.08-08.16.17:779][957]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.08-08.16.46:540][954]Cmd: EDIT COPY
+[2020.04.08-08.17.32:552][532]Cmd: SELECT NONE
+[2020.04.08-08.19.16:540][459]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2020.04.08-08.19.20:401][459]LogSavePackage: Moving '../../../../../../GTZA/Games/20003_G_MUG_Coronavirus/Game/ExportProject/Saved/Demonstration_Auto15DC10C064A97FD2CE1C0A6AFFF9CB025.tmp' to '../../../../../../GTZA/Games/20003_G_MUG_Coronavirus/Game/ExportProject/Saved/Autosaves/Game/PolygonTown/Maps/Demonstration_Auto1.umap'
+[2020.04.08-08.19.20:410][459]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PolygonTown/Maps/Demonstration' took 3.901
+[2020.04.08-08.19.20:410][459]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.901
+[2020.04.08-08.19.46:882][478]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Bld_House_Preset_11)
+[2020.04.08-08.19.54:370][891]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Bld_House_Preset_08)
+[2020.04.08-08.19.56:072][980]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Bld_House_Preset_13)
+[2020.04.08-08.19.59:365][159]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SM_Veh_Bus_5)
+[2020.04.08-08.20.04:878][465]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Generic_Mountains_Snow_2)
+[2020.04.08-08.20.05:370][490]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.04.08-08.29.20:749][958]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2020.04.08-08.29.24:185][958]LogSavePackage: Moving '../../../../../../GTZA/Games/20003_G_MUG_Coronavirus/Game/ExportProject/Saved/Demonstration_Auto2D36D7C164D8A0D3950D8FAA2652307BB.tmp' to '../../../../../../GTZA/Games/20003_G_MUG_Coronavirus/Game/ExportProject/Saved/Autosaves/Game/PolygonTown/Maps/Demonstration_Auto2.umap'
+[2020.04.08-08.29.24:196][958]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PolygonTown/Maps/Demonstration' took 3.479
+[2020.04.08-08.29.24:196][958]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.479
+[2020.04.08-08.36.20:981][233]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Tree_30)
+[2020.04.08-08.36.23:767][390]Cmd: TRANSACTION UNDO
+[2020.04.08-08.36.23:767][390]LogEditorTransaction: Undo Move Actors
+[2020.04.08-08.36.54:836][439]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Grass_7)
+[2020.04.08-08.37.01:101][812]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Grass_8)
+[2020.04.08-08.37.05:077][ 48]Cmd: TRANSACTION UNDO
+[2020.04.08-08.37.05:077][ 48]LogEditorTransaction: Undo Move Actors
+[2020.04.08-08.37.05:413][ 61]Cmd: TRANSACTION UNDO
+[2020.04.08-08.37.05:413][ 61]LogEditorTransaction: Undo Clicking on Actors
+[2020.04.08-08.37.05:787][ 75]Cmd: TRANSACTION UNDO
+[2020.04.08-08.37.05:787][ 75]LogEditorTransaction: Undo Move Actors
+[2020.04.08-08.37.06:773][128]Cmd: SELECT NONE
+[2020.04.08-08.37.06:973][140]Cmd: SELECT NONE
+[2020.04.08-08.37.07:206][154]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Sidewalk_Straight_129)
+[2020.04.08-08.37.07:987][199]Cmd: SELECT NONE
+[2020.04.08-08.37.16:593][714]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Road_Crossing_9)
+[2020.04.08-08.37.17:574][771]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Road_Crossing_8)
+[2020.04.08-08.37.19:566][887]Cmd: TRANSACTION UNDO
+[2020.04.08-08.37.19:567][887]LogEditorTransaction: Undo Move Actors
+[2020.04.08-08.37.20:750][950]Cmd: SELECT NONE
+[2020.04.08-08.39.24:672][  6]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2020.04.08-08.39.27:421][  6]LogSavePackage: Moving '../../../../../../GTZA/Games/20003_G_MUG_Coronavirus/Game/ExportProject/Saved/Demonstration_Auto3178688C3449562C99B9CC8866A609897.tmp' to '../../../../../../GTZA/Games/20003_G_MUG_Coronavirus/Game/ExportProject/Saved/Autosaves/Game/PolygonTown/Maps/Demonstration_Auto3.umap'
+[2020.04.08-08.39.27:428][  6]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PolygonTown/Maps/Demonstration' took 2.783
+[2020.04.08-08.39.27:428][  6]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.783
+[2020.04.08-08.43.41:325][762]LogInit: XAudio2 using 'Speakers (USB PnP Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.04.08-08.43.41:644][763]LogInit: XAudio2 using 'Speakers (USB PnP Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.04.08-08.47.03:004][366]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Sidewalk_Straight_161)
+[2020.04.08-08.47.05:164][485]Cmd: SELECT NONE
+[2020.04.08-08.47.05:532][507]Cmd: SELECT NONE
+[2020.04.08-08.47.05:732][519]Cmd: SELECT NONE
+[2020.04.08-08.49.27:663][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2020.04.08-08.49.30:441][ 49]LogSavePackage: Moving '../../../../../../GTZA/Games/20003_G_MUG_Coronavirus/Game/ExportProject/Saved/Demonstration_Auto4BD155B8046431680BE8A7BB534966BFB.tmp' to '../../../../../../GTZA/Games/20003_G_MUG_Coronavirus/Game/ExportProject/Saved/Autosaves/Game/PolygonTown/Maps/Demonstration_Auto4.umap'
+[2020.04.08-08.49.30:445][ 49]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PolygonTown/Maps/Demonstration' took 2.809
+[2020.04.08-08.49.30:445][ 49]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.809
+>>>>>>> feature/Extend_Clean_Trash
