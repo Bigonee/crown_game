@@ -43,7 +43,7 @@ ETileTheme AMapGen::getTileTheme(int currentTile) {
 ETileType AMapGen::getTileType(int currentTile) {
 
 
-	if (currentTile % 5 == 0 && currentTile != 1 && currentTile != 0) {
+	/*if (currentTile % 5 == 0 && currentTile != 1 && currentTile != 0) {
 
 		if (lastshown) {
 			lastshown = false;
@@ -56,7 +56,9 @@ ETileType AMapGen::getTileType(int currentTile) {
 		return ETileType::TT_CROSSROAD;
 	}else {
 		return ETileType::TT_ROAD;
-	}
+	}*/
+
+	return ETileType::TT_ROAD;
 
 
 }
