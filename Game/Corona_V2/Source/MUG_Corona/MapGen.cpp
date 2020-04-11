@@ -3,6 +3,13 @@
 
 #include "MapGen.h"
 
+
+int AMapGen::citzenLoop = 0;
+int AMapGen::carLoop = 0;
+int AMapGen::groupLoop = 0;
+int AMapGen::trashLoop = 0;
+
+
 // Sets default values
 AMapGen::AMapGen()
 {
@@ -25,20 +32,6 @@ void AMapGen::Tick(float DeltaTime){
 }
 
 
-/******** CUSTOM******/
-
-ETileTheme AMapGen::getTileTheme(int currentTile) {
-
-
-	if (currentTile % 2 == 0) {
-		return ETileTheme::TT_CITY;
-	}else {
-		return ETileTheme::TT_CITY;
-	}
-
-
-}
-
 
 ETileType AMapGen::getTileType(int currentTile) {
 
@@ -58,8 +51,62 @@ ETileType AMapGen::getTileType(int currentTile) {
 		return ETileType::TT_ROAD;
 	}*/
 
-	return ETileType::TT_ROAD;
+	return ETileType::ROAD;
 
 
 }
+
+ECitzenType AMapGen::getCitzenType(int currentTile) { 
+
+	ECitzenType citzenToReturn = ECitzenType(citzenLoop);
+	citzenLoop++;
+	if (citzenLoop == 8) {
+		citzenLoop = 0;
+	}
+
+	return  citzenToReturn;
+
+}
+
+ECarType AMapGen::getCarType(int currentTile) {
+
+	ECarType carTypeToReturn = ECarType(carLoop);
+	carLoop++;
+	if (carLoop == 8) {
+		carLoop = 0;
+	}
+
+	return carTypeToReturn;
+
+}
+
+
+EGroupType AMapGen::getGroupType(int currentTile) {
+
+	EGroupType groupToReturn = EGroupType(groupLoop);
+	groupLoop++;
+	if (groupLoop == 3) {
+		groupLoop = 0;
+	}
+
+	return  groupToReturn;
+
+}
+
+
+ETrashType AMapGen::getTrashType(int currentTile) {
+
+	ETrashType trashToReturn = ETrashType(trashLoop);
+	trashLoop++;
+	if (trashLoop == 2) {
+		trashLoop = 0;
+	}
+
+	return  trashToReturn;
+
+}
+
+
+
+
 
