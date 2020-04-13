@@ -68,15 +68,15 @@ ECitzenType AMapGen::getCitzenType(int currentTile) {
 
 }
 
-ECarType AMapGen::getCarType(int currentTile) {
+EVehicleType AMapGen::getVehicleType(int currentTile) {
 
-	ECarType carTypeToReturn = ECarType(carLoop);
+	EVehicleType VehicleTypeToReturn = EVehicleType(carLoop);
 	carLoop++;
 	if (carLoop == 8) {
 		carLoop = 0;
 	}
 
-	return carTypeToReturn;
+	return VehicleTypeToReturn;
 
 }
 

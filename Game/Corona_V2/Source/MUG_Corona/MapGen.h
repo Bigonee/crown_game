@@ -31,7 +31,7 @@ enum class ECitzenType : uint8 {
 
 
 UENUM(BlueprintType)
-enum class ECarType : uint8 {
+enum class EVehicleType : uint8 {
 	PICKUP				UMETA(DisplayName = "PICKUP"),
 	SPORTCAR 			UMETA(DisplayName = "SPORTCAR"),
 	FIRETRUCK			UMETA(DisplayName = "FIRETRUCK"),
@@ -77,7 +77,7 @@ public:
 	static ECitzenType getCitzenType(int currentTile);
 
 	UFUNCTION(BlueprintCallable, BlueprintPure, Category = CAT)
-	static ECarType getCarType(int currentTile);
+	static EVehicleType getVehicleType(int currentTile);
 
 	UFUNCTION(BlueprintCallable, BlueprintPure, Category = CAT)
 	static EGroupType getGroupType(int currentTile);
