@@ -72,7 +72,7 @@ EVehicleType AMapGen::getVehicleType(int currentTile) {
 
 	EVehicleType VehicleTypeToReturn = EVehicleType(carLoop);
 	carLoop++;
-	if (carLoop == 8) {
+	if (carLoop == 7) {
 		carLoop = 0;
 	}
 
