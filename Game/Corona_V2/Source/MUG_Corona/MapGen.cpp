@@ -28,7 +28,7 @@ int AMapGen::currentTilecount = 0;
 int AMapGen::currentCountMain = 0;
 int AMapGen::currentCountSP1 = 0;
 int AMapGen::currentCountSP2 = 0;
-int mainLength = 4;
+int mainLength = 5;
 
 // ----------------------------------------- //
 // ---------------  DEFAULTS --------------- //
@@ -43,6 +43,17 @@ AMapGen::AMapGen(){
 
 // Called when the game starts or when spawned
 void AMapGen::BeginPlay(){
+
+	// INIT LOOPS
+	citzenLoop = 0;
+	carLoop = 0;
+	groupLoop = 0;
+	trashLoop = 0;
+	currentTileType = ETileType::MAIN;
+	currentTilecount = 0;
+	currentCountMain = 0;
+	currentCountSP1 = 0;
+	currentCountSP2 = 0;
 	Super::BeginPlay();
 	
 }
