@@ -106,6 +106,7 @@ protected:
 
 	// CURRENTS TILES
 	static ETileType currentTileType;
+	static int currentTilecount;
 	static int currentCountMain;
 	static int currentCountSP1;
 	static int currentCountSP2;
