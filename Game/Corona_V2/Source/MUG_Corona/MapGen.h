@@ -8,13 +8,14 @@
 
 
 
+
 UENUM(BlueprintType)
 enum class ETileType : uint8 {
-	ROAD				UMETA(DisplayName = "ROAD"),
-	CROSSROAD 			UMETA(DisplayName = "CROSSROAD"),
-	FUEL_STATION		UMETA(DisplayName = "FUEL_STATION"),
-	CHURCH				UMETA(DisplayName = "CHURCH")
+	MAIN				UMETA(DisplayName = "MAIN"),
+	SPECIAL_1 			UMETA(DisplayName = "SPECIAL_1"),
+	SPECIAL_2			UMETA(DisplayName = "SPECIAL_2")
 };
+
 
 
 UENUM(BlueprintType)
@@ -60,29 +61,31 @@ enum class ETrashType : uint8 {
 
 UCLASS()
 class MUG_CORONA_API AMapGen : public AActor{
-
-	FString CAT = "MapGen";
 	GENERATED_BODY()
 
 public:	
 
 	// Sets default values for this actor's properties
 	AMapGen();
-	bool lastshown = false;
 
-	UFUNCTION(BlueprintCallable, Exec, Category = CAT)
+	UFUNCTION(BlueprintCallable, Exec, Category = "MapGen")
 	ETileType getTileType(int currentTile);
 
-	UFUNCTION(BlueprintCallable, BlueprintPure, Category = CAT)
+	UFUNCTION(BlueprintCallable, Exec, Category = "MapGen")
+	int getTileVariant(int currentTile);
+
+	/******** ENEMIES ********/
+
+	UFUNCTION(BlueprintCallable, BlueprintPure, Category = "MapGen")
 	static ECitzenType getCitzenType(int currentTile);
 
-	UFUNCTION(BlueprintCallable, BlueprintPure, Category = CAT)
+	UFUNCTION(BlueprintCallable, BlueprintPure, Category = "MapGen")
 	static EVehicleType getVehicleType(int currentTile);
 
-	UFUNCTION(BlueprintCallable, BlueprintPure, Category = CAT)
+	UFUNCTION(BlueprintCallable, BlueprintPure, Category = "MapGen")
 	static EGroupType getGroupType(int currentTile);
 
-	UFUNCTION(BlueprintCallable, BlueprintPure, Category = CAT)
+	UFUNCTION(BlueprintCallable, BlueprintPure, Category = "MapGen")
 	static ETrashType getTrashType(int currentTile);
 
 	// Called every frame
@@ -92,12 +95,20 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+	int getPiPosotion(int position);
+	static FString NUMBER_PI;
 
-
+	// LOOPS
 	static int citzenLoop;
 	static int carLoop;
 	static int groupLoop;
 	static int trashLoop;
+
+	// CURRENTS TILES
+	static ETileType currentTileType;
+	static int currentCountMain;
+	static int currentCountSP1;
+	static int currentCountSP2;
 
 
 };
