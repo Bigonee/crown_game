@@ -24,10 +24,11 @@ int AMapGen::trashLoop = 0;
 // INIT TYPE
 ETileType AMapGen::currentTileType = ETileType::MAIN;
 
+int AMapGen::currentTilecount = 0;
 int AMapGen::currentCountMain = 0;
 int AMapGen::currentCountSP1 = 0;
 int AMapGen::currentCountSP2 = 0;
-
+int mainLength = 4;
 
 // ----------------------------------------- //
 // ---------------  DEFAULTS --------------- //
@@ -68,8 +69,29 @@ int AMapGen::getPiPosotion(int position) {
 
 ETileType AMapGen::getTileType(int currentTile) {
 
-	currentTileType = ETileType::MAIN;
-	return ETileType::MAIN;
+	currentTilecount++;
+
+	
+
+	if (currentTileType == ETileType::MAIN) {
+
+		if (currentTilecount + 1 > mainLength) {
+			currentTileType = ETileType::SPECIAL_1;
+			currentTilecount = 0;
+		}
+
+	}else if (currentTileType == ETileType::SPECIAL_1) {
+
+		if (currentTilecount + 1 > 3) {
+			currentTileType = ETileType::MAIN;
+			currentTilecount = 0;
+		}
+
+	}else if (currentTileType == ETileType::SPECIAL_2) {
+
+	}
+	
+	return currentTileType;
 
 }
 
@@ -79,9 +101,17 @@ int AMapGen::getTileVariant(int currentTile) {
 	int returnedVariant = 0;
 
 	if (currentTileType == ETileType::MAIN) {
+
 		int piResult = getPiPosotion(currentTile);
-		int remainder = piResult % 4;
-		returnedVariant = remainder;
+		int tileVariant = piResult % mainLength;
+		if (currentTilecount == mainLength && tileVariant == 4) {
+			tileVariant = 0;
+		}
+		
+		returnedVariant = tileVariant;
+
+
+
 
 	} else if (currentTileType == ETileType::SPECIAL_1) {
 		returnedVariant = currentCountSP1;
