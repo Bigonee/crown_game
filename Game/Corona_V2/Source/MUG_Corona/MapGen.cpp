@@ -2,23 +2,43 @@
 
 
 #include "MapGen.h"
+#include <string>
+#include <iostream>
+#include "CoreMinimal.h"
 
 
+
+
+// ----------------------------------------- //
+// ----------------  INITS  ---------------- //
+// ----------------------------------------- //
+
+FString AMapGen::NUMBER_PI = "141592653589793238462643383279502884197169399375105820974944592307816406286208998628034825342117067982148086513282306647093844609550582231725359408128481117450284102701938521105559644622948954930381964428810975665933446128475648233786783165271201909145648566923460348610454326648213393607260249141273724587006606315588174881520920962829254091715364367892590360011330530548820466521384146951941511609433057270365759591953092186117381932611793105118548074462379962749567351885752724891227938183011949129833673362440656643086"; 
+
+// INIT LOOPS
 int AMapGen::citzenLoop = 0;
 int AMapGen::carLoop = 0;
 int AMapGen::groupLoop = 0;
 int AMapGen::trashLoop = 0;
 
+// INIT TYPE
+ETileType AMapGen::currentTileType = ETileType::MAIN;
+
+int AMapGen::currentCountMain = 0;
+int AMapGen::currentCountSP1 = 0;
+int AMapGen::currentCountSP2 = 0;
+
+
+// ----------------------------------------- //
+// ---------------  DEFAULTS --------------- //
+// ----------------------------------------- //
 
 // Sets default values
-AMapGen::AMapGen()
-{
+AMapGen::AMapGen(){
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
+	PrimaryActorTick.bCanEverTick = false;
 
 }
-
-
 
 // Called when the game starts or when spawned
 void AMapGen::BeginPlay(){
@@ -31,30 +51,61 @@ void AMapGen::Tick(float DeltaTime){
 	Super::Tick(DeltaTime);
 }
 
+// ----------------------------------------- //
+// -----------  MAP GENERATION ------------- //
+// ----------------------------------------- //
+
+
+
+int AMapGen::getPiPosotion(int position) {
+	int i = 0;
+	int vPosition = position % NUMBER_PI.Len();
+	FString myf = NUMBER_PI.Mid(vPosition, 1);
+	return FCString::Atoi(*myf);
+}
+
 
 
 ETileType AMapGen::getTileType(int currentTile) {
 
-
-	/*if (currentTile % 5 == 0 && currentTile != 1 && currentTile != 0) {
-
-		if (lastshown) {
-			lastshown = false;
-			return ETileType::TT_FUEL_STATION;
-		}
-		lastshown = true;
-		return ETileType::TT_CHURCH;
-
-	} else if (currentTile % 3 == 0) {
-		return ETileType::TT_CROSSROAD;
-	}else {
-		return ETileType::TT_ROAD;
-	}*/
-
-	return ETileType::ROAD;
-
+	currentTileType = ETileType::MAIN;
+	return ETileType::MAIN;
 
 }
+
+
+int AMapGen::getTileVariant(int currentTile) {
+
+	int returnedVariant = 0;
+
+	if (currentTileType == ETileType::MAIN) {
+		int piResult = getPiPosotion(currentTile);
+		int remainder = piResult % 4;
+		returnedVariant = remainder;
+
+	} else if (currentTileType == ETileType::SPECIAL_1) {
+		returnedVariant = currentCountSP1;
+		currentCountSP1++;
+		// RESET IF REACH THE LIMIT OF OUR BP'S
+		if (currentCountSP1 + 1 > 3) {
+			currentCountSP1 = 0;
+		}
+	} else if (currentTileType == ETileType::SPECIAL_2) {
+		returnedVariant = currentCountSP2;
+		currentCountSP2++;
+		// RESET IF REACH THE LIMIT OF OUR BP'S
+		if (currentCountSP2 + 1 > 3) {
+			currentCountSP2 = 0;
+		}
+	}
+
+	return returnedVariant;
+}
+
+
+// ----------------------------------------- //
+// ------------  SPAWN ENEMIES ------------- //
+// ----------------------------------------- //
 
 ECitzenType AMapGen::getCitzenType(int currentTile) { 
 
