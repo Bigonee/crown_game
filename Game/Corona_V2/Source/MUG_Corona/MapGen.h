@@ -7,8 +7,6 @@
 #include "MapGen.generated.h"
 
 
-
-
 UENUM(BlueprintType)
 enum class ETileType : uint8 {
 	MAIN				UMETA(DisplayName = "MAIN"),
@@ -74,6 +72,9 @@ public:
 	UFUNCTION(BlueprintCallable, Exec, Category = "MapGen")
 	int getTileVariant(int currentTile);
 
+	UFUNCTION(BlueprintCallable, BlueprintPure, Category = "MapGen")
+	static ETileType getDeferredTileType();
+
 	/******** ENEMIES ********/
 
 	UFUNCTION(BlueprintCallable, BlueprintPure, Category = "MapGen")
@@ -97,6 +98,8 @@ protected:
 	virtual void BeginPlay() override;
 	int getPiPosotion(int position);
 	static FString NUMBER_PI;
+
+	static TArray<ETileType> lastTypes;
 
 	// LOOPS
 	static int citzenLoop;

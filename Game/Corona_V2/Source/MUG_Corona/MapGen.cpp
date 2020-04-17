@@ -29,6 +29,7 @@ int AMapGen::currentCountMain = 0;
 int AMapGen::currentCountSP1 = 0;
 int AMapGen::currentCountSP2 = 0;
 int mainLength = 5;
+TArray<ETileType> AMapGen::lastTypes;
 
 // ----------------------------------------- //
 // ---------------  DEFAULTS --------------- //
@@ -54,6 +55,10 @@ void AMapGen::BeginPlay(){
 	currentCountMain = 0;
 	currentCountSP1 = 0;
 	currentCountSP2 = 0;
+	//AMapGen::lastTypes.Add(ETileType::MAIN);
+	//AMapGen::lastTypes.Add(ETileType::MAIN);
+
+	AMapGen::lastTypes.Init(ETileType::MAIN, 2);
 	Super::BeginPlay();
 	
 }
@@ -82,8 +87,6 @@ ETileType AMapGen::getTileType(int currentTile) {
 
 	currentTilecount++;
 
-	
-
 	if (currentTileType == ETileType::MAIN) {
 
 		if (currentTilecount + 1 > mainLength) {
@@ -101,9 +104,16 @@ ETileType AMapGen::getTileType(int currentTile) {
 	}else if (currentTileType == ETileType::SPECIAL_2) {
 
 	}
+	// SAVE LAST TWO
+	AMapGen::lastTypes[1] = AMapGen::lastTypes[0];
+	AMapGen::lastTypes[0] = currentTileType;
 	
 	return currentTileType;
+}
 
+ETileType AMapGen::getDeferredTileType() {
+
+	return AMapGen::lastTypes[1];
 }
 
 
@@ -120,9 +130,6 @@ int AMapGen::getTileVariant(int currentTile) {
 		}
 		
 		returnedVariant = tileVariant;
-
-
-
 
 	} else if (currentTileType == ETileType::SPECIAL_1) {
 		returnedVariant = currentCountSP1;
@@ -142,6 +149,8 @@ int AMapGen::getTileVariant(int currentTile) {
 
 	return returnedVariant;
 }
+
+
 
 
 // ----------------------------------------- //
