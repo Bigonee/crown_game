@@ -55,10 +55,9 @@ void AMapGen::BeginPlay(){
 	currentCountMain = 0;
 	currentCountSP1 = 0;
 	currentCountSP2 = 0;
-	//AMapGen::lastTypes.Add(ETileType::MAIN);
-	//AMapGen::lastTypes.Add(ETileType::MAIN);
+	AMapGen::lastTypes.Add(ETileType::MAIN);
+	AMapGen::lastTypes.Add(ETileType::MAIN);
 
-	AMapGen::lastTypes.Init(ETileType::MAIN, 2);
 	Super::BeginPlay();
 	
 }
@@ -113,7 +112,13 @@ ETileType AMapGen::getTileType(int currentTile) {
 
 ETileType AMapGen::getDeferredTileType() {
 
-	return AMapGen::lastTypes[1];
+	if (AMapGen::lastTypes.Num() < 2){
+		return ETileType::MAIN;
+	}else {
+		return AMapGen::lastTypes[1];
+	}
+
+
 }
 
 
