@@ -1,3 +1,0 @@
-C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona\MUG_Corona.Build.cs
-C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_Corona.Target.cs
-C:\GTZA\Games\20003_G_MUG_Coronavirus\Source\MUG_CoronaEditor.Target.cs
