@@ -11,7 +11,8 @@ UENUM(BlueprintType)
 enum class ETileType : uint8 {
 	MAIN				UMETA(DisplayName = "MAIN"),
 	SPECIAL_1 			UMETA(DisplayName = "SPECIAL_1"),
-	SPECIAL_2			UMETA(DisplayName = "SPECIAL_2")
+	SPECIAL_2			UMETA(DisplayName = "SPECIAL_2"),
+	SPECIAL_3			UMETA(DisplayName = "SPECIAL_3")
 };
 
 
@@ -97,6 +98,7 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 	int getPiPosotion(int position);
+	ETileType getSpecialType(int position);
 	static FString NUMBER_PI;
 
 	static TArray<ETileType> lastTypes;
@@ -113,6 +115,7 @@ protected:
 	static int currentCountMain;
 	static int currentCountSP1;
 	static int currentCountSP2;
-
+	static int currentCountSP3;
+	static int currentSpecial;
 
 };

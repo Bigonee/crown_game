@@ -28,6 +28,11 @@ int AMapGen::currentTilecount = 0;
 int AMapGen::currentCountMain = 0;
 int AMapGen::currentCountSP1 = 0;
 int AMapGen::currentCountSP2 = 0;
+int AMapGen::currentCountSP3 = 0;
+int AMapGen::currentSpecial = 0;
+
+
+
 int mainLength = 5;
 TArray<ETileType> AMapGen::lastTypes;
 
@@ -80,6 +85,29 @@ int AMapGen::getPiPosotion(int position) {
 	return FCString::Atoi(*myf);
 }
 
+ETileType AMapGen::getSpecialType(int position) {
+
+	if (currentSpecial == 0) {
+		currentSpecial = 1;
+		return ETileType::SPECIAL_1;
+
+	}else if (currentSpecial == 1) {
+		currentSpecial = 2;
+		return ETileType::SPECIAL_2;
+
+	}else if (currentSpecial == 2) {
+		currentSpecial = 0;
+		return ETileType::SPECIAL_3;
+
+	}else {
+		currentSpecial = 0;
+		return ETileType::SPECIAL_1;
+	}
+
+}
+
+
+
 
 
 ETileType AMapGen::getTileType(int currentTile) {
@@ -89,20 +117,33 @@ ETileType AMapGen::getTileType(int currentTile) {
 	if (currentTileType == ETileType::MAIN) {
 
 		if (currentTilecount + 1 > mainLength) {
-			currentTileType = ETileType::SPECIAL_1;
+			currentTileType = getSpecialType(currentTile);
 			currentTilecount = 0;
 		}
 
 	}else if (currentTileType == ETileType::SPECIAL_1) {
-
+		// RESET NEXT TILE
 		if (currentTilecount + 1 > 3) {
 			currentTileType = ETileType::MAIN;
 			currentTilecount = 0;
 		}
 
-	}else if (currentTileType == ETileType::SPECIAL_2) {
+	} else if (currentTileType == ETileType::SPECIAL_2) {
+		// RESET NEXT TILE
+		if (currentTilecount + 1 > 2) {
+			currentTileType = ETileType::MAIN;
+			currentTilecount = 0;
+		}
 
+	}else if (currentTileType == ETileType::SPECIAL_3) {
+		// RESET NEXT TILE
+		if (currentTilecount + 1 > 1) {
+			currentTileType = ETileType::MAIN;
+			currentTilecount = 0;
+		}
 	}
+
+
 	// SAVE LAST TWO
 	AMapGen::lastTypes[1] = AMapGen::lastTypes[0];
 	AMapGen::lastTypes[0] = currentTileType;
@@ -147,8 +188,15 @@ int AMapGen::getTileVariant(int currentTile) {
 		returnedVariant = currentCountSP2;
 		currentCountSP2++;
 		// RESET IF REACH THE LIMIT OF OUR BP'S
-		if (currentCountSP2 + 1 > 3) {
+		if (currentCountSP2 + 1 > 2) {
 			currentCountSP2 = 0;
+		}
+	}else if (currentTileType == ETileType::SPECIAL_3) {
+		returnedVariant = currentCountSP3;
+		currentCountSP3++;
+		// RESET IF REACH THE LIMIT OF OUR BP'S
+		if (currentCountSP3 + 1 > 1) {
+			currentCountSP3 = 0;
 		}
 	}
 
