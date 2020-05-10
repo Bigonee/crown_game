@@ -29,6 +29,7 @@ int AMapGen::currentCountMain = 0;
 int AMapGen::currentCountSP1 = 0;
 int AMapGen::currentCountSP2 = 0;
 int AMapGen::currentCountSP3 = 0;
+int AMapGen::currentCountSP4 = 0;
 int AMapGen::currentSpecial = 0;
 
 
@@ -60,6 +61,8 @@ void AMapGen::BeginPlay(){
 	currentCountMain = 0;
 	currentCountSP1 = 0;
 	currentCountSP2 = 0;
+	currentCountSP3 = 0;
+	currentCountSP4 = 0;
 	AMapGen::lastTypes.Add(ETileType::MAIN);
 	AMapGen::lastTypes.Add(ETileType::MAIN);
 
@@ -96,8 +99,13 @@ ETileType AMapGen::getSpecialType(int position) {
 		return ETileType::SPECIAL_2;
 
 	}else if (currentSpecial == 2) {
-		currentSpecial = 0;
+		currentSpecial = 3;
 		return ETileType::SPECIAL_3;
+
+	}
+	else if (currentSpecial == 3) {
+		currentSpecial = 0;
+		return ETileType::SPECIAL_4;
 
 	}else {
 		currentSpecial = 0;
@@ -136,6 +144,12 @@ ETileType AMapGen::getTileType(int currentTile) {
 		}
 
 	}else if (currentTileType == ETileType::SPECIAL_3) {
+		// RESET NEXT TILE
+		if (currentTilecount + 1 > 1) {
+			currentTileType = ETileType::MAIN;
+			currentTilecount = 0;
+		}
+	}else if (currentTileType == ETileType::SPECIAL_4) {
 		// RESET NEXT TILE
 		if (currentTilecount + 1 > 1) {
 			currentTileType = ETileType::MAIN;
@@ -197,6 +211,13 @@ int AMapGen::getTileVariant(int currentTile) {
 		// RESET IF REACH THE LIMIT OF OUR BP'S
 		if (currentCountSP3 + 1 > 1) {
 			currentCountSP3 = 0;
+		}
+	}else if (currentTileType == ETileType::SPECIAL_4) {
+		returnedVariant = currentCountSP4;
+		currentCountSP4++;
+		// RESET IF REACH THE LIMIT OF OUR BP'S
+		if (currentCountSP4 + 1 > 1) {
+			currentCountSP4 = 0;
 		}
 	}
 

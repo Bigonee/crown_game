@@ -12,7 +12,8 @@ enum class ETileType : uint8 {
 	MAIN				UMETA(DisplayName = "MAIN"),
 	SPECIAL_1 			UMETA(DisplayName = "SPECIAL_1"),
 	SPECIAL_2			UMETA(DisplayName = "SPECIAL_2"),
-	SPECIAL_3			UMETA(DisplayName = "SPECIAL_3")
+	SPECIAL_3			UMETA(DisplayName = "SPECIAL_3"),
+	SPECIAL_4			UMETA(DisplayName = "SPECIAL_4")
 };
 
 
@@ -116,6 +117,7 @@ protected:
 	static int currentCountSP1;
 	static int currentCountSP2;
 	static int currentCountSP3;
+	static int currentCountSP4;
 	static int currentSpecial;
 
 };
