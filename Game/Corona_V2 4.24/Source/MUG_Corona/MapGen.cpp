@@ -31,6 +31,7 @@ int AMapGen::currentCountSP2 = 0;
 int AMapGen::currentCountSP3 = 0;
 int AMapGen::currentCountSP4 = 0;
 int AMapGen::currentSpecial = 0;
+int AMapGen::currentTileNum = 0;
 
 
 
@@ -88,6 +89,14 @@ int AMapGen::getPiPosotion(int position) {
 	return FCString::Atoi(*myf);
 }
 
+
+
+
+
+ETileType AMapGen::getCurrentTileType() {
+	return currentTileType;
+}
+
 ETileType AMapGen::getSpecialType(int position) {
 
 	if (currentSpecial == 0) {
@@ -121,6 +130,7 @@ ETileType AMapGen::getSpecialType(int position) {
 ETileType AMapGen::getTileType(int currentTile) {
 
 	currentTilecount++;
+
 
 	if (currentTileType == ETileType::MAIN) {
 

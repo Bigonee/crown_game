@@ -69,13 +69,16 @@ public:
 	AMapGen();
 
 	UFUNCTION(BlueprintCallable, Exec, Category = "MapGen")
-	ETileType getTileType(int currentTile);
+	static ETileType getTileType(int currentTile);
 
 	UFUNCTION(BlueprintCallable, Exec, Category = "MapGen")
-	int getTileVariant(int currentTile);
+	static int getTileVariant(int currentTile);
 
 	UFUNCTION(BlueprintCallable, BlueprintPure, Category = "MapGen")
 	static ETileType getDeferredTileType();
+
+	UFUNCTION(BlueprintCallable, Exec, Category = "MapGen")
+	static ETileType getCurrentTileType();
 
 	/******** ENEMIES ********/
 
@@ -98,8 +101,8 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
-	int getPiPosotion(int position);
-	ETileType getSpecialType(int position);
+	static int getPiPosotion(int position);
+	static ETileType getSpecialType(int position);
 	static FString NUMBER_PI;
 
 	static TArray<ETileType> lastTypes;
@@ -119,5 +122,5 @@ protected:
 	static int currentCountSP3;
 	static int currentCountSP4;
 	static int currentSpecial;
-
+	static int currentTileNum;
 };
